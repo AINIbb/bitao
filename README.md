@@ -1,57 +1,59 @@
-# 营销赛道的龙头ZGoat，超强的盈利模式有哪些？\(转发可获空投\)
+# What are the super profit models of ZGoat, the leader of the marketing track?
 
-[购买ZGoat请点击此处](https://exchange.pancakeswap.finance/#/swap)
+[Click buy ZGoat](https://exchange.pancakeswap.finance/#/swap)
 
 ![ZGoat: Make Defi-Marketing Easier](.gitbook/assets/512x512-1.png)
 
-## 一、营销赛道的完全空白
+## 一、The marketing track is completely blank
 
-加密货币从诞生到现在，经历了四个阶段的发展：**2009-2013年 混沌时代、2013-2017年 炒作时代、2017-2021年 试金时代、2021-？ 赋能实体经济时代**。
+Encrypted currency has experienced four stages of development since its birth:**2009-2013 chaos era, 2013-2017 speculation era, 2017-2021 Gold trial era, 2021-? Empower the era of real economy**.
 
-混沌时代，加密货币用户通过小圈子人传人进行营销，效果甚微；到2017年ICO大火，加密行业进入炒作时代，通过ICO疯狂的“万倍回报“进行营销，缺乏应用落地而昙花一现；随着Defi应用的普及，加密行业进入试金时代，从借贷领域不断延伸到DEX、收益聚合、资产数据、跨链、预言机等领域，营销方式逐渐转型为社区模式。
+In the chaotic era, encrypted currency users did marketing through small groups of people and people, with little effect. By the ICO fire in 2017, the encryption industry entered the era of speculation, and conducted marketing through the crazy "ten thousand times return" of ICO, A flash in the pan due to the lack of application implementation; With the popularization of Defi applications, the encryption industry has entered the trial period, extending from the lending field to the fields of DEX, revenue aggregation, asset data, cross-chain, prediction machine, etc, the marketing mode is gradually transformed into the community mode.
 
-加密行业的应用百花齐放，却都是基于具体基础产品赛道而设计，而基于市场营销推广的赛道却完全空白。产品赛道琳琅满目，营销赛道却一片蓝海，ZGoat的出现，将填补这一空白，成为营销赛道的首款产品。
+The applications of the encryption industry are all designed based on the track of specific basic products, while the track based on marketing promotion is completely blank. The product track is full of varieties, but the marketing track is in blue sea. The appearance of ZGoat will fill this gap and become the first product of the marketing track.
 
-## 二、让DEFI营销娱乐化
+![&#xFF08;The marketing track is blank&#xFF09;](.gitbook/assets/chan-pin-sai-dao-vs-ying-xiao-sai-dao-ys.png)
 
-加密货币作为共识经济的典型应用，共识越大，价值越大。Defi项目的火热，带动加密货币快速发展，然而仍然面临诸多问题：
+## 二、Make Defi-Marketing Easier
 
-* 普通用户参与门槛仍然较高
-* 操作流程上也十分不便
-* 参与频次较低
+As a typical application of consensus economy, the larger the consensus, the greater the value. The popularity of Defi project has driven the rapid development of encrypted currency. However, it still faces many problems:
 
-ZGoat通过娱乐的形式，使用户群体更加广泛，使用频次更加高频，娱乐性更强，参与门槛更低。
+* The participation threshold for ordinary users is still high.
+* The operation process is also very inconvenient
+* Low participation frequency
+
+Through the form of entertainment, ZGoat makes the user group more extensive, the frequency of use is more frequent, the entertainment is stronger, and the participation threshold is lower.
 
 ![Little Girl, Meet Zuckerberg](.gitbook/assets/03.png)
 
-以[WISH001](http://zgoat.org/#/Home)为例，小女孩通过平台发起的第一个心愿，热门事件为“扎克伯格的Bitcoin推特”，扎克伯格作为全球最大社交平台的创始人，自带巨大流量。而小女孩却是全球最普通的小人物，因为心愿把“扎克伯格”与“小女孩”联系起来，不仅话题自带巨大反差效应。通过参与即奖励ZGoat，进一步激励用户参与。
+To [WISH001](http://zgoat.org/#/Home) For example, the first wish launched by the little girl through the platform was "Zuckerberg's Bitcoin Twitter". As the founder of the world's largest social platform, Zuckerberg brought huge traffic. But the little girl is the most common nobody in the world, because she wishes to connect "Zuckerberg" with "little girl", not only the topic has its own huge contrast effect. Through participation, ZGoat is rewarded to further encourage users to participate.
 
-1. _**\[娱乐化\]**_ ****帮助小女孩对话扎克伯格，形式娱乐化；
-2. _**\[低门槛\]**_ 用户只需复制留言，即有机会获得奖励；
-3. _**\[高频次\]**_ 人人均可发起心愿，心愿各不相同，产生高频应用；
-4. _**\[二次营销\]**_ 热门心愿能形成二次营销，将逐步垄断加密行业的营销市场；
+1. _**\[Entertainment\]**_Help the little girl talk to Zuckerberg, form Entertainment;
+2. _**\[Low threshold\]**_Users only need to copy the message, and they will have the opportunity to get rewards;
+3. _**\[High frequency\]**_Everyone can initiate a wish, with different wishes, generating high-frequency applications;
+4. _**\[Secondary marketing\]**_Hot wishes can form secondary marketing and will gradually monopolize the marketing market of encryption industry;
 
-同样，任何热门话题均可嵌入心愿单，比如“吴亦凡事件“许愿——吴退出娱乐圈，“郑州洪水“许愿——郑州挺住，使ZGoat始终处于最新最热的话题中，用户参与度高，门槛低。不同于其他产品，往往只有两三次热门话题，ZGoat能产生成千上万个热门话题，时时刻刻都是热门话题。
+Similarly, any hot topic can be embedded in the wish list, such as "Wu Yifan event" making a wish -- Wu withdrew from the entertainment circle, "Zhengzhou flood" making a wish -- Zhengzhou held on, making ZGoat always in the newest and hottest topic, high user participation and low threshold. Different from other products, there are usually only two or three hot topics. ZGoat can produce thousands of hot topics, which are hot topics all the time.
 
 ![Wishlist Based on Current Hot Topic](.gitbook/assets/wish_example.png)
 
-## 三、超强的盈利模式
+## 三、Super profit model
 
-与狗狗币、shib等基于社区纯共识驱动的诸多项目不同，ZGoat是基于营销--获利--再营销的小闭环商业模型理念而推出的营销赛道创新型龙头产品，具有超强的盈利模式。根据市场经济学，对于加密共识行业的诸多缺乏营销话题的产品一样，营销话题不足往往导致利润加速下滑，甚至入不敷出。
+Different from many projects driven by community pure consensus such as dog coin and shib, ZGoat is an innovative leading product of marketing track based on the small closed-loop business model concept of marketing-profit-remarketing, it has a super profit model. According to market economics, for many products lacking marketing topics in the encryption consensus industry, the lack of marketing topics often leads to the accelerated decline of profits, and even cannot make ends meet.
 
-### 1.基础盈利能力是shib的315倍
+### 1.The basic profitability is 315 times that of shib
 
 ![Closed Loop Business Model](.gitbook/assets/xiao-bi-huan-.png)
 
-ZGoat在设计之初，巧妙地将营销理念融入产品的小闭环设计，如上图所示，可简单归结为以下流程：
+At the beginning of the design, ZGoat skillfully integrated the marketing concept into the small closed-loop design of the product, as shown in the above figure, which can be simply summarized into the following process:
 
-* 根据当下社会的热门话题，生成心愿单，运营账户提供ZGoat奖励；
-* 用户参与方式简单化、娱乐化，保证行业外的普通用户也能参与；
-* 用户获得空投奖励，并通过购买ZGoat组成LP进行解锁，提升币价，产生手续费；
-* 手续费的部分收益打入运营账户，保证运营账户有足够的ZGoat可以不间断进行空投营销；
-* 产生新的热门话题，形成小闭环，使ZGoat时刻处于最热门的话题之中；
+* Generate a wish list based on the current social hot topics, and provide ZGoat rewards for the operation account;
+* User participation is simplified and entertaining to ensure that ordinary users outside the industry can also participate;
+* Users receive airdrop rewards, and unlock them by purchasing ZGoat to form LP, increasing the currency price and generating handling fees;
+* Part of the income of the handling fee is transferred to the Operation account to ensure that there are enough ZGoat in the Operation account to conduct airdrop marketing without interruption;
+* Generate new hot topics and form a small closed loop, making ZGoat always in the hottest topic;
 
-根据非小号的shib交易数据，24h成交额为3.75亿美金，按近30天涨幅2.22%计算。而对于ZGoat项目而言，假设初期热度仅为shib的20%。
+According to the non-small shib transaction data, the 24-hour turnover was $0.375 billion, calculated by 2.22% increase in the past 30 days. For the ZGoat project, assuming the initial heat is only 20% of shib.
 
 |  | Shib | ZGoat |
 | :--- | :--- | :--- |
@@ -61,111 +63,103 @@ ZGoat在设计之初，巧妙地将营销理念融入产品的小闭环设计，
 | **Profit** | **22.2** | **5.25亿** |
 
 {% hint style="info" %}
-假设24h成交额平均每人贡献1000美金，Shib参与人数为375000人，ZGoat参与人数为其1/5，约75000人，则一个月后，投资Shib用户获得22.2美金利润。ZGoat运营账号在零成本情况下其利润计算为：（6% + 1%） \* 3.75亿 \* 20% \*（1+1/3）\* 30 \(1 + 150%\) = 5.25亿美金，其中 1%为运营账户分红预估占比，150%根据某同类产品模型，30天内币价预估上涨幅度。
+Assuming that the 24-hour turnover contributes US $1,000 per person on average, the number of Shib participants is 375000, and the number of ZGoat participants is 1/5, about 75000, then one month later, invest in Shib users and get a profit of $22.2. The profit of the ZGoat operating account at zero cost is calculated as:\(6% +1%\)  _0.375 billion_  20% _\(1+1/3\)_ 30 \(1 + 150%\) = USD 0.525 billion, among them, 1% is the estimated proportion of dividends in the operating account, and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.
 {% endhint %}
 
-从上述模型看，ZGoat的基础盈利能力是Shib的上亿倍，即使通过空投将利润全部分给所有用户，同样假设每人投资1000美金，参与人数75000人，那么运营账户的利润平均每人为：5.25亿美金 / 75000人 = 7000美金。**即ZGoat项目的基础盈利能力是shib项目的 7000 / 22.2 = 315倍。**
+From the above model, ZGoat's basic profitability is hundreds of millions of times that of Shib. Even if all the profits are distributed to all users through AirDrop, it is also assumed that each person invests $1,000 and the number of participants is 75000, then the average profit of the operating account is $0.525 billion/75000 = $7000 per person.**That is, the basic profitability of ZGoat project is 7000/22.2=315 times that of shib project.**
 
-同理，从成本角度**，**ZGoat运营账户的利润可用来进行无间断空投营销，假设30天内的空投次数为10次，每个用户每次发放10美金的奖励，则30天内需要的成本为：10 \* 10 \* 30 \* 75000 = 2.25亿，只占运营账号利润的42.8%，运营账户还有足够利润空间进行币价拉伸或者其他营销活动。
+Similarly, from the perspective of cost**,**The profits of ZGoat's operating account can be used for uninterrupted airdrop marketing. Assume that the number of airdrops within 30 days is 10, and each user will be rewarded with 10 dollars each time, the cost required within 30 days is: 10\*10\*30\*75000=0.225 billion, accounting for only 42.8% of the operating account profit, the operating account has enough profit space for currency price stretching or other marketing activities.
 
+### 2.The core profit scenario is like TikTok, which is thousands of times that of ordinary projects.
 
+ZGoat is designed to help users express their wishes. Like TikTok, everyone has the need to express himself, and also has the need to recognize others and appreciate others. When the number of ZGoat holders reaches a certain value, the platform will open WISHLIST user-defined wish list function, gradually upgrading from text to graphic form or even video form. Different from TikTok, the wish list has a certain goal, which abandons the feature of TikTok's pure killing time.
 
-### 2.核心盈利场景如抖音一样，是普通项目的上千倍
+According to the long tail theory, when a product can catch long tail users, it will become a platform-level product. For common DEFI projects, there are usually only 1-2 core profit scenarios, so there are great limitations. ZGoat takes marketing and entertainment as the entry point to help users express their wishes and gradually realize their wishes through the participation of other users. Different users have different wishes and different application scenarios. At the same time, users outside the industry can be personalized to reduce the participation threshold of DEFI projects.
 
-ZGoat的设计初衷是帮助用户说出心愿。与抖音一样，每个人都有表达自我的需求，也有认同别人赞赏别人的需要。当ZGoat持有人数达到一定值时，平台将开放WISHLIST用户自定义心愿单功能，从文字逐步升级为图文形式，甚至视频形式。与抖音不同的是，心愿单具有一定目标性，摒弃了抖音纯打发时间特性。
+![\( ZGoat multi-scenario application \)](.gitbook/assets/pu-tong-xiang-mu-chang-jing-vs-zgoat-chang-jing-.png)
 
-根据长尾理论，当某一产品能抓住长尾用户，将成为平台级产品。对于普通的DEFI项目，核心盈利场景往往只有1-2个，因此局限性很大。而ZGoat以营销娱乐化为切入点，帮助用户说出心愿，并通过其他用户的参与逐步实现心愿。每个用户的心愿不同，产生的应用场景也大不一样，同时也能个性化兼顾更多行业外的用户，降低DEFI项目的参与门槛。
+The general process of releasing wish list is: releasing wish-&gt; raising ZGoat support-&gt; User participation-&gt; User receiving ZGoat rewards. In the whole process, the platform will generate many forms of benefits, such as the commission income during the period of raising ZGoat, 50% of users who have not received rewards will be transferred to the Operation account, wish single Commission, the currency price during the unlock process of airdrop rewards has increased...
 
-\[图片，zgoat场景 vs 普通项目场景\]
-
-发布心愿单的大致流程为：发布心愿 -&gt; 募集ZGoat支持 -&gt; 用户参与 -&gt; 用户领取ZGoat奖励。在整个流程中，平台将产生诸多形式的收益，比如募集ZGoat期间的手续费收益、用户未领取奖励的50%打入运营账号、心愿单分佣、空投奖励解锁过程的币价拉高……
-
-|  | 普通项目 | ZGoat |
+|  | Common  Project | ZGoat |
 | :--- | :--- | :--- |
-| 场景数量 | 2 | 10000 |
-| 场景使用率 | 100% | 20% |
-| 场景额度 | 1亿\(DEX\) | 1000 |
-| 30天额度 | 60亿 | 0.6亿 |
-| 手续费利润 | 3000万 | 840万 |
-| LP解锁涨幅 | 0 | 1260万 |
-| 空投未领取 | 0 | 1200万 |
-| 平台分佣 | 1/3 | 20% |
+| Number of scenarios | 2 | 10000 |
+| Scenario usage | 100% | 20% |
+| Scenario quota | 0.1 Billion\(DEX\) | 1000 |
+| 30-day quota | 6 Billion | 0.06 Billion |
+| Handing fee profit | 3000w | 840w |
+| LP unlock increase | 0 | 1260w |
+| Aridrop not received | 0 | 1200w |
+| Platform Commission | 1/3 | 20% |
 |  |  |  |
-| **总利润** | **1000万** | **4500万** |
+| **Total profit** | **1000w** | **4500w** |
 
 {% hint style="info" %}
-假设ZGoat的场景使用率是普通项目的1/5，每个心愿单的募集ZGoat额度为价值1000美金的ZGoat（参考抖音普通网红单场直播的打赏总金额），则30天的心愿单募集额为：10000 / 5 \* 30 \* 1000 = 6000万美金。收益为：（6% + 1%）\* 0.6亿 \* 2  \* （1 + 150%）+ 0.6亿 \* 20% + 0.6亿 \* 20% = 4500万美金，其中1%为运营账户分红预估占比，150%根据某同类产品模型，30天内币价预估上涨幅度；未领取奖励部分假设为20%，分佣比例20%。
+Assume that the scenario usage rate of ZGoat is 1/5 of that of common projects, and the amount of ZGoat raised for each wish order is ZGoat worth $1,000 \(refer to the total reward amount of a single live broadcast of common online celebrities in Tik Tok\), then the amount of the 30-day wish list raised is: 10000/5_30_1000 = USD 60 million. Revenue:\(6% +1%\) _0.06 billion_  2_\(1+150%\)+0.06 billion_  20% +0.06 billion \* 20% = USD 45 million, among them, 1% is the estimated proportion of dividends in the operating account, 150% according to a similar product model, the estimated increase rate of currency price within 30 days; The part without rewards is assumed to be 20%, and the proportion of commission is 20%.
 {% endhint %}
 
-由于该部分收益的成本为零，因此为净收益，从而该部分利润可以用于更多的币价拉伸或者其他营销活动，形成良性循环。另一方面，随着持币用户的增加，应用场景也将随之增加，该部分利润也将水涨船高，想象空间极大。
+Since the cost of this part of income is zero, it is net income, thus this part of profit can be used for more currency price stretching or other marketing activities, forming a virtuous circle. On the other hand, with the increase of currency users, the application scenarios will also increase, and the profits of this part will also rise, which makes imagination very large.
 
 
 
-### 3.附加盈利模式：投资回报率高达12万倍
+### 3.Additional profit model: return on investment up to 120,000 times
 
-【图片，去中心化邀请返佣】
+![\( To Be Referrer will be rewarded \)](.gitbook/assets/yao-qing-fan-yong-.png)
 
-在以往的DEFI项目中，早期参与者将获得足够强的价格优势，这似乎不是很公平，谁带来的真实用户，应该享受最高的手续费分红比例。ZGoat的邀请返佣机制，很好地满足了这个需求：
+In previous DEFI projects, early participants will gain a strong enough price advantage, which seems not very fair. Who brings the real users should enjoy the highest percentage of handling fees and dividends. ZGoat's commission invitation mechanism well meets this demand:
 
-> 1. 机制写入去中心化合约，不再人为干预，公平公正；
-> 2. 不管是早期参与者，还是后期参与者，返佣机制都处于同一标准，并无先发优势。
-> 3. 以前加密货币业往往只能靠代币价格上涨，或者合约做空做多赚钱，ZGoat的邀请返佣机制可能开创了一种全新的盈利模式。由于返佣比例较大，目前暂定为持币分红部分的60%，若能邀请到高质量的交易用户，盈利十分客观。
+> 1. The mechanism is written into the decentralized contract, without human intervention, and is fair and just;
+> 2. No matter early participants or late participants, the commission mechanism is in the same standard and has no first-mover advantage.
+> 3. In the past, the encrypted money industry could only make money by rising the price of tokens or short contracts. ZGoat's commission invitation mechanism may have created a brand-new profit model. Due to the large proportion of commission, it is tentatively set to 60% of the share of cash holding. If high-quality trading users can be invited, the profit will be very objective.
 
-|  | 地址A |
+|  | Address A |
 | :--- | :--- |
-| 投入成本 | 1000w ZGoat |
-| 投入成本价值 | 1美金 |
-| 返佣比例 | 60% |
-| 地址B交易平台 | Pancakeswap |
-| 地址B月交易量=0 | -1美金 |
-| 地址B月交易量=1000美金 | 12美金 |
-| 地址B月交易量=10w美金 | 1200美金 |
-| 地址B月交易量=1000w美金 | 12w美金 |
+| Input cost | 1000w ZGoat |
+| Input cost value | $1 |
+| Commission rate | 60% |
+| Address B trading platform | Pancakeswap |
+| Address B monthly transaction volume = 0 | -$1 |
+| Address B monthly transaction volume = USD 1,000 | $12 |
+| Address B monthly transcation volume = USD 100,000 | $1200 |
+| Address B monthly transcation volume = USD 10 million | $12w |
 |  |  |
-| **投资回报率** | **高达12万倍** |
+| **Return on Investment** | **Up to 120,000 times** |
 
 {% hint style="info" %}
-根据邀请返佣规则，地址A若是第一个向地址B捐赠大于等于1000w个ZGoat，则地址A永久成为地址B的推荐者。则以后地址B的每一笔交易，都将有1.2%或者0.6%de 手续费归地址A所有。以当前的币价，1000w个ZGoat的大约成本为1美金，若地址B是一个大户，30天的交易额为1000w美金，则地址A可获得的手续费返佣为12w美金或者6w美金，**相当于月投资回报可达到12万倍**。若是普通用户，30天交易额为10000美金，则手续费返佣大约为120美金或者60美金，**相当于月投资回报可达120倍**。同时，地址A可以向多个用户进行邀请捐赠，若邀请的用户均产生可观的交易，则地址A的投资回报将会是一笔很大的数字收入。
+According to the Commission invitation rules, if Address A is the first to donate more than or equal to 1000 thousand zgoats to address B, address A will become the recommender of address B forever. In the future, 1.2% or 0.6%de will be charged to address A for each transaction of address B. At the current currency price, the approximate cost of 1000 million zgoats is USD 1. If address B is a large account, the transaction volume in 30 days is USD 1000 million, then the Commission for the handling fee of address A is USD 12,000 or USD 6,000,**It is equivalent to a monthly return on investment of 120,000 times**. For ordinary users, the 30-day transaction volume is USD 10,000, and the Commission for handling fees is about USD 120 or USD 60,**Equivalent to a monthly return on investment of 120 times**. At the same time, address A can invite and donate to multiple users. If the invited users produce considerable transactions, the return on investment of address A will be A large amount of digital income.
 
-当然，若地址A邀请的用户不产生交易，地址A将亏损1美金。
+Of course, if the user invited by address A does not generate A transaction, address A will lose USD 1.
 {% endhint %}
 
 {% page-ref page="dai-bi/yao-qing-fan-yong-gui-ze.md" %}
 
 ####  <a id="oYzWL"></a>
 
-### 4.未来盈利模式：赋能更多实体经济
+### 4.Future profit model: empower more real economy
 
-加密货币从混沌时代发展至金融产品时代，仍然仅局限于加密货币领域，在拓展加密货币的应用层面，难有突破。ZGoat的出现，或许能解决目前加密货币的窘境。在生态布局上，ZGoat将逐步赋能实体经济，并长期共赢。
+The development of encrypted currency from chaos era to financial product era is still limited to the field of encrypted currency, and it is difficult to make a breakthrough in expanding the application of encrypted currency. The emergence of ZGoat may solve the current dilemma of encrypted currency. In terms of ecological layout, ZGoat will gradually empower the real economy and win-win for a long time.
 
-ZGoat在产品设计之初就围绕“营销娱乐化+零手续费交易所+娱乐消费+电子商务平台”进行，以长期共赢作为目标，致力于赋能实体经济。ZGoat发行总量为2100000亿，初始烧毁1100000亿，首次采用去中心化邀请返佣制度，并写入智能合约，返佣比例为持币人分红部分的60%，当燃烧到剩余数量为21000亿时，停止烧毁，并更新交易手续费比例。
+At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + zero handling fee exchange + entertainment consumption + e-commerce platform", aiming at a long-term win-win situation and devoting itself to empowering the real economy. The total amount of ZGoat issued was 210,000 billion, and the initial burning was 110,000 billion. For the first time, the decentralized Commission invitation system was adopted, and it was written into the intelligent contract. The Commission ratio was 60% of the bonus of the holder, when burning to the remaining amount of 2100 billion, stop burning and update the transaction handling fee ratio.
 
-随着未来赋能更多实体经济，盈利模式将更为客观。
-
-\*\*\*\*
+As more real economies are empowered in the future, the profit model will be more objective.
 
 \*\*\*\*
 
-**ZGoat，起源于一个小女孩的心愿，立足于让DEFI营销娱乐化，为开创加密货币的新时代而努力着…**
+**ZGoat, originated from the wish of a little girl, is based on making DEFI marketing entertaining and striving to create a new era of encrypted currency...**
 
 \*\*\*\*
 
-\*\*\*\*
+**🔥 Egg link:**
 
-**🔥彩蛋环节：**
+1\) click the Share button and forward this article to Twitter. If you win more than 10 likes, you will get 1 million ZGoat rewards, limited to the top 500; If you win more than 100 likes, you will get 10 million ZGoat rewards, top 100. First come first served
 
-1）点击分享按钮，转发此文到推特，获赞超过10个可获得100w个ZGoat奖励，限前500名；获赞超过100个可获得1000w个ZGoat奖励，限前100名。先到先得
+2\) click the Share button and forward this article to the Telegraph group or WeChat group. If the number of clicks on the sharing link exceeds 500, you will get 1 million ZGoat rewards, which is limited to the top 500; if you win more than 5,000 likes, you will get 10 million ZGoat rewards, limited to the top 100. First come first served
 
-2）点击分享按钮，转发此文到电报群或者微信群，分享链接点击量超过500可获得100w个ZGoat奖励，限前500名；获赞超过5000个可获得1000w个ZGoat奖励，限前100名。先到先得
-
-3）点击分享按钮，转发此文到微信朋友圈，获赞超过30个可获得100w个ZGoat奖励，限前500名；获赞超过300个可获得1000w个ZGoat奖励，限前100名。先到先得
-
-
+3\) click the Share button and forward this article to WeChat Moments. If you win more than 30 likes, you will get 1 million ZGoat rewards, which is limited to the top 500; if you win more than 300 likes, you will get 10 million ZGoat rewards, limited to the top 100. First come first served
 
 Tips:
 
-* 同一地址以上三个活动最多只能参加一个，同时参与多个按最高奖励算；
-* 所有空投奖励均属于锁定状态，需质押LP进行解锁；
+* You can only participate in one of the three activities above the same address at most. If you participate in multiple activities at the same time, the highest reward will be calculated;
+* All airdrop rewards are locked and need to be unlocked by pledge LP;
 
 
 
