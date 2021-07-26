@@ -23,10 +23,10 @@
 ## 市场
 
 * [Media report](shi-chang/mei-ti-bao-dao.md)
-* [空投活动](shi-chang/kong-tou-huo-dong/README.md)
+* [Airdrop activity](shi-chang/kong-tou-huo-dong/README.md)
   * [Wish001：ZGoat From Zero](shi-chang/kong-tou-huo-dong/wish001-zgoat-from-zero.md)
   * [Market001：Join Telegram AirDrop](shi-chang/kong-tou-huo-dong/market001-join-telegram-airdrop.md)
-* [解锁规则](shi-chang/jie-suo-gui-ze.md)
+* [Unlock rule](shi-chang/jie-suo-gui-ze.md)
 
 ## 其他
 

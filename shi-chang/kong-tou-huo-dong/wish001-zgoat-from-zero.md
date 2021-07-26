@@ -2,27 +2,25 @@
 
 > When graduated for job, as a female, it's so hard because of sexism. As a code farmer, I made a wish to my idol, Zuckerberg. Fortunately, then I get a job in blockchain, feeling cheerful, fair and loved. My wish comes ture. The idea about WISH TOKEN comes in my mind, to help everyone say wish out. At that time, Zuck tweets "My Zgoats: MAX and BITCOIN", therefore the token is named "ZGOAT". And I make the second wish: Little Girl, Meet Zuck!
 
-心愿一般分为四个阶段：
+Wishes are generally divided into four stages:
 
-* 心愿预热阶段：前期的宣传，让更多人来参与；
-* 心愿参与阶段：用户支持心愿或邀请朋友参与，获得ZGoat奖励；
-* 心愿回馈阶段：感谢所有朋友的支持，按事先约定发放奖励，需要参与者在奖励领取页面领取，有效期为72h，过期未领取的奖励将打入黑洞进行销毁。
-* 心愿待实现阶段：念念不忘，必有回响，等待中……
+* Wish warm-up stage: let more people participate in the early publicity;
+* Wish participation stage: users support wishes or invite friends to participate, and get ZGoat rewards;
+* Wish feedback stage: Thanks for the support of all friends. Rewards will be given according to the prior agreement. Participants are required to receive the rewards on the reward collection page. The validity period is 72 hours. Rewards that have not been received after the expiration will be thrown into the black hole and destroyed.
+* Wish to be realized stage: never forget, there will be Echo, waiting...
 
-作为扎克伯格的小迷妹，若能见上偶像一面，则美滋滋。于是把这个心愿作为此次项目的第一个心愿。为感恩朋友们的支持，奖励规则设定如下：
+As Zuckerberg's little fan sister, if she could meet her idol, she would be happy. So I took this wish as the first wish of this project. To thank your friends for their support, the reward rules are set as follows:
 
-1. 所有参与小伙伴点击support，填写自己的BSC地址，然后将复制的文字粘贴到扎克伯格Facebook下评论：
-2. 评论的第1-1000名，奖励1,000,000个ZGoat；
-3. 评论的第1001-5000名，奖励10,000个ZGoat；
-4. 若被奖励地址钱包余额大于等于1000w个ZGoat，则奖励x10倍；
+1. All participating partners click support, fill in their own BSC address, and then paste the copied text into Zuckerberg Facebook for comments:
+2. The 1st to 1000th place in the comments will be rewarded 1,000,000 ZGoat;
+3. The 1001-5000th place in the comments will be rewarded with 10,000 ZGoat;
+4. If the wallet balance of the awarded address is greater than or equal to 10 million zgoats, x 10 times will be awarded;
 
-\_\_
+_Tips:_
 
-_Tips:_ 
-
-* _所有的空投奖励均需要解锁_
-* _钱包余额以官方随机快照为准_
-* _用户可以通过邀请朋友参与获得额外的奖励，每成功邀请一个用户参与并获奖，邀请人获得50,000个ZGoat奖励，上限为500,000个_
+* _All airdrop rewards need to be unlocked_
+* _The wallet balance is subject to an official random snapshot._
+* _Users can get extra rewards by inviting friends to participate. For each successful invitation of a user to participate and win the prize, the inviter will get 50,000 ZGoat rewards, up to 500,000_
 
 
 

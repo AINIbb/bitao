@@ -1,18 +1,14 @@
-# 解锁规则
+# Unlock rule
 
-所有通过空投、心愿单、社群活动获得的ZGoat奖励均需要通过质押LP进行解锁。
+All ZGoat rewards obtained through AirDrop, Wish List and community activities need to be unlocked through pledge LP.
 
+Unlock calculation formula:
 
+**Unlock quantity per block = LP quantity/5184000 \* LP pledge Time \* unlock quantity**
 
-解锁计算公式：
+1.LP quantity refers to the quantity of LP pledged by users ZGoat-BNB the fund pool,[Click here to pledge LP](https://www.baidu.com/)
 
-**每区块解锁数量 = LP数量 / 5184000 \* LP质押时间 \* 解锁数量**
-
-\*\*\*\*
-
-1.LP数量指用户质押在资金池ZGoat-BNB的LP数量，[点击此处质押LP](https://www.baidu.com)
-
-2.解锁数量即为用户当前需要解锁的ZGoat数量；
+2. The number of unlocked zgoats is the number of zgoats that the user needs to unlock Currently;
 
 
 

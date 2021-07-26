@@ -1,19 +1,22 @@
-# 空投活动
+# Airdrop activity
 
-为了不断地进行市场推广，ZGoat产品在设计之初就考虑了诸多市场推广方案，包括：心愿单、空投、社群活动等等。空投的ZGoat由运营账号提供，各个社群的群主如果有意合作，可联系商务负责人进行对接。
+In order to continuously carry out marketing promotion, ZGoat products have considered many marketing promotion schemes at the beginning of design, including: wish list, AirDrop, community activities and so on. The airdrop ZGoat is provided by the Operation account. If the group owners of each community intend to cooperate, they can contact the business director for docking.
 
-合作基本要求：
+Basic cooperation requirements:
 
-* xxx
-* xxx
-* xxx
+1\)xxx
 
-商务联系方式：
+2\)xxx
 
-* 推特：
-* 电报：
-* 微信：
+3\)xxx
 
-Tips：用户通过空投、心愿单奖励、社群活动等获取的ZGoat，均处于锁定状态，需通过添加LP方可解锁[  
-](https://doc.zgoat.org/shi-chang/mei-ti-bao-dao)
+Business Contact Information:
+
+Twitter:
+
+Telegraph:
+
+WeChat:
+
+**Tips: zgoats obtained by users through AirDrop, wish list rewards, and community activities are all locked. You need to add LP to unlock zgoats.**
 
