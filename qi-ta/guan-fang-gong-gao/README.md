@@ -1,9 +1,9 @@
-# 官方公告
+# Official announcement
 
-为方便用户查阅官方公告，所有官方的公告都列于此处，以方便用户阅读
+All official announcements are listed here for your convenience of reading.
 
-* 标题1
-* 标题2
-* 标题3
-* 标题4
+* Title 1
+* Title 2
+* Title 3
+* Title 4
 

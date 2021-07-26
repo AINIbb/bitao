@@ -2,7 +2,7 @@
 
 * [What are the super profit models of ZGoat, the leader of the marketing track?](README.md)
 
-## 产品及规划
+## Product and planning <a id="chan-pin-ji-gui-hua"></a>
 
 * [Product Overview](chan-pin-ji-gui-hua/chan-pin-zong-lan.md)
 * [Wish list](chan-pin-ji-gui-hua/xin-yuan-dan.md)
@@ -13,14 +13,14 @@
   * [Entertainment consumption](chan-pin-ji-gui-hua/wei-lai-gui-hua/yu-le-xiao-fei.md)
   * [Online shopping](chan-pin-ji-gui-hua/wei-lai-gui-hua/wang-shang-gou-wu.md)
 
-## 代币
+## Token <a id="dai-bi"></a>
 
 * [Token allocation](dai-bi/dai-bi-fen-pei.md)
 * [Deflation mechanism](dai-bi/tong-suo-ji-zhi.md)
 * [Commission invitation rules](dai-bi/yao-qing-fan-yong-gui-ze.md)
 * [Zero bonus rules](dai-bi/chi-ling-fen-hong-gui-ze.md)
 
-## 市场
+## Market <a id="shi-chang"></a>
 
 * [Media report](shi-chang/mei-ti-bao-dao.md)
 * [Airdrop activity](shi-chang/kong-tou-huo-dong/README.md)
@@ -28,10 +28,10 @@
   * [Market001：Join Telegram AirDrop](shi-chang/kong-tou-huo-dong/market001-join-telegram-airdrop.md)
 * [Unlock rule](shi-chang/jie-suo-gui-ze.md)
 
-## 其他
+## Other <a id="qi-ta"></a>
 
-* [官方公告](qi-ta/guan-fang-gong-gao/README.md)
-  * [1.ZGoat开始首轮空投的公告](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
+* [Official announcement](qi-ta/guan-fang-gong-gao/README.md)
+  * [1.ZGoat's announcement of starting the first round of airdrop](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
 * [新手教程](qi-ta/xin-shou-jiao-cheng/README.md)
   * [1.如何购买ZGoat?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
   * [2.如何成为推荐者](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
