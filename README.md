@@ -57,10 +57,10 @@ According to the non-small shib transaction data, the 24-hour turnover was $0.37
 
 |  | Shib | ZGoat |
 | :--- | :--- | :--- |
-| 24h Valume | 3.75亿 | 0.75亿 |
+| 24h Valume | 375,000,000 | 75,000,000 |
 | 30Day Price Change | 2.22% | 150% |
 | Investment Cost | 1000 | 0 |
-| **Profit** | **22.2** | **5.25亿** |
+| **Profit** | **22.2** | **525,000,000** |
 
 {% hint style="info" %}
 Assuming that the 24-hour turnover contributes US $1,000 per person on average, the number of Shib participants is 375000, and the number of ZGoat participants is 1/5, about 75000, then one month later, invest in Shib users and get a profit of $22.2. The profit of the ZGoat operating account at zero cost is calculated as:\(6% +1%\)  _0.375 billion_  20% _\(1+1/3\)_ 30 \(1 + 150%\) = USD 0.525 billion, among them, 1% is the estimated proportion of dividends in the operating account, and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.
