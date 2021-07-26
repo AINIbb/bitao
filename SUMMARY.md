@@ -38,6 +38,6 @@
   * [3.How to participate in wish list？](qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md)
   * [4.How to invite friends to join the wish list ?](qi-ta/xin-shou-jiao-cheng/4.-ru-he-yao-qing-peng-you-can-yu-xin-yuan-dan.md)
   * [5.How to unlock ZGoat ？](qi-ta/xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md)
-  * [6.如何参与市场活动空投](qi-ta/xin-shou-jiao-cheng/7.-ru-he-can-yu-shi-chang-huo-dong-kong-tou.md)
+  * [6.How to participate in market activities and AirDrop?](qi-ta/xin-shou-jiao-cheng/7.-ru-he-can-yu-shi-chang-huo-dong-kong-tou.md)
 * [Contact US](qi-ta/lian-xi-wo-men.md)
 
