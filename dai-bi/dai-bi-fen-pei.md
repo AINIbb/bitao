@@ -1,27 +1,23 @@
-# 代币分配
+# Token allocation
 
-Zuck's Goat通证为ZGoat，总量210000亿，初始打入黑洞销毁数量110000亿，5%作为运营费用，包括空投、心愿奖励、吃零分红等等，剩余全部用于建立流动性池子。
+Zuck's Goat pass certificate is ZGoat, the total amount is 21,000 billion, the initial black hole destruction amount is 11,000 billion, 5% as operating expenses, including airdrop, wish reward, zero bonus, etc, the rest is used to build a liquidity pool.
 
-用户之间的每笔转账交易收取6%的手续费，其中1%用于添加LP，3%用于运营账号，1%转入黑洞地址，1%用于持币人分红。
+60% handling fee is charged for each transfer transaction between users, of which 1% is used to add LP,3% is used to operate accounts, 1% is transferred to the black hole address, and 1% is used to pay dividends to the holders.
 
-合约上的每笔交易收取11%的手续费，其中1%用于添加LP，6%用于运营账号，2%转入黑洞地址，2%用于持币人分红。
+11% of the handling fee is charged for each transaction in the contract, of which 1% is used to add LP,6% is used to operate accounts, 2% is transferred to the black hole address, and 2% is used to pay dividends to the holder.
 
-​
+### Commission invitation rules <a id="q2N6Q"></a>
 
-### 邀请返佣规则 <a id="yao-qing-fan-yong-gui-ze"></a>
+For each transfer transaction or contract transaction, if the trader has a recommender, 60% of the bonus of the transaction handling fee holder will be used to reward the recommender.
 
-每笔转账交易或者合约上的交易，若交易者有推荐者，则交易手续费持币人分红的60%用于奖励推荐者。
+### Stop destruction rule: <a id="y4Gkm"></a>
 
-​
+When the number of black hole destruction reaches 18,900 billion, that is, the remaining total number is 2100 billion, black hole destruction stops, and the handling fee ratio is adjusted.
 
-### 停止销毁规则： <a id="ting-zhi-xiao-hui-gui-ze"></a>
+![\( Token allocation \)](../.gitbook/assets/04-dai-bi-fen-pei-.png)
 
-当黑洞销毁数量达到189000亿时，即剩余总数量为21000亿，黑洞停止销毁，同时调整手续费比例。
+For more information about operating Wallet usage, see AirDrop activity.
 
-![&#x4EE3;&#x5E01;&#x5206;&#x914D;](../.gitbook/assets/04-dai-bi-fen-pei-.png)
-
-运营钱包使用明细请见空投活动
-
-[点击购买ZGoat](https://exchange.pancakeswap.finance/#/swap)  
+[Click to buy ZGoat](https://exchange.pancakeswap.finance/#/swap)  
 
 

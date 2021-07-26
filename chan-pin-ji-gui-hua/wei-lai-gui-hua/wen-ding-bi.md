@@ -1,12 +1,10 @@
-# 稳定币
+# Stable token
 
-为了更好的赋能实体经济，需要稳定币的场景应用。ZGoat稳定币将采用更优的稳定币策略，更优的安全机制，更好的用户体验，主要兼具两个特点：
+In order to better empower the real economy, it is necessary to stabilize the currency scenario application. ZGoat stable currency will adopt a better stable currency strategy, a better security mechanism and a better user experience. It has two main features:
 
-1）交易更便捷更高频
+1\) transactions are more convenient and frequent
 
-2）以赋能实体经济应用为主
+2\) give priority to the application of empowering the real economy
 
-
-
-详细内容待官方公布
+Details to be officially announced
 

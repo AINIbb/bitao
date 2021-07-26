@@ -1,10 +1,12 @@
-# 网上购物
+# Online shopping
 
-加密货币作为一种新型的交易媒介，经过十几年的发展，已逐步凸显其优势。随着人们对加密货币的进一步加深，加密货币应用于人们的衣食住行势在必行。
+As a new transaction medium, encrypted currency has gradually highlighted its advantages after more than ten years of development. With people's further deepening of encrypted currency, it is imperative to apply encrypted currency to people's food, clothing, housing and transportation.
 
-电子商务平台将作为加密货币第一个试验产品。
+The e-commerce platform will be the first experimental product of encrypted currency.
 
-* [x] 价格比现有法币体系更便宜；
-* [x] 交易高频
-* [x] 自定义
+1\) the price is cheaper than the existing legal tender system;
+
+2\) high transaction frequency
+
+3\) custom
 

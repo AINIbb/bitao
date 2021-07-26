@@ -8,14 +8,14 @@
 * [Wish list](chan-pin-ji-gui-hua/xin-yuan-dan.md)
 * [Cross-Chain Bridge](chan-pin-ji-gui-hua/kua-lian-qiao.md)
 * [未来规划](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
-  * [零手续费DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
-  * [稳定币](chan-pin-ji-gui-hua/wei-lai-gui-hua/wen-ding-bi.md)
-  * [娱乐消费](chan-pin-ji-gui-hua/wei-lai-gui-hua/yu-le-xiao-fei.md)
-  * [网上购物](chan-pin-ji-gui-hua/wei-lai-gui-hua/wang-shang-gou-wu.md)
+  * [Free handling fee DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
+  * [Stable token](chan-pin-ji-gui-hua/wei-lai-gui-hua/wen-ding-bi.md)
+  * [Entertainment consumption](chan-pin-ji-gui-hua/wei-lai-gui-hua/yu-le-xiao-fei.md)
+  * [Online shopping](chan-pin-ji-gui-hua/wei-lai-gui-hua/wang-shang-gou-wu.md)
 
 ## 代币
 
-* [代币分配](dai-bi/dai-bi-fen-pei.md)
+* [Token allocation](dai-bi/dai-bi-fen-pei.md)
 * [通缩机制](dai-bi/tong-suo-ji-zhi.md)
 * [邀请返佣规则](dai-bi/yao-qing-fan-yong-gui-ze.md)
 * [吃零分红规则](dai-bi/chi-ling-fen-hong-gui-ze.md)

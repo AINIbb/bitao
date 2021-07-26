@@ -1,19 +1,17 @@
-# 零手续费DEX
+# Free handling fee DEX
 
-目前的交易所，包括中心化交易所CEX和去中心化交易所DEX，主要的盈利模式是收取手续费。根据互联网的发展经验，互联网经历了三个大的阶段：
+The main profit model of current exchanges, including CEX and DEX, is charging handling fees. According to the development experience of the Internet, the Internet has experienced three major stages:
 
-1. 付费互联网：以早期的互联网产品为主，如收费杀毒软件
-2. 免费互联网：以中期的互联网产品为主，如淘宝免商家抽成
-3. 倒贴钱互联网：以中后期的互联网产品为主，如滴滴打车补贴
+1. Paid Internet: It mainly focuses on early Internet products, such as charged anti-virus software.
+2. Free Internet: mainly based on mid-term Internet products, such as Taobao free merchants
+3. Pay-back Internet: mainly Internet products in the middle and late stages, such as Didi Taxi subsidy
 
-​
+For exchanges in the encrypted currency industry, they will gradually go through these three stages.
 
-对于加密货币行业的交易所而已，也会逐步经历这三个阶段。
+1. Paid exchange
+2. Free Exchange
+3. Reverse money exchange
 
-1. 付费交易所
-2. 免费交易所
-3. 倒贴钱交易所
-
-零手续费商业模式将会是现有交易所模式的一次降维打击，成为交易所赛道新兴的有力竞争者。[  
+The business model of zero handling charge will be a dimensionality reduction blow of the existing exchange model and become a new strong competitor of the exchange track.[  
 ](https://doc.zgoat.org/chan-pin-ji-gui-hua/wei-lai-gui-hua)
 

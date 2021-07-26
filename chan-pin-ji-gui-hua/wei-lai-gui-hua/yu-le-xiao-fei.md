@@ -1,6 +1,6 @@
-# 娱乐消费
+# Entertainment consumption
 
-加密货币行业由于种种原因，目前还处于低频使用状态，将加密货币应用于娱乐场景，一方面大大提高加密货币的频次，另一方面将增强市场的营销效果，有助于提高加密行业的共识，让更多的新用户能够低门槛入场
+Due to various reasons, the encrypted currency industry is still in a low-frequency state. Applying encrypted currency to entertainment scenarios can greatly increase the frequency of encrypted currency on the one hand, and enhance the marketing effect on the other hand, it helps to raise the consensus of the encryption industry and allow more new users to enter at a low threshold.
 
-如何选择娱乐行业进行消费，将发起投票调研，以期能更好地赋能实体经济。
+A voting survey will be launched on how to choose the entertainment industry for consumption in order to better empower the real economy.
 
