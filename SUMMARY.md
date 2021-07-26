@@ -7,7 +7,7 @@
 * [Product Overview](chan-pin-ji-gui-hua/chan-pin-zong-lan.md)
 * [Wish list](chan-pin-ji-gui-hua/xin-yuan-dan.md)
 * [Cross-Chain Bridge](chan-pin-ji-gui-hua/kua-lian-qiao.md)
-* [未来规划](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
+* [Future plan](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
   * [Free handling fee DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
   * [Stable token](chan-pin-ji-gui-hua/wei-lai-gui-hua/wen-ding-bi.md)
   * [Entertainment consumption](chan-pin-ji-gui-hua/wei-lai-gui-hua/yu-le-xiao-fei.md)

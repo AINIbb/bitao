@@ -1,11 +1,15 @@
-# 未来规划
+# Future plan
 
-ZGoat的目标是开启加密货币赋能实体经济时代，降低用户的参与门槛，使加密货币这种新兴科技能够应用到人们的衣食住行等领域，让用户体验新兴技术带来的便利。
+ZGoat's goal is to open the era of real economy empowered by encrypted currency, reduce the threshold of users' participation, and enable the new technology of encrypted currency to be applied to people's fields such as food, clothing, housing and transportation, etc, let users experience the convenience brought by emerging technologies.
 
-未来规划主要包括：
+‌
 
-* 零手续费DEX
-* 稳定币
-* 娱乐消费
-* 网上购物
+Future plans include:
+
+‌
+
+* Free handling fee DEX
+* Stable currency
+* Entertainment consumption
+* Online shopping
 
