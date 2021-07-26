@@ -32,7 +32,7 @@
 
 * [Official announcement](qi-ta/guan-fang-gong-gao/README.md)
   * [1.ZGoat's announcement of starting the first round of airdrop](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
-* [新手教程](qi-ta/xin-shou-jiao-cheng/README.md)
+* [Beginner tutorial](qi-ta/xin-shou-jiao-cheng/README.md)
   * [1.如何购买ZGoat?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
   * [2.如何成为推荐者](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
   * [3.如何参与心愿单？](qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md)

@@ -1,26 +1,26 @@
-# 新手教程
+# Beginner tutorial
 
-**PC版新手教程：**
+**PC version tutorial for beginners：**
 
-1、尽量选择使用支持BSC的主流钱包，如：MetaMask等
+1、Try to use mainstream wallets that support BSC, such as MetaMask.
 
-MetaMask下载链接：[https://metamask.io/](https://metamask.io/)
+MetaMask Download link：[https://metamask.io/](https://metamask.io/)
 
-2、点击 \[自定义RPC\] ，配置BSC网络
+2、Click \[custom RPC\] to configure the BSC network
 
-![](../../.gitbook/assets/xin-shou-jiao-cheng-1.png)
+![Entera caption for this image \(optional\)](../../.gitbook/assets/xin-shou-jiao-cheng-1.png)
 
-网络名称：BSC
+Network name: BSC
 
-新增RPC URL：[https://bsc-dataseed.binance.org/](https://bsc-dataseed.binance.org/)
+Add RPC URL:[https://bsc-dataseed.binance.org/](https://bsc-dataseed.binance.org/)
 
-链ID：56
+Chain ID:56
 
-符号（选填）：BNB
+Symbol \(optional\): BNB
 
-区块浏览器URL（选填）：[https://www.bscscan.com/](https://www.bscscan.com/)
+Block browser URL \(optional\):[https://www.bscscan.com/](https://www.bscscan.com/)
 
 ![](../../.gitbook/assets/xin-shou-jiao-cheng-2.png)
 
-配置完参数点击 \[保存\] 即可
+After configuring the parameters, click \[save\].
 
