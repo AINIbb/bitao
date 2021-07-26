@@ -16,9 +16,9 @@
 ## 代币
 
 * [Token allocation](dai-bi/dai-bi-fen-pei.md)
-* [通缩机制](dai-bi/tong-suo-ji-zhi.md)
-* [邀请返佣规则](dai-bi/yao-qing-fan-yong-gui-ze.md)
-* [吃零分红规则](dai-bi/chi-ling-fen-hong-gui-ze.md)
+* [Deflation mechanism](dai-bi/tong-suo-ji-zhi.md)
+* [Commission invitation rules](dai-bi/yao-qing-fan-yong-gui-ze.md)
+* [Zero bonus rules](dai-bi/chi-ling-fen-hong-gui-ze.md)
 
 ## 市场
 

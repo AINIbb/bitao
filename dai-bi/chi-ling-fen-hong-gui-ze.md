@@ -1,25 +1,25 @@
-# 吃零分红规则
+# Zero bonus rules
 
-一个共识经济产品离不开用户的大力支持，加密货币领域的产品有一个很重要的参数：币价
+\( Rules and Regulations for receiving zero bonus\( Rules and Regulations for receiving zero bonus \)A common economic product cannot be separated from the strong support of users. Products in the encrypted currency field have a very important parameter: currency price
 
-**见证高光时刻！生活要有仪式感！**
+**Witness the highlight moment! Life should have a sense of ceremony!**
 
-当币价上升时，所有参与者获利的同时，当币价每增长10倍，相当于币价数值少了一个零时，为了庆祝大家的共同努力成果。管理员账号将从LP池子取出5%份额，获得ZGoat和BNB，其中ZGoat转入黑洞地址进行销毁，80%的BNB根据用户的共识值比例均分，20%的BNB根据用户的邀请返佣总奖励数量比例均分。
+When the price of the currency rises, all participants gain profits. At the same time, when the price of the currency increases by 10 times, which is equivalent to a zero reduction in the value of the currency, in order to celebrate the joint efforts of everyone. The administrator account will take out 5% of the shares from the LP pool to obtain ZGoat and ds-, among which ZGoat is transferred to the black hole address for destruction, and 80% of zris evenly distributed according to the user's consensus value ratio, 20% of the MNS are equally divided according to the proportion of the total number of rewards offered by users.
 
-* [x] 当前币价：
-* [x] 预估分红：
-* [x] 触发币价：
+* Current currency price:
+* Estimated dividends:
+* Trigger currency price:
 
-![&#x5403;&#x96F6;&#x5206;&#x7EA2;&#x8FDB;&#x5EA6;&#x6761;](../.gitbook/assets/chi-ling-fen-hong-jin-du-tiao-.png)
+![\( Eat zero bonus progress bar \)](../.gitbook/assets/chi-ling-fen-hong-jin-du-tiao-.png)
 
-![&#x5403;&#x96F6;&#x5206;&#x7EA2;&#x5956;&#x52B1;&#x9886;&#x53D6;&#x53CA;&#x89C4;&#x5219;](../.gitbook/assets/06-chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-.png)
+![\( Rules and Regulations for receiving zero bonus \)](../.gitbook/assets/06-chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-.png)
 
 
 
 Tips: 
 
-* 共识值跟质押的LP数量及质押时间相关（取最新30天作为依据）
-* 总奖励数量与邀请朋友的交易手续费相关
+* The consensus value is related to the number of LP pledged and the pledge Time \(based on the latest 30 days\)
+* The total number of rewards is related to the transaction fee for inviting friends.
 
 
 

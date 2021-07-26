@@ -1,18 +1,16 @@
-# 邀请返佣规则
+# Commission invitation rules
 
-每笔用户之间的转账交易收取6%的手续费，其中1%用于添加LP，3%用于运营账号，1%转入黑洞地址，1%用于持币人分红。
+60% handling fee is charged for each transfer transaction between users, of which 1% is used to add LP,3% is used to operate accounts, 1% is transferred to the black hole address, and 1% is used to pay dividends to the holders.
 
-每笔合约上的交易收取10%的手续费，其中1%用于添加LP，6%用于运营账号，2%转入黑洞地址，1%用于持币人分红。
+10% of the handling fee is charged for each transaction on the contract, of which 1% is used to add LP,6% is used to operate accounts, 2% is transferred to the black hole address, and 1% is used to pay dividends to the holder.
 
-每笔转账交易或者合约上的交易，若交易者有推荐者，则交易手续费持币人分红的60%用于奖励推荐者。当黑洞销毁数量达到总量的90%，即189000亿时，剩余总数量为21000亿，黑洞停止销毁，同时调整手续费比例。
+For each transfer transaction or contract transaction, if the trader has a recommender, 60% of the bonus of the transaction handling fee holder will be used to reward the recommender. When the number of black hole destruction reaches 90% of the total amount, that is, 18,900 billion, the remaining total amount is 2100 billion, black hole destruction stops, and the handling fee ratio is adjusted.
 
-**根据规则，采用去中心化邀请返佣机制（已写入合约），第一个向某地址转账≥1000w ZGoat 将被合约**
+**According to the rules, a decentralized Commission invitation mechanism \(which has been written into the contract\) is adopted. The first ZGoat that transfers money to an address ≥ 1000W will be accepted by the contract.**
 
-**认定为该地址的推荐者，推荐者永久享受该地址持币分红手续费60%的奖励。**
+**If the referrer is identified as the address, the referrer will permanently enjoy the 60% reward of the handling fee of the paid bonus.**
 
-\_\_
+_Example:_
 
-_举例说明：_
-
-你的地址为A，你朋友的地址为B，且地址B没有推荐者，若地址A第一个向地址B转账≥1000w ZGoat，则地址A将永久成为地址B的推荐者。那么，地址B以后每次交易产生的手续费都将有一部分奖励给地址A，当前设定的比例为：持币分红手续费的60%。
+Your address is A, your friend's address is B, and address B has no recommender. If address A is the first to transfer money to address B ≥ 1000W ZGoat, address A will be the referer of address B forever. Then, A part of the handling fee generated for each transaction after address B will be rewarded to address A, and the current set ratio is 60% of the handling fee for holding coins and dividends.
 

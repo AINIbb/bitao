@@ -1,26 +1,22 @@
-# 通缩机制
+# Deflation mechanism
 
-目前采用分红机制的通缩模型，主要的销毁途径有6个，分为三个阶段逐步
+At present, the deflation model adopting dividend mechanism has 6 main destruction ways, which are divided into three stages step by step.
 
-### 1）黑洞地址持币分红销毁（已开启）
+### 1\) the black hole address will be destroyed with Cash dividends \(enabled\) <a id="uVM64"></a>
 
-根据合约规则，所有持币地址分红手续费，而黑洞地址也是一个持币地址，因此黑洞地址分红的代币数量将永久打入黑洞地址，相当于被销毁了。而且分红手续费按照持币数量占比分配，黑洞地址初始持币数量占比为52%，随着时间积累，占比越来越大，销毁比例越来越大
+According to the rules of the contract, all the coin-holding addresses are charged, and the black hole address is also a coin-holding address. Therefore, the number of tokens that are distributed to the black hole address will be permanently thrown into the black hole address, which is equivalent to being destroyed. In addition, the dividend handling fee is allocated according to the proportion of the number of coins held. The initial number of coins held at Black hole addresses accounts for 52%. As time goes by, the proportion becomes larger and larger, and the destruction proportion becomes larger and larger.
 
-\[图片，展示黑洞销毁数量曲线，指数型\]
+\[Image, showing the black hole destruction quantity curve, exponential\]
 
+### 2\) The airdrop reward has not been received and destroyed \(enabled\) <a id="cK0v5"></a>
 
+According to the product attributes of ZGoat, users can customize their wishes to publish, and other users can get rewards by participating in their wishes. In order to prevent behaviors such as robot cheating and stimulate users' activity, all rewards for AirDrop activities are set to be valid. Fifty percent of tokens that are not collected after the validity period will enter the Operation account and fifty percent will be used for destruction;
 
-### 2）空投奖励未领取销毁（已开启）
+\[Picture Display airdrop not received and destroyed\]
 
-根据ZGoat产品属性，用户可以自定义发布心愿，其他用户通过参与心愿获取奖励，为防止机器人作弊等行为，同时刺激用户的活跃度，所有空投活动的领取奖励均设置有效期，超过有效期不领取的代币将有50%进入运营账号，50%用于销毁；
+### 3\) destroy the dividend of the pledge currency \(to be opened\) <a id="fiDeI"></a>
 
-\[图片展示空投未领取销毁 \]
+According to the release wish function, the initial ZGoat that the user initiates the wish pledge or the raised ZGoat will have a certain display period. During the display period, the ZGoat that is distributed by the holder of the currency will be thrown into the black hole address for destruction.
 
-
-
-### 3）心愿单质押币分红销毁（待开启）
-
-根据发布心愿功能，用户发起心愿质押的初始ZGoat或者募集的ZGoat将有一定的展示期，展示期内由于持币人分红的ZGoat将被打入黑洞地址进行销毁。
-
-_Tips：其他销毁途径待公布_
+_Tips: Other destruction methods to be announced_
 
