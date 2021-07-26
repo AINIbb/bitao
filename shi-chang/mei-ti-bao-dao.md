@@ -1,11 +1,11 @@
-# 媒体报道
+# Media report
 
-一个共识经济的产品离不开用户的支持，同样也离不开媒体朋友们的大力支持。因此，关于ZGoat的媒体报道，整理至此处，方便用户查阅
+A product of consensus economy cannot be separated from the support of users, and also from the strong support of media friends. Therefore, the media reports about ZGoat are sorted out here, which is convenient for users to consult.
 
-| 报道媒体 | 查看链接 |
+| Reporting Media | link |
 | :--- | :--- |
-| 金色财经 | [测试链接标题1](www.baidu.com) |
-| 火星财经 | [测试链接标题](www.baidu.com) |
+| Golden Finance | [test link title 1](www.baidu.com) |
+| Mars finance | [test link title 2](www.baidu.com) |
 
 
 
