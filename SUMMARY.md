@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What are the super profit models of ZGoat, the leader of the marketing track?](README.md)
+* [ZGoat, The First Defi-Marketing Application With Big Business](README.md)
 
 ## Product and planning <a id="chan-pin-ji-gui-hua"></a>
 

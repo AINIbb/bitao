@@ -1,10 +1,10 @@
-# What are the super profit models of ZGoat, the leader of the marketing track?
+# ZGoat, The First Defi-Marketing Application With Big Business
 
 [Click buy ZGoat](https://exchange.pancakeswap.finance/#/swap)
 
 ![ZGoat: Make Defi-Marketing Easier](.gitbook/assets/512x512-1.png)
 
-## 一、The marketing track is completely blank
+## 一、Defi-Marketing Is A Blank Area
 
 Encrypted currency has experienced four stages of development since its birth:**2009-2013 chaos era, 2013-2017 speculation era, 2017-2021 Gold trial era, 2021-? Empower the era of real economy**.
 
@@ -37,11 +37,11 @@ Similarly, any hot topic can be embedded in the wish list, such as "Wu Yifan eve
 
 ![Wishlist Based on Current Hot Topic](.gitbook/assets/wish_example.png)
 
-## 三、Super profit model
+## 三、Big Business
 
 Different from many projects driven by community pure consensus such as dog coin and shib, ZGoat is an innovative leading product of marketing track based on the small closed-loop business model concept of marketing-profit-remarketing, it has a super profit model. According to market economics, for many products lacking marketing topics in the encryption consensus industry, the lack of marketing topics often leads to the accelerated decline of profits, and even cannot make ends meet.
 
-### 1.The basic profitability is 315 times that of shib
+### 1.The basic profitability is 315 times than Shib
 
 ![Closed Loop Business Model](.gitbook/assets/xiao-bi-huan-.png)
 
