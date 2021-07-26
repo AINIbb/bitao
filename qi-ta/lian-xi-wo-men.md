@@ -1,12 +1,12 @@
-# 联系我们
+# Contact US
 
-**官方社区**
+**Official Community**
 
-☛  Telegram : [https://t.me/](https://t.me/Defi_Reseach)xxx
+☛ Telegram : [https://t.me/](https://t.me/Defi_Reseach)xxx
 
-☛  Twitter : [https://twitter.com/x](https://twitter.com/Goat22412341)xx
+☛ Twitter : [https://twitter.com/x](https://twitter.com/Goat22412341)xx
 
-☛  WeChat : xxxx（添加小助手备注进群）
+☛ WeChat : xxxx \(Add small assistant remarks to the group\)
 
-——此处小助手二维码
+-- Here the QR code of the little assistant
 

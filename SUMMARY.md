@@ -39,5 +39,5 @@
   * [4.如何邀请朋友参与心愿单](qi-ta/xin-shou-jiao-cheng/4.-ru-he-yao-qing-peng-you-can-yu-xin-yuan-dan.md)
   * [5.如何解锁ZGoat？](qi-ta/xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md)
   * [6.如何参与市场活动空投](qi-ta/xin-shou-jiao-cheng/7.-ru-he-can-yu-shi-chang-huo-dong-kong-tou.md)
-* [联系我们](qi-ta/lian-xi-wo-men.md)
+* [Contact US](qi-ta/lian-xi-wo-men.md)
 
