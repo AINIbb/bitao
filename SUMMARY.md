@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What are the super profit models of ZGoat, the leader of the marketing track?](README.md)
+* [营销赛道的龙头ZGoat，超强的盈利模式有哪些？\(转发可获空投\)](README.md)
 
 ## 产品及规划
 
