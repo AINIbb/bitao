@@ -1,12 +1,12 @@
 # ZGoat, The First Defi-Marketing Application With Big Business
 
-[Click buy ZGoat](https://exchange.pancakeswap.finance/#/swap)
+[Click Buy ZGoat](https://exchange.pancakeswap.finance/#/swap)
 
 ![ZGoat: Make Defi-Marketing Easier](.gitbook/assets/512x512-1.png)
 
 ## 一、Defi-Marketing Is A Blank Area
 
-Encrypted currency has experienced four stages of development since its birth:**2009-2013 chaos era, 2013-2017 speculation era, 2017-2021 Gold trial era, 2021-? Empower the era of real economy**.
+Crypto has experienced four stages of development: **2009-2013 Confused Era, 2013-2017 Crazy Era, 2017-2021 DeFi Era, 2021-? Entity Economy Application Era**
 
 In the chaotic era, encrypted currency users did marketing through small groups of people and people, with little effect. By the ICO fire in 2017, the encryption industry entered the era of speculation, and conducted marketing through the crazy "ten thousand times return" of ICO, A flash in the pan due to the lack of application implementation; With the popularization of Defi applications, the encryption industry has entered the trial period, extending from the lending field to the fields of DEX, revenue aggregation, asset data, cross-chain, prediction machine, etc, the marketing mode is gradually transformed into the community mode.
 
