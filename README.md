@@ -8,7 +8,7 @@
 
 Crypto has experienced four stages of development: **2009-2013 Confused Era, 2013-2017 Crazy Era, 2017-2021 DeFi Era, 2021-? Entity Economy Application Era**
 
-In the chaotic era, encrypted currency users did marketing through small groups of people and people, with little effect. By the ICO fire in 2017, the encryption industry entered the era of speculation, and conducted marketing through the crazy "ten thousand times return" of ICO, A flash in the pan due to the lack of application implementation; With the popularization of Defi applications, the encryption industry has entered the trial period, extending from the lending field to the fields of DEX, revenue aggregation, asset data, cross-chain, prediction machine, etc, the marketing mode is gradually transformed into the community mode.
+In confused era, crypto marketing is in small communication, with little effect. By the ICO Crazy in 2017, crypto marketing is through the crazy "ten thousand times" ROI,  then be cold due to the lack of application; With the popularization of Defi, the crypto marketing has been needed by various Defi Application,such as lending, DEX, Aggregation, Asset Data, Bridge-Chain, etc. However, the method of defi-marketing is just community with low efficiency.
 
 The applications of the encryption industry are all designed based on the track of specific basic products, while the track based on marketing promotion is completely blank. The product track is full of varieties, but the marketing track is in blue sea. The appearance of ZGoat will fill this gap and become the first product of the marketing track.
 
