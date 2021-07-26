@@ -1,33 +1,29 @@
-# 心愿单
+# Wish list
 
-心愿单是ZGoat产品的切入点，任何用户或项目方均可参与或发起心愿。心愿单的主要解决痛点是市场营销以及加密行业的娱乐性，降低普通用户参与的门槛，同时提高参与的频次。用户可通过自定义心愿模式，发挥自主创造性。
+Wish is the entry point of ZGoat products. Any user or project party can participate in or initiate a wish. The main pain point of wish list is the entertainment of marketing and encryption industry, which lowers the threshold for ordinary users to participate and increases the frequency of participation. Users can develop their own creativity by customizing their wish mode.
 
-### 1. 如何参与心愿支持？ <a id="1-ru-he-can-yu-xin-yuan-zhi-chi"></a>
+### 1. How to participate in wish support? <a id="Oqrhn"></a>
 
-用户可以访问官网，选择相应的心愿单，点击 \[support\] 参与支持该心愿。目前仅支持文字版的相关设置，暂不支持捐赠。在下一个版本，心愿单支持功能将优化以下几个方面：
+Users can visit the official website, select the corresponding wish list, and click \[support\] to support this wish. Currently, only text-based settings are supported. Donations are not supported. In the next release, the support feature of wish list will be optimized in the following aspects:
 
-* 支持捐赠ZGoat，提高奖励金额；
-* 支持同一个心愿分批进行；
-* 同时支持文字版、图片版、视频版；
-* 支持多方案模式，用户可以选择最中意的某方案进行支持；
+* Support donating ZGoat to increase the reward amount;
+* Support the same wish in batches;
+* Supports both text, image, and video versions;
+* The multi-solution mode is supported. You can select one of your favorite solutions for support;
 
 {% page-ref page="../qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md" %}
 
-### 2. 如何发布心愿？\(暂未开放\) <a id="2-ru-he-fa-bu-xin-yuan-zan-wei-kai-fang"></a>
+### 2. How do I release my wish? \(Not available\) <a id="2-ru-he-fa-bu-xin-yuan-zan-wei-kai-fang"></a>
 
-点击发布按钮，根据操作提示发布，目前暂未对外开放该功能。用户发布心愿，需质押相应数量的ZGoat，平台不收取手续费。
+Click the publish button, according to Operation Prompt Publishing, currently not yet open the feature. The user wants to pledge the corresponding amount of ZGoat, and the platform does not charge a handling fee.
 
-用户发布心愿分为四个阶段：
+User release wishes are divided into four stages:
 
-1. 发布心愿，开始募集ZGoat；
-2. 募集完成，等待用户参与\(用户参与度最高的心愿可首页推荐\)；
-3. 参与完成，等待发放奖励；
-4. 设定领取奖励有效期，超过有效期不领取则50%进入运营奖池，50%用于销毁；
+1. Release the wish and start to raise ZGoat;
+2. After the collection is completed, wait for the user to participate \(the wish with the highest user participation can be recommended on the homepage\);
+3. Participation completed, waiting for rewards;
+4. Set the validity period of the reward. If you do not receive the reward after the validity period, 50% of the reward will enter the operation reward pool and 50% will be used for destruction;
 
-​
-
-​
-
-_Tips：用户通过空投、心愿单奖励、社群活动等获取的ZGoat，均处于锁定状态，需通过添加LP方可解锁。_[  
+_Tips: zgoats obtained by users through AirDrop, wish list rewards, community activities, etc. are all locked and can be unlocked only by adding LP.。_[  
 ](https://doc.zgoat.org/chan-pin-ji-gui-hua/chan-pin-zong-lan)
 

@@ -5,7 +5,7 @@
 ## 产品及规划
 
 * [Product Overview](chan-pin-ji-gui-hua/chan-pin-zong-lan.md)
-* [心愿单](chan-pin-ji-gui-hua/xin-yuan-dan.md)
+* [Wish list](chan-pin-ji-gui-hua/xin-yuan-dan.md)
 * [跨链桥](chan-pin-ji-gui-hua/kua-lian-qiao.md)
 * [未来规划](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
   * [零手续费DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
