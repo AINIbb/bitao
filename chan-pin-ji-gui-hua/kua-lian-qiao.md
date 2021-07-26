@@ -1,10 +1,8 @@
-# 跨链桥
+# Cross-Chain Bridge
 
-跨链桥将逐步支持更多公链发布ZGoat，保持总量不变。根据用户需求反馈决定开发优先级，目前拟采用的公链包括：ETH、HECO、POLYGON等等
+Cross-Chain Bridge will gradually support more public chain ZGoat releases, keeping the total amount unchanged. Determine the development priority based on user feedback. Currently, the public chains to be adopted include ETH, HECO, and POLYGON.
 
-\*\*\*\*
+**Cross-chain operation process**
 
-**跨链操作流程**
-
-（待公布）
+\(To be published\)
 

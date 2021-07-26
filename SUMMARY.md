@@ -6,7 +6,7 @@
 
 * [Product Overview](chan-pin-ji-gui-hua/chan-pin-zong-lan.md)
 * [Wish list](chan-pin-ji-gui-hua/xin-yuan-dan.md)
-* [跨链桥](chan-pin-ji-gui-hua/kua-lian-qiao.md)
+* [Cross-Chain Bridge](chan-pin-ji-gui-hua/kua-lian-qiao.md)
 * [未来规划](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
   * [零手续费DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
   * [稳定币](chan-pin-ji-gui-hua/wei-lai-gui-hua/wen-ding-bi.md)
