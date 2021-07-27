@@ -33,7 +33,9 @@ Taking [WISH001](http://zgoat.org/#/Home) as example, the first wish launched by
 3. _**\[High frequency\]**_ Everyone can make a wish with different ideas, generating high-frequency applications;
 4. _**\[Secondary marketing\]**_ Hot wishes can form secondary topic for marketing and ZGoat will gradually become the leading brand of defi-marketing;
 
-Similarly, any hot topic can be embedded in the wish list, such as "Wu Yifan event" making a wish -- Wu withdrew from the entertainment circle, "Zhengzhou flood" making a wish -- Zhengzhou held on, making ZGoat always in the newest and hottest topic, high user participation and low threshold. Different from other products, there are usually only two or three hot topics. ZGoat can produce thousands of hot topics, which are hot topics all the time.
+As a result, any hot topic can be embedded in the wish list, such as "Wu Yifan event", that can be made a wish by someone, the theme such as "Kris Wu, ZhaNan". Another example, Zhengzhou Flood also can be made a wish, the theme such as "Zhengzhou Power".
+
+ZGoat wishlist always combines the newest and hottest topic, with high user participation and low threshold. Different from other products, there are usually only two or three Marketing Event. ZGoat can combine hot topics all the time, with various scene.
 
 ![Wishlist Based on Current Hot Topic](.gitbook/assets/wish_example.png)
 
