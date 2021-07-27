@@ -28,10 +28,10 @@ Through entertainment, ZGoat makes the defi application be used more widely, and
 
 Taking [WISH001](http://zgoat.org/#/Home) as example, the first wish launched by a little girl on ZGoat platform was related with Zuckerberg's Twitter about Bitcoin. As the founder of the world's largest social platform, Zuckerberg has huge followings. And the little girl is a common person in the world. the wish to link "Zuckerberg" with "little girl", has its own huge topic effect. On the other hand, user will be rewarded with ZGoat Token by supporting the wish, which is a further encourage for users to participate.
 
-1. _**\[Entertainment\]**_ Help the little girl talk to Zuckerberg, form Entertainment;
-2. _**\[Low threshold\]**_ Users only need to copy the message, and they will have the opportunity to get rewards;
-3. _**\[High frequency\]**_ Everyone can initiate a wish, with different wishes, generating high-frequency applications;
-4. _**\[Secondary marketing\]**_ Hot wishes can form secondary marketing and will gradually monopolize the marketing market of encryption industry;
+1. _**\[Entertainment\]**_ Help the little girl meet Zuckerberg;
+2. _**\[Low threshold\]**_ Users only need copy to comment, and they will get the opportunity for rewards;
+3. _**\[High frequency\]**_ Everyone can make a wish with different ideas, generating high-frequency applications;
+4. _**\[Secondary marketing\]**_ Hot wishes can form secondary topic for marketing and ZGoat will gradually become the leading brand of defi-marketing;
 
 Similarly, any hot topic can be embedded in the wish list, such as "Wu Yifan event" making a wish -- Wu withdrew from the entertainment circle, "Zhengzhou flood" making a wish -- Zhengzhou held on, making ZGoat always in the newest and hottest topic, high user participation and low threshold. Different from other products, there are usually only two or three hot topics. ZGoat can produce thousands of hot topics, which are hot topics all the time.
 
