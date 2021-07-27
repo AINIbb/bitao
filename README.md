@@ -41,7 +41,7 @@ ZGoat wishlist always combines the newest and hottest topic, with high user part
 
 ## 三、Big Business
 
-Different from many projects driven by community pure consensus such as dog coin and shib, ZGoat is an innovative leading product of marketing track based on the small closed-loop business model concept of marketing-profit-remarketing, it has a super profit model. According to market economics, for many products lacking marketing topics in the encryption consensus industry, the lack of marketing topics often leads to the accelerated decline of profits, and even cannot make ends meet.
+Different from other product design based on the idea of product application , ZGoat is an innovative leading product based on the idea of marketing application, with small closed-loop business model concept. ZGoat has a big business profit model. According to market data, for many products, they are extramely lacking of marketing topics when developing. The lack of marketing topics often leads to the accelerated profit decline, and even makes product fail
 
 ### 1.The basic profitability is 315 times than Shib
 
@@ -62,6 +62,7 @@ According to the non-small shib transaction data, the 24-hour turnover was $0.37
 | 24h Valume | 375,000,000 | 75,000,000 |
 | 30Day Price Change | 2.22% | 150% |
 | Investment Cost | 1000 | 0 |
+|  |  |  |
 | **Profit** | **22.2** | **525,000,000** |
 
 {% hint style="info" %}
