@@ -16,13 +16,13 @@ All current Defi application designs are based on the idea of basic product, how
 
 ## 二、Make Defi-Marketing Easier
 
-As a typical application of consensus economy, the larger the consensus, the greater the value. The popularity of Defi project has driven the rapid development of encrypted currency. However, it still faces many problems:
+For any application of consensus economy, the larger the consensus, the greater the value. The popularity of Defi project has made the rapid development of cryptocurrency. However, it still faces many problems:
 
 * The participation threshold for ordinary users is still high.
 * The operation process is also very inconvenient
-* Low participation frequency
+* Low frequency
 
-Through the form of entertainment, ZGoat makes the user group more extensive, the frequency of use is more frequent, the entertainment is stronger, and the participation threshold is lower.
+Through entertainment, ZGoat makes the defi application be used more widely, and the using frequency higher, entertaining more, participation threshold lower.
 
 ![Little Girl, Meet Zuckerberg](.gitbook/assets/03.png)
 
