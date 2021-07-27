@@ -114,14 +114,14 @@ For other DEFI product, early participants will get a strong price advantage, wh
 
 |  | Address A |
 | :--- | :--- |
-| Input cost | 1000w ZGoat |
-| Input cost value | $1 |
-| Commission rate | 60% |
+| Invitation cost | 1000w ZGoat |
+| Cost value | $1 |
+| Reward rate | 60% |
 | Address B trading platform | Pancakeswap |
 | Address B monthly transaction volume = 0 | -$1 |
-| Address B monthly transaction volume = USD 1,000 | $12 |
-| Address B monthly transcation volume = USD 100,000 | $1200 |
-| Address B monthly transcation volume = USD 10 million | $12w |
+| Address B monthly transaction volume = $1,000 | $12 |
+| Address B monthly transcation volume = $100,000 | $1200 |
+| Address B monthly transcation volume = $10 million | $12w |
 |  |  |
 | **Return on Investment** | **Up to 120,000 times** |
 
@@ -137,13 +137,13 @@ Of course, if the user invited by address A has not transaction, address A will 
 
 ####  <a id="oYzWL"></a>
 
-### 4.Future profit model: empower more real economy
+### 4.Future profit model: more entity economy
 
-The development of encrypted currency from chaos era to financial product era is still limited to the field of encrypted currency, and it is difficult to make a breakthrough in expanding the application of encrypted currency. The emergence of ZGoat may solve the current dilemma of encrypted currency. In terms of ecological layout, ZGoat will gradually empower the real economy and win-win for a long time.
+The development of crypto, from Confused Era to Defi Era, is still limited by many factors, and it is difficult to make a breakthrough in expanding the application of crypto for a long time. ZGoat may solve the current issue of crypto. In terms of ecological layout, ZGoat will gradually apply to entity economy and double-win for a long time.
 
-At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + zero handling fee exchange + entertainment consumption + e-commerce platform", aiming at a long-term win-win situation and devoting itself to empowering the real economy. The total amount of ZGoat issued was 210,000 billion, and the initial burning was 110,000 billion. For the first time, the decentralized Commission invitation system was adopted, and it was written into the intelligent contract. The Commission ratio was 60% of the bonus of the holder, when burning to the remaining amount of 2100 billion, stop burning and update the transaction handling fee ratio.
+At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + zero fee DEX + entertainment + shopping", aiming at a long-term double-win situation and devolopinig entity economy of crypto. The total amount of ZGoat issued was 21,000 billion, and the initial burning was 11,000 billion. The decentralized invitation mechanism is applied for the first time, , and it was written into the intelligent contract. The Commission ratio was 60% , when the circulating total amount reaches 2100 billion, stop burning and update the transaction fee ratio.
 
-As more real economies are empowered in the future, the profit model will be more objective.
+As more real economies are applied in the future, the profit model will be more.
 
 \*\*\*\*
 
