@@ -71,11 +71,11 @@ Assuming that each user transfers $1,000 on average within 24h, the number of Sh
 
 From the above model, ZGoat's basic profitability is hundreds of times than Shib. Even if all the profits are distributed to all users through AirDrop, each person invests $1,000 on average, then the number of participants is 75000. The average profit is $0.525 billion/75000 = $7000.**That is, the basic profitability of ZGoat is 7000/22.2=315 times than Shib.**
 
-### 2.The core profit scene is like TikTok, which is thousands of times that of ordinary projects.
+### 2.The core profit scene is like TikTok, in daily life
 
-ZGoat is designed to help users express their wishes. Like TikTok, everyone has the need to express himself, and also has the need to recognize others and appreciate others. When the number of ZGoat holders reaches a certain value, the platform will open WISHLIST user-defined wish list function, gradually upgrading from text to graphic form or even video form. Different from TikTok, the wish list has a certain goal, which abandons the feature of TikTok's pure killing time.
+ZGoat aim is to help users say wishes out. Like TikTok, everyone has the need to show himself, and also has the need to support other's show or wish. When the number of ZGoat holders reaches a certain number, the platform will open WISHLIST function, for user-defined wish, including text, picture or even video form. Different from TikTok, the wish has a positive energy goal, which is against the feature of killing time.
 
-According to the long tail theory, when a product can catch long tail users, it will become a platform-level product. For common DEFI projects, there are usually only 1-2 core profit scenarios, so there are great limitations. ZGoat takes marketing and entertainment as the entry point to help users express their wishes and gradually realize their wishes through the participation of other users. Different users have different wishes and different application scenarios. At the same time, users outside the industry can be personalized to reduce the participation threshold of DEFI projects.
+According to long-tail theory, when a product can catch long tail users, it will become a platform-level product. For common DEFI projects, there are usually only 1-2 core profit scenarios, so there are great limitations. ZGoat takes marketing and entertainment as the entry point to help users express their wishes and gradually realize their wishes through the participation of other users. Different users have different wishes and different application scenarios. At the same time, users outside the industry can be personalized to reduce the participation threshold of DEFI projects.
 
 ![\( ZGoat multi-scenario application \)](.gitbook/assets/pu-tong-xiang-mu-chang-jing-vs-zgoat-chang-jing-.png)
 
