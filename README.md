@@ -98,11 +98,11 @@ The process of wishlist is: Make A Wsh-&gt; ZGoat Support-&gt; User Participatio
 Assume that using ratio of ZGoat is 1/5 of common projects, and ZGoat staking for each wish is valued $1,000 \(refer to TikTok\), then the volume of the 30-day wishlist  is: 10000/5_\*_30_\*_1000 = $60 million. Profit: \(6% +1%\) _\* 0.06 billion \*_  2 \* _\(1+150%\)+0.06 billion_  \* 20% +0.06 billion \* 20% = $45 million, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.Proportion of  unclaim is assumed to be 20%, and proportion of commission fee is 20%.
 {% endhint %}
 
-Since the cost of this part of income is zero, it is net income, thus this part of profit can be used for more currency price stretching or other marketing activities, forming a virtuous circle. On the other hand, with the increase of currency users, the application scenarios will also increase, and the profits of this part will also rise, which makes imagination very large.
+Since the cost of this part is zero, thus this profit can be used for raising currency price or other marketing activities, forming a positive loop. On the other hand, with the increase of holders, the application scene will also increase, and the profits of this part will also rise, with big imagination.
 
 
 
-### 3.Magic profit model: return on investment up to 120,000 times
+### 3.Magic profit model: ROI = 120,000
 
 ![\( To Be Referrer will be rewarded \)](.gitbook/assets/yao-qing-fan-yong-.png)
 
