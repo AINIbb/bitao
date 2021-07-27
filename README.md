@@ -106,11 +106,11 @@ Since the cost of this part is zero, thus this profit can be used for raising cu
 
 ![\( To Be Referrer will be rewarded \)](.gitbook/assets/yao-qing-fan-yong-.png)
 
-In previous DEFI projects, early participants will gain a strong enough price advantage, which seems not very fair. Who brings the real users should enjoy the highest percentage of handling fees and dividends. ZGoat's commission invitation mechanism well meets this demand:
+For other DEFI product, early participants will get a strong price advantage, which seems not fair. As a better wish, Who brings profit should enjoy the highest percentage of profit. ZGoat's invitation mechanism will meet this demand well:
 
-> 1. The mechanism is written into the decentralized contract, without human intervention, and is fair and just;
-> 2. No matter early participants or late participants, the commission mechanism is in the same standard and has no first-mover advantage.
-> 3. In the past, the encrypted money industry could only make money by rising the price of tokens or short contracts. ZGoat's commission invitation mechanism may have created a brand-new profit model. Due to the large proportion of commission, it is tentatively set to 60% of the share of cash holding. If high-quality trading users can be invited, the profit will be very objective.
+> 1. The mechanism is written into the decentralized contract, without human intervention, and is fair for everyone;
+> 2. No matter early participants or later participants, the mechanism is in the same standard.
+> 3. In the past, people in Crypto can only make money by rising the price of tokens or contracts. ZGoat's invitation mechanism may create a new profit way. Due to the large proportion of commission, it is now set 60% Transaction Fee Of Distributed To Holder Permanently. If big-volume users can be invited, the profit will be magic.
 
 |  | Address A |
 | :--- | :--- |
@@ -126,9 +126,11 @@ In previous DEFI projects, early participants will gain a strong enough price ad
 | **Return on Investment** | **Up to 120,000 times** |
 
 {% hint style="info" %}
-According to the Commission invitation rules, if Address A is the first to donate more than or equal to 1000 thousand zgoats to address B, address A will become the recommender of address B forever. In the future, 1.2% or 0.6%de will be charged to address A for each transaction of address B. At the current currency price, the approximate cost of 1000 million zgoats is USD 1. If address B is a large account, the transaction volume in 30 days is USD 1000 million, then the Commission for the handling fee of address A is USD 12,000 or USD 6,000,**It is equivalent to a monthly return on investment of 120,000 times**. For ordinary users, the 30-day transaction volume is USD 10,000, and the Commission for handling fees is about USD 120 or USD 60,**Equivalent to a monthly return on investment of 120 times**. At the same time, address A can invite and donate to multiple users. If the invited users produce considerable transactions, the return on investment of address A will be A large amount of digital income.
+Address A is the referrer of Address B. 
 
-Of course, if the user invited by address A does not generate A transaction, address A will lose USD 1.
+According to invitation mechanism, Address A has sent 10M zgoats to address B, valued $1. In the future, address A will get reward 1.2% or 0.6% each transaction of address B. . If address B is a big-volume user, the transaction volume within 30 days is $10 million, then the Commission fee of address A is $12,000 or $6,000, **that means, a monthly return on investment is 120,000 times**. At the same time, address A can invite more users, which means, return on investment of address A will be so huge.
+
+Of course, if the user invited by address A has not transaction, address A will lose $1.
 {% endhint %}
 
 {% page-ref page="dai-bi/yao-qing-fan-yong-gui-ze.md" %}
