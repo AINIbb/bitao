@@ -66,14 +66,12 @@ According to Shib transaction data of feixiaohao.com, the 24h volume is $0.375 b
 | **Profit** | **22.2** | **525,000,000** |
 
 {% hint style="info" %}
-Assuming that the 24-hour turnover contributes US $1,000 per person on average, the number of Shib participants is 375000, and the number of ZGoat participants is 1/5, about 75000, then one month later, invest in Shib users and get a profit of $22.2. The profit of the ZGoat operating account at zero cost is calculated as:\(6% +1%\)  _0.375 billion_  20% _\(1+1/3\)_ 30 \(1 + 150%\) = USD 0.525 billion, among them, 1% is the estimated proportion of dividends in the operating account, and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.
+Assuming that each user transfers $1,000 on average within 24h, the number of Shib participants is 375000, and the number of ZGoat participants is 1/5 of Shib, about 75000, then a month later, user investing Shib users will get a profit of $22.2. The profit of the ZGoat is calculated as: \(6% +1%\)  _\* 0.375 billion_  \* 20% \* _\(1+1/3\)_  \* 30 \*  \(1 + 150%\) = $0.525 billion, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.
 {% endhint %}
 
-From the above model, ZGoat's basic profitability is hundreds of millions of times that of Shib. Even if all the profits are distributed to all users through AirDrop, it is also assumed that each person invests $1,000 and the number of participants is 75000, then the average profit of the operating account is $0.525 billion/75000 = $7000 per person.**That is, the basic profitability of ZGoat project is 7000/22.2=315 times that of shib project.**
+From the above model, ZGoat's basic profitability is hundreds of times than Shib. Even if all the profits are distributed to all users through AirDrop, each person invests $1,000 on average, then the number of participants is 75000. The average profit is $0.525 billion/75000 = $7000.**That is, the basic profitability of ZGoat is 7000/22.2=315 times than Shib.**
 
-Similarly, from the perspective of cost**,**The profits of ZGoat's operating account can be used for uninterrupted airdrop marketing. Assume that the number of airdrops within 30 days is 10, and each user will be rewarded with 10 dollars each time, the cost required within 30 days is: 10\*10\*30\*75000=0.225 billion, accounting for only 42.8% of the operating account profit, the operating account has enough profit space for currency price stretching or other marketing activities.
-
-### 2.The core profit scenario is like TikTok, which is thousands of times that of ordinary projects.
+### 2.The core profit scene is like TikTok, which is thousands of times that of ordinary projects.
 
 ZGoat is designed to help users express their wishes. Like TikTok, everyone has the need to express himself, and also has the need to recognize others and appreciate others. When the number of ZGoat holders reaches a certain value, the platform will open WISHLIST user-defined wish list function, gradually upgrading from text to graphic form or even video form. Different from TikTok, the wish list has a certain goal, which abandons the feature of TikTok's pure killing time.
 
