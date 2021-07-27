@@ -147,22 +147,24 @@ As more real economies are applied in the future, the profit model will be more.
 
 \*\*\*\*
 
-**ZGoat, originated from the wish of a little girl, is based on making DEFI marketing entertaining and striving to create a new era of encrypted currency...**
+**ZGoat, started by the wish of a little girl, aims to make DEFI-marketing easier and  create a new era of crypto...**
 
 \*\*\*\*
 
-**🔥 Egg link:**
+**🔥 Share For Reward:**
 
-1\) click the Share button and forward this article to Twitter. If you win more than 10 likes, you will get 1 million ZGoat rewards, limited to the top 500; If you win more than 100 likes, you will get 10 million ZGoat rewards, top 100. First come first served
+1\) Click the Share button and forward this article to Twitter. If get more than 10 likes, you will get 1 million ZGoat rewards, limited to the top 500; If you win more than 100 likes, you will get 10 million ZGoat rewards, top 100. First come first served
 
-2\) click the Share button and forward this article to the Telegraph group or WeChat group. If the number of clicks on the sharing link exceeds 500, you will get 1 million ZGoat rewards, which is limited to the top 500; if you win more than 5,000 likes, you will get 10 million ZGoat rewards, limited to the top 100. First come first served
+2\) Click the Share button and forward this article to the Telegram group or WeChat group. If the number of clicks sharing link exceeds 500, you will get 1 million ZGoat rewards, which is limited to the top 500; if you win more than 5,000 likes, you will get 10 million ZGoat rewards, limited to the top 100. First come first served
 
-3\) click the Share button and forward this article to WeChat Moments. If you win more than 30 likes, you will get 1 million ZGoat rewards, which is limited to the top 500; if you win more than 300 likes, you will get 10 million ZGoat rewards, limited to the top 100. First come first served
+3\) Click the Share button and forward this article to WeChat Moments. If you win more than 30 likes, you will get 1 million ZGoat rewards, which is limited to the top 500; if you win more than 300 likes, you will get 10 million ZGoat rewards, limited to the top 100. First come first served
+
+
 
 Tips:
 
-* You can only participate in one of the three activities above the same address at most. If you participate in multiple activities at the same time, the highest reward will be calculated;
-* All airdrop rewards are locked and need to be unlocked by pledge LP;
+* You can only participate in one of the above activities at most for one address. If you participate in more than one activities at the same time, the highest reward will be calculated;
+* All airdrop rewards are locked and need to be unlocked by staking LP;
 
 
 
