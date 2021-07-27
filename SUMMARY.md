@@ -4,35 +4,35 @@
 
 ## Product and planning <a id="chan-pin-ji-gui-hua"></a>
 
-* [Product Overview](chan-pin-ji-gui-hua/chan-pin-zong-lan.md)
-* [Wish list](chan-pin-ji-gui-hua/xin-yuan-dan.md)
-* [Cross-Chain Bridge](chan-pin-ji-gui-hua/kua-lian-qiao.md)
-* [Future plan](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
-  * [Free handling fee DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
-  * [Stable token](chan-pin-ji-gui-hua/wei-lai-gui-hua/wen-ding-bi.md)
-  * [Entertainment consumption](chan-pin-ji-gui-hua/wei-lai-gui-hua/yu-le-xiao-fei.md)
-  * [Online shopping](chan-pin-ji-gui-hua/wei-lai-gui-hua/wang-shang-gou-wu.md)
+* [Overview](chan-pin-ji-gui-hua/chan-pin-zong-lan.md)
+* [Wishlist](chan-pin-ji-gui-hua/xin-yuan-dan.md)
+* [Bridge](chan-pin-ji-gui-hua/kua-lian-qiao.md)
+* [Future Plan](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
+  * [Zero Fee DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
+  * [Stable Token](chan-pin-ji-gui-hua/wei-lai-gui-hua/wen-ding-bi.md)
+  * [Entertainment](chan-pin-ji-gui-hua/wei-lai-gui-hua/yu-le-xiao-fei.md)
+  * [Shopping](chan-pin-ji-gui-hua/wei-lai-gui-hua/wang-shang-gou-wu.md)
 
 ## Token <a id="dai-bi"></a>
 
-* [Token allocation](dai-bi/dai-bi-fen-pei.md)
-* [Deflation mechanism](dai-bi/tong-suo-ji-zhi.md)
-* [Commission invitation rules](dai-bi/yao-qing-fan-yong-gui-ze.md)
-* [Zero bonus rules](dai-bi/chi-ling-fen-hong-gui-ze.md)
+* [Token Allocation](dai-bi/dai-bi-fen-pei.md)
+* [Deflation](dai-bi/tong-suo-ji-zhi.md)
+* [Invitation Rules](dai-bi/yao-qing-fan-yong-gui-ze.md)
+* [EatZero](dai-bi/chi-ling-fen-hong-gui-ze.md)
 
-## Market <a id="shi-chang"></a>
+## Marketing <a id="shi-chang"></a>
 
-* [Media report](shi-chang/mei-ti-bao-dao.md)
-* [Airdrop activity](shi-chang/kong-tou-huo-dong/README.md)
+* [Media Report](shi-chang/mei-ti-bao-dao.md)
+* [Airdrop](shi-chang/kong-tou-huo-dong/README.md)
   * [Wish001：ZGoat From Zero](shi-chang/kong-tou-huo-dong/wish001-zgoat-from-zero.md)
   * [Market001：Join Telegram AirDrop](shi-chang/kong-tou-huo-dong/market001-join-telegram-airdrop.md)
-* [Unlock rule](shi-chang/jie-suo-gui-ze.md)
+* [Unlock Rule](shi-chang/jie-suo-gui-ze.md)
 
 ## Other <a id="qi-ta"></a>
 
-* [Official announcement](qi-ta/guan-fang-gong-gao/README.md)
+* [Announcement](qi-ta/guan-fang-gong-gao/README.md)
   * [1.ZGoat's announcement of starting the first round of airdrop](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
-* [Beginner tutorial](qi-ta/xin-shou-jiao-cheng/README.md)
+* [Tutorial](qi-ta/xin-shou-jiao-cheng/README.md)
   * [1.How to buy ZGoat ?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
   * [2.How to Be a referer？](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
   * [3.How to participate in wish list？](qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md)

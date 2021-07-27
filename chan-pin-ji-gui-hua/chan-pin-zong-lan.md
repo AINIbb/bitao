@@ -1,4 +1,4 @@
-# Product Overview
+# Overview
 
 ZGoat is an entertainment product based on marketing concept and focusing on wishes. Users can use ZGoat to publish a wish list, or support others' wish list to obtain ZGoat. In the future ZGoat ecological construction process, users can use ZGoat to participate in more ecological construction, such as deposit, mining, mortgage, cross-chain, business cooperation, zero handling fee exchange, entertainment consumption, online shopping, etc.
 

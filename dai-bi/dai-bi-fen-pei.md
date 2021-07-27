@@ -1,4 +1,4 @@
-# Token allocation
+# Token Allocation
 
 Zuck's Goat pass certificate is ZGoat, the total amount is 21,000 billion, the initial black hole destruction amount is 11,000 billion, 5% as operating expenses, including airdrop, wish reward, zero bonus, etc, the rest is used to build a liquidity pool.
 

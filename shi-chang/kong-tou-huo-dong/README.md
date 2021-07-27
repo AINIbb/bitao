@@ -1,4 +1,4 @@
-# Airdrop activity
+# Airdrop
 
 In order to continuously carry out marketing promotion, ZGoat products have considered many marketing promotion schemes at the beginning of design, including: wish list, AirDrop, community activities and so on. The airdrop ZGoat is provided by the Operation account. If the group owners of each community intend to cooperate, they can contact the business director for docking.
 

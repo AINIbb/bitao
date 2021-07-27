@@ -1,4 +1,4 @@
-# Media report
+# Media Report
 
 A product of consensus economy cannot be separated from the support of users, and also from the strong support of media friends. Therefore, the media reports about ZGoat are sorted out here, which is convenient for users to consult.
 

@@ -1,4 +1,4 @@
-# Zero bonus rules
+# EatZero
 
 \( Rules and Regulations for receiving zero bonus\( Rules and Regulations for receiving zero bonus \)A common economic product cannot be separated from the strong support of users. Products in the encrypted currency field have a very important parameter: currency price
 

@@ -1,4 +1,4 @@
-# Official announcement
+# Announcement
 
 All official announcements are listed here for your convenience of reading.
 

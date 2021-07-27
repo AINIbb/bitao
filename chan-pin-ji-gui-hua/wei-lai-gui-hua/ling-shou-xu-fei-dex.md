@@ -1,4 +1,4 @@
-# Free handling fee DEX
+# Zero Fee DEX
 
 The main profit model of current exchanges, including CEX and DEX, is charging handling fees. According to the development experience of the Internet, the Internet has experienced three major stages:
 

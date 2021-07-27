@@ -1,4 +1,4 @@
-# Online shopping
+# Shopping
 
 As a new transaction medium, encrypted currency has gradually highlighted its advantages after more than ten years of development. With people's further deepening of encrypted currency, it is imperative to apply encrypted currency to people's food, clothing, housing and transportation.
 

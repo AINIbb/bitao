@@ -1,4 +1,4 @@
-# Wish list
+# Wishlist
 
 Wish is the entry point of ZGoat products. Any user or project party can participate in or initiate a wish. The main pain point of wish list is the entertainment of marketing and encryption industry, which lowers the threshold for ordinary users to participate and increases the frequency of participation. Users can develop their own creativity by customizing their wish mode.
 

@@ -1,4 +1,4 @@
-# Stable token
+# Stable Token
 
 In order to better empower the real economy, it is necessary to stabilize the currency scenario application. ZGoat stable currency will adopt a better stable currency strategy, a better security mechanism and a better user experience. It has two main features:
 

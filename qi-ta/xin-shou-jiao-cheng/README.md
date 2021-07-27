@@ -1,4 +1,4 @@
-# Beginner tutorial
+# Tutorial
 
 **PC version tutorial for beginners：**
 
