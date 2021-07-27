@@ -95,14 +95,14 @@ The process of wishlist is: Make A Wsh-&gt; ZGoat Support-&gt; User Participatio
 | **Total Profit** | **1000w** | **4500w** |
 
 {% hint style="info" %}
-Assume that the scenario usage rate of ZGoat is 1/5 of that of common projects, and the amount of ZGoat raised for each wish order is ZGoat worth $1,000 \(refer to the total reward amount of a single live broadcast of common online celebrities in Tik Tok\), then the amount of the 30-day wish list raised is: 10000/5_30_1000 = USD 60 million. Revenue:\(6% +1%\) _0.06 billion_  2_\(1+150%\)+0.06 billion_  20% +0.06 billion \* 20% = USD 45 million, among them, 1% is the estimated proportion of dividends in the operating account, 150% according to a similar product model, the estimated increase rate of currency price within 30 days; The part without rewards is assumed to be 20%, and the proportion of commission is 20%.
+Assume that using ratio of ZGoat is 1/5 of common projects, and ZGoat staking for each wish is valued $1,000 \(refer to TikTok\), then the volume of the 30-day wishlist  is: 10000/5_\*_30_\*_1000 = $60 million. Profit: \(6% +1%\) _\* 0.06 billion \*_  2 \* _\(1+150%\)+0.06 billion_  \* 20% +0.06 billion \* 20% = $45 million, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.Proportion of  unclaim is assumed to be 20%, and proportion of commission fee is 20%.
 {% endhint %}
 
 Since the cost of this part of income is zero, it is net income, thus this part of profit can be used for more currency price stretching or other marketing activities, forming a virtuous circle. On the other hand, with the increase of currency users, the application scenarios will also increase, and the profits of this part will also rise, which makes imagination very large.
 
 
 
-### 3.Additional profit model: return on investment up to 120,000 times
+### 3.Magic profit model: return on investment up to 120,000 times
 
 ![\( To Be Referrer will be rewarded \)](.gitbook/assets/yao-qing-fan-yong-.png)
 
