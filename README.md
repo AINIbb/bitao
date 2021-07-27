@@ -19,7 +19,7 @@ All current Defi application designs are based on the idea of basic product, how
 For any application of consensus economy, the larger the consensus, the greater the value. The popularity of Defi project has made the rapid development of cryptocurrency. However, it still faces many problems:
 
 * The participation threshold for ordinary users is still high.
-* The operation process is also very inconvenient
+* The operation experience is also bad.
 * Low frequency
 
 Through entertainment, ZGoat makes the defi application be used more widely, and the using frequency higher, entertaining more, participation threshold lower.
@@ -41,21 +41,21 @@ ZGoat wishlist always combines the newest and hottest topic, with high user part
 
 ## 三、Big Business
 
-Different from other product design based on the idea of product application , ZGoat is an innovative leading product based on the idea of marketing application, with small closed-loop business model concept. ZGoat has a big business profit model. According to market data, for many products, they are extramely lacking of marketing topics when developing. The lack of marketing topics often leads to the accelerated profit decline, and even makes product fail
+Different from other product design based on the idea of product application , ZGoat is an innovative leading product based on the idea of marketing application, with small closed-loop business model concept. ZGoat has a big business profit model. According to market data, for many products, they are extramely lacking of marketing topics when developing. The lack of marketing topics often leads to the accelerated profit decline, and even makes product fail.
 
 ### 1.The basic profitability is 315 times than Shib
 
 ![Closed Loop Business Model](.gitbook/assets/xiao-bi-huan-.png)
 
-At the beginning of the design, ZGoat skillfully integrated the marketing concept into the small closed-loop design of the product, as shown in the above figure, which can be simply summarized into the following process:
+At the beginning of the design, ZGoat integrated the marketing concept into the small closed-loop design of the product, as shown in the above figure, which can be simply summarized into the following steps:
 
-* Generate a wish list based on the current social hot topics, and provide ZGoat rewards for the operation account;
-* User participation is simplified and entertaining to ensure that ordinary users outside the industry can also participate;
-* Users receive airdrop rewards, and unlock them by purchasing ZGoat to form LP, increasing the currency price and generating handling fees;
-* Part of the income of the handling fee is transferred to the Operation account to ensure that there are enough ZGoat in the Operation account to conduct airdrop marketing without interruption;
-* Generate new hot topics and form a small closed loop, making ZGoat always in the hottest topic;
+* Generate a wish based on the current hot topics, and provide ZGoat rewards for users;
+* User participating is simplified and entertaining to ensure that ordinary users can also participate;
+* Airdrop rewards users received need to unlock by staking ZGoat LP, increasing ZGoat price and generating handling fees;
+* Part of handling fee is transferred to the Marketing Management Account to ensure that there are enough ZGoat to support airdrop marketing activities without interruption;
+* Generate new hot topics and form a small closed loop, making ZGoat always be hottest;
 
-According to the non-small shib transaction data, the 24-hour turnover was $0.375 billion, calculated by 2.22% increase in the past 30 days. For the ZGoat project, assuming the initial heat is only 20% of shib.
+According to Shib transaction data of feixiaohao.com, the 24h volume is $0.375 billion, with 2.22% price increase in the past 30 days. For the ZGoat, assuming the volume is only 20% of Shib.
 
 |  | Shib | ZGoat |
 | :--- | :--- | :--- |
