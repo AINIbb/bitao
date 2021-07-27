@@ -79,20 +79,20 @@ According to long-tail theory, when product catches long-tail users, it will bec
 
 ![\( ZGoat multi-scenario application \)](.gitbook/assets/pu-tong-xiang-mu-chang-jing-vs-zgoat-chang-jing-.png)
 
-The general process of releasing wish list is: releasing wish-&gt; raising ZGoat support-&gt; User participation-&gt; User receiving ZGoat rewards. In the whole process, the platform will generate many forms of benefits, such as the commission income during the period of raising ZGoat, 50% of users who have not received rewards will be transferred to the Operation account, wish single Commission, the currency price during the unlock process of airdrop rewards has increased...
+The process of wishlist is: Make A Wsh-&gt; ZGoat Support-&gt; User Participation-&gt; User Receiving ZGoat Rewards. In the whole process, the platform will get profit, such as Tx Fee during the period of staking ZGoat, 50% of unclaimed reward transferred to Marketing Management Account, Commission Fee, the currency price raising...
 
 |  | Common  Project | ZGoat |
 | :--- | :--- | :--- |
-| Number of scenarios | 2 | 10000 |
-| Scenario usage | 100% | 20% |
-| Scenario quota | 0.1 Billion\(DEX\) | 1000 |
-| 30-day quota | 6 Billion | 0.06 Billion |
-| Handing fee profit | 3000w | 840w |
-| LP unlock increase | 0 | 1260w |
-| Aridrop not received | 0 | 1200w |
-| Platform Commission | 1/3 | 20% |
+| Scene Number | 2 | 10000 |
+| Using Ratio | 100% | 20% |
+| Tx Volume | 0.1 Billion\(DEX\) | 1000 |
+| 30-day Volume | 6 Billion | 0.06 Billion |
+| Tx Fee | 3000w | 840w |
+| Unlock Profit | 0 | 1260w |
+| Aridrop Unclaim | 0 | 1200w |
+| Commission Fee | 1/3 | 20% |
 |  |  |  |
-| **Total profit** | **1000w** | **4500w** |
+| **Total Profit** | **1000w** | **4500w** |
 
 {% hint style="info" %}
 Assume that the scenario usage rate of ZGoat is 1/5 of that of common projects, and the amount of ZGoat raised for each wish order is ZGoat worth $1,000 \(refer to the total reward amount of a single live broadcast of common online celebrities in Tik Tok\), then the amount of the 30-day wish list raised is: 10000/5_30_1000 = USD 60 million. Revenue:\(6% +1%\) _0.06 billion_  2_\(1+150%\)+0.06 billion_  20% +0.06 billion \* 20% = USD 45 million, among them, 1% is the estimated proportion of dividends in the operating account, 150% according to a similar product model, the estimated increase rate of currency price within 30 days; The part without rewards is assumed to be 20%, and the proportion of commission is 20%.
