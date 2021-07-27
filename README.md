@@ -10,9 +10,9 @@ Crypto has experienced four stages of development: **2009-2013 Confused Era, 201
 
 In confused era, crypto marketing is in small communication, with little effect. By the ICO Crazy in 2017, crypto marketing is through the crazy "ten thousand times" ROI,  then be cold due to the lack of application; With the popularization of Defi, the crypto marketing has been needed by various Defi Application,such as lending, DEX, Aggregation, Asset Data, Bridge-Chain, etc. However, the method of defi-marketing is just community with low efficiency.
 
-The applications of the encryption industry are all designed based on the track of specific basic products, while the track based on marketing promotion is completely blank. The product track is full of varieties, but the marketing track is in blue sea. The appearance of ZGoat will fill this gap and become the first product of the marketing track.
+All current Defi application designs are based on the idea of basic product, however the design based on the idea of marketing is completely blank. The design based on the idea of basic product  is full of varieties, but of marketing is completely blank. ZGoat will solve this problem and is the first Defi-marketing application with big business.
 
-![&#xFF08;The marketing track is blank&#xFF09;](.gitbook/assets/chan-pin-sai-dao-vs-ying-xiao-sai-dao-ys.png)
+![&#xFF08;Marketing Application Is Blank&#xFF09;](.gitbook/assets/chan-pin-sai-dao-vs-ying-xiao-sai-dao-ys.png)
 
 ## 二、Make Defi-Marketing Easier
 
