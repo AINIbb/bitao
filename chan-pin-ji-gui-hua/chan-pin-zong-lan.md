@@ -16,11 +16,11 @@ In terms of efficiency, ZGoat has also been compared by mining users as the "Bit
 
 **Main functions:**
 
-1. Participation wish list
-2. Release wish list
+1. Participation wishlist
+2. Rublish wishlist
 3. Invite Commission
-4. Multidimensional mining
-5. Zero handling fee exchange
+4. Multi-dimensional mining
+5. Zero Fee Exchange
 6. Entertainment consumption
 7. Online shopping
 
