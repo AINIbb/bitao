@@ -1,10 +1,10 @@
 # Wishlist
 
-Wish is the entry point of ZGoat products. Any user or project party can participate in or initiate a wish. The main pain point of wish list is the entertainment of marketing and encryption industry, which lowers the threshold for ordinary users to participate and increases the frequency of participation. Users can develop their own creativity by customizing their wish mode.
+Wishlist is the entry point of ZGoat's product, where any user or project party can participate or initiate a wish. The main pain point of Wish List is marketing and entertainment in the crypto industry, lowering the threshold for ordinary users to participate while increasing the frequency of participation. Users can exercise their own creativity by customizing the wish pattern.
 
 ### 1. How to participate in wish support? <a id="Oqrhn"></a>
 
-Users can visit the official website, select the corresponding wish list, and click \[support\] to support this wish. Currently, only text-based settings are supported. Donations are not supported. In the next release, the support feature of wish list will be optimized in the following aspects:
+Users can visit the website, select the corresponding wish list and click \[support\] to support the wish. Currently, only the text version of the relevant settings are supported, and donations are not supported at this time. In the next version, the wishlist support feature will be optimized in the following areas:
 
 * Support donating ZGoat to increase the reward amount;
 * Support the same wish in batches;
