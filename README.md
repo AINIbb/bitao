@@ -166,6 +166,11 @@ ZGoat在产品设计之初就围绕“营销娱乐化+零手续费交易所+娱�
 
 {% tab title="Telegram" %}
 点击分享按钮，转发此文到电报群或者微信群，分享链接点击量超过500可获得100w个ZGoat奖励，限前500名；获赞超过5000个可获得1000w个ZGoat奖励，限前100名。先到先得
+
+```text
+复制内容测试，复制内容测试
+https://doc.zgoat.org/v/eng/
+```
 {% endtab %}
 
 {% tab title="Wechat" %}
@@ -173,37 +178,7 @@ ZGoat在产品设计之初就围绕“营销娱乐化+零手续费交易所+娱�
 {% endtab %}
 {% endtabs %}
 
-{% api-method method="get" host="https://bitao.com/test:id" path="" %}
-{% api-method-summary %}
-test
-{% endapi-method-summary %}
 
-{% api-method-description %}
-test description
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="BSC地址" type="integer" required=false %}
- 请输入地址
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
 Tips:
 
