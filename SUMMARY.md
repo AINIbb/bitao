@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ZGoat, The First Defi-Marketing Application With Big Business \(airdrop at the end\)](README.md)
+* [ZGoat, The First Defi-Marketing Application With Big Business \(Airdrop At The End\)](README.md)
 
 ## Product and planning <a id="chan-pin-ji-gui-hua"></a>
 

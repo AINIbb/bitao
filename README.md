@@ -1,4 +1,4 @@
-# ZGoat, The First Defi-Marketing Application With Big Business \(airdrop at the end\)
+# ZGoat, The First Defi-Marketing Application With Big Business \(Airdrop At The End\)
 
 [Click Buy ZGoat](https://exchange.pancakeswap.finance/#/swap)
 
