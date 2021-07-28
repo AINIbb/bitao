@@ -6,9 +6,9 @@ Wishlist is the entry point of ZGoat's product, where any user or project party 
 
 Users can visit the website, select the corresponding wish list and click \[support\] to support the wish. Currently, only the text version of the relevant settings are supported, and donations are not supported at this time. In the next version, the wishlist support feature will be optimized in the following areas:
 
-* Support donating ZGoat to increase the reward amount;
+* Support donations to ZGoat and increase the reward amount;
 * Support the same wish in batches;
-* Supports both text, image, and video versions;
+* Support text version, picture version and video version at the same time;
 * The multi-solution mode is supported. You can select one of your favorite solutions for support;
 
 {% page-ref page="../qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md" %}
