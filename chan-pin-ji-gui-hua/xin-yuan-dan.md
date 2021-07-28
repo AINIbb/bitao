@@ -13,7 +13,7 @@ Users can visit the website, select the corresponding wish list and click \[supp
 
 {% page-ref page="../qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md" %}
 
-### 2. How do I release my wish? \(Not available\) <a id="2-ru-he-fa-bu-xin-yuan-zan-wei-kai-fang"></a>
+### 2. How to release my wish? \(Not available\) <a id="2-ru-he-fa-bu-xin-yuan-zan-wei-kai-fang"></a>
 
 Click the publish button, according to Operation Prompt Publishing, currently not yet open the feature. The user wants to pledge the corresponding amount of ZGoat, and the platform does not charge a handling fee.
 
