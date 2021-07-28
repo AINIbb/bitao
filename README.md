@@ -173,20 +173,20 @@ ZGoat在产品设计之初就围绕“营销娱乐化+零手续费交易所+娱�
 {% endtab %}
 {% endtabs %}
 
-{% api-method method="patch" host="" path="" %}
+{% api-method method="get" host="https://bitao.com/test:id" path="" %}
 {% api-method-summary %}
 test
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+test description
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="BSC地址" type="integer" required=false %}
-
+ 请输入地址
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
