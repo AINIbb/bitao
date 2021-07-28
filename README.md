@@ -173,6 +173,38 @@ ZGoat在产品设计之初就围绕“营销娱乐化+零手续费交易所+娱�
 {% endtab %}
 {% endtabs %}
 
+{% api-method method="patch" host="" path="" %}
+{% api-method-summary %}
+test
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="BSC地址" type="integer" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 Tips:
 
 * 同一地址以上三个活动最多只能参加一个，同时参与多个按最高奖励算；
