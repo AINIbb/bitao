@@ -1,13 +1,13 @@
 # Overview
 
-ZGoat is an entertainment product based on marketing concept and focusing on wishes. Users can use ZGoat to publish a wish list, or support others' wish list to obtain ZGoat. In the future ZGoat ecological construction process, users can use ZGoat to participate in more ecological construction, such as deposit, mining, mortgage, cross-chain, business cooperation, zero handling fee exchange, entertainment consumption, online shopping, etc.
+ZGoat is an entertaining product based on the marketing concept, with wish lists as the cutting point. In the future, users can use ZGoat to participate in more ecological construction, such as deposit, mining, mortgage, cross-chain, business cooperation, zero-fee exchange, entertainment consumption, online shopping, etc.
 
-In terms of efficiency, ZGoat is also compared to "bitmainland in DeFi" by mining users. As the first enterprise adopting high-performance process technology, bitmainland has greatly improved mining efficiency, as the first DeFi product based on marketing concept, ZGoat will greatly improve the marketing efficiency of encrypted currency users and project parties. Different from bitmainland, ZGoat has a wider user group, higher frequency of use, stronger entertainment and lower participation threshold.
+In terms of efficiency, ZGoat has also been compared by mining users as the "Bitmain in DeFi", with Bitmain being the first company to adopt high-performance process technology, which greatly improves mining efficiency, just as ZGoat is the first DeFi product based on the marketing concept, which will greatly improve the marketing efficiency for cryptocurrency users and project owners. s marketing efficiency. Unlike Bitmainland, ZGoat has a broader user base, higher frequency of use, more entertaining, and a lower threshold for participation.
 
 **Main innovations:**
 
-1. Decentralized Commission invitation mechanism
-2. Coin price "zero bonus" reward
+1. Decentralized invitation rebate mechanism
+2. Coin price "eat zero dividend" reward
 3. Wish single airdrop mode
 4. Zero handling fee exchange
 5. Encrypted currency empowers the real economy
