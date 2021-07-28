@@ -161,9 +161,7 @@ ZGoat在产品设计之初就围绕“营销娱乐化+零手续费交易所+娱�
 
 {% tabs %}
 {% tab title="Share To Twitter" %}
-点击分享按钮，转发此文到推特，获赞超过10个可获得100w个ZGoat奖励，限前500名；获赞超过100个可获得1000w个ZGoat奖励，限前100名。先到先得
-
-[跳转至Twitter](https://twitter.com/DujunX/status/1420279897038016516)
+[点击此按钮](https://twitter.com/Goat22412341/status/1420290621319761920)，关注并转发推特，获赞超过10个可获得100w个ZGoat奖励，限前500名；获赞超过100个可获得1000w个ZGoat奖励，限前100名。先到先得
 {% endtab %}
 
 {% tab title="Telegram" %}
