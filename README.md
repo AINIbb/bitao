@@ -104,7 +104,7 @@ Since the cost of this part is zero, thus this profit can be used for raising cu
 
 ### 3.Magic profit model: ROI = 120,000
 
-![\( To Be Referrer will be rewarded \)](.gitbook/assets/yao-qing-fan-yong-.png)
+![\( To Be Referrer will be rewarded \)](.gitbook/assets/qu-zhong-xin-hua-yao-qing-fan-yong-ying-.png)
 
 For other DEFI product, early participants will get a strong price advantage, which seems not fair. As a better wish, Who brings profit should enjoy the highest percentage of profit. ZGoat's invitation mechanism will meet this demand well:
 
