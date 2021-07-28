@@ -9,7 +9,6 @@
 * [跨链桥](chan-pin-ji-gui-hua/kua-lian-qiao.md)
 * [未来规划](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
   * [零手续费DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
-  * [稳定币](chan-pin-ji-gui-hua/wei-lai-gui-hua/wen-ding-bi.md)
   * [娱乐消费](chan-pin-ji-gui-hua/wei-lai-gui-hua/yu-le-xiao-fei.md)
   * [网上购物](chan-pin-ji-gui-hua/wei-lai-gui-hua/wang-shang-gou-wu.md)
 
