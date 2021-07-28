@@ -8,8 +8,8 @@ In terms of efficiency, ZGoat has also been compared by mining users as the "Bit
 
 1. Decentralized invitation rebate mechanism
 2. Coin price "eat zero dividend" reward
-3. Wish single airdrop mode
-4. Zero handling fee exchange
+3. Wishlist airdrop mode
+4. Zero Fee Exchange
 5. Encrypted currency empowers the real economy
 
 \*\*\*\*
