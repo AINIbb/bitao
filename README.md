@@ -77,7 +77,7 @@ ZGoat aim is to help users say wishes out. Like TikTok, everyone has the need to
 
 According to long-tail theory, when product catches long-tail users, it will become a platform. Different from common DEFI application, usually only 1-2 core profit scene, ZGoat combines defi-marketing with entertainment to help users say wishes out, and others get reward by supporting wish. Different users have different wishes, that making ZGoat adopt various scene. At the same time, wish can be user-defined by  ordinary people to reduce the participation threshold of DEFI.
 
-![\( ZGoat multi-scenario application \)](.gitbook/assets/pu-tong-xiang-mu-chang-jing-vs-zgoat-chang-jing-.png)
+![\( ZGoat multi-scenario application \)](.gitbook/assets/pu-tong-xiang-mu-chang-jing-vs-zgoat-chang-jing-ying-.png)
 
 The process of wishlist is: Make A Wsh-&gt; ZGoat Support-&gt; User Participation-&gt; User Receiving ZGoat Rewards. In the whole process, the platform will get profit, such as Tx Fee during the period of staking ZGoat, 50% of unclaimed reward transferred to Marketing Management Account, Commission Fee, the currency price raising...
 
