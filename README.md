@@ -136,9 +136,11 @@ Who is the richest referrer with the new invitation mechanism? Just look forword
 
 ### 4.Future profit model: more entity economy
 
-The development of crypto, from Confused Era to Defi Era, is still limited by many factors, and it is difficult to make a breakthrough in expanding the application of crypto for a long time. ZGoat may solve the current issue of crypto. In terms of ecological layout, ZGoat will gradually apply to entity economy and double-win for a long time.
+The development of crypto, from Confused Era to Defi Era, is still limited by many factors, and it is difficult to make a breakthrough in expanding the application of crypto for a long time. ZGoat may solve the current issue of crypto. 
 
 At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + zero fee DEX + entertainment + shopping", aiming at a long-term double-win situation and devolopinig entity economy of crypto. The total amount of ZGoat issued was 21,000 billion, and the initial burning was 11,000 billion. The decentralized invitation mechanism is applied for the first time, , and it was written into the intelligent contract. The Commission ratio was 60% , when the circulating total amount reaches 2100 billion, stop burning and update the transaction fee ratio.
+
+【图片】
 
 As more real economies are applied in the future, the profit model will be more.
 
@@ -148,19 +150,31 @@ As more real economies are applied in the future, the profit model will be more.
 
 \*\*\*\*
 
-**🔥 Share For Reward:**
+**🔥 AirDrop Reward:**
 
-1\) Click the Share button and forward this article to Twitter. If get more than 10 likes, you will get 1 million ZGoat rewards, limited to the top 500; If you win more than 100 likes, you will get 10 million ZGoat rewards, top 100. First come first served
+{% tabs %}
+{% tab title="Share To Twitter" %}
+[Click me](https://twitter.com/Goat22412341/status/1420290621319761920), then follow tweet and retweet, if the retweet gets more than 10 likes, you will get reward 1,000,000 ZGoat, only for top 500; if the retweet gets more than 100 likes, you will get reward 10,000,000 ZGoat, only for top 100.
+{% endtab %}
 
-2\) Click the Share button and forward this article to the Telegram group or WeChat group. If the number of clicks sharing link exceeds 500, you will get 1 million ZGoat rewards, which is limited to the top 500; if you win more than 5,000 likes, you will get 10 million ZGoat rewards, limited to the top 100. First come first served
+{% tab title="Telegram" %}
+[Click me](https://t.me), Join our Telegram group to obtain reward, or invite friend to join our Telegram group, reward 10,000ZGoat per each user, Total reward 1,000,000 ZGoat at most.
+{% endtab %}
 
-3\) Click the Share button and forward this article to WeChat Moments. If you win more than 30 likes, you will get 1 million ZGoat rewards, which is limited to the top 500; if you win more than 300 likes, you will get 10 million ZGoat rewards, limited to the top 100. First come first served
-
-
+{% tab title="WeChat" %}
+[Click me](http://zgoat.org/reward), then obtain your privite link and picture, share to your Wechat Moment. if the Moment gets more than 30 likes, you will get reward 1,000,000 ZGoat, only for top 1000; if the Moment gets more than 300 likes, you will get reward 100,000,000 ZGoat, only for top 500. 
 
 Tips:
 
-* You can only participate in one of the above activities at most for one address. If you participate in more than one activities at the same time, the highest reward will be calculated;
+1\)You need add the assitant wechat id: **zgoat\_org**;
+
+2\)when you finish the task, give the screenshot to the assitant;
+{% endtab %}
+{% endtabs %}
+
+Tips:
+
+* You can only participate one of the above activities for one address. If you participate more than one activities at the same time, only the highest reward will be calculated;
 * All airdrop rewards are locked and need to be unlocked by staking LP;
 
 
