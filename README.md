@@ -77,7 +77,7 @@ According to long-tail theory, when product catches long-tail users, it will bec
 
 The process of wishlist is: Make A Wsh-&gt; ZGoat Support-&gt; User Participation-&gt; User Receiving ZGoat Rewards. In the whole process, the platform will get profit, such as Tx Fee during the period of staking ZGoat, 50% of unclaimed reward transferred to Marketing Management Account, Commission Fee, the currency price raising...
 
-Take a famous DEX data as comparison, ZGoat core profit data as shown below. Assuming scene number is 20% of the DEX application.
+Take a famous DEX data as comparison, ZGoat core profit data as shown below. Assuming scene using ratio is 20% of the DEX application.
 
 |  | Common  Project | ZGoat |
 | :--- | :--- | :--- |
