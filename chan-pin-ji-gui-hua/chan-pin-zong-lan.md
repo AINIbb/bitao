@@ -2,7 +2,7 @@
 
 ZGoat is the first Defi application of Marketing. By entertaining, user can make defi-marketing easier. With ZGoat, users can make a wish, and obtain ZGoat Token reward by supporting other's wish. In future, user can use ZGoat Token to join more ecological application, such as deposit, mining, bridge, business cooperation, zero-fee exchange, entertainment, shopping, etc.
 
-\[图片：营销赛道第一款产品\]
+![](../.gitbook/assets/zgoat-yu-le-hua-ji-xin-yuan-dan-.png)
 
 As the first DeFi applicaiton based on the marketing concept, ZGoat will greatly improve the marketing efficiency in cryptocurrency. ZGoat has several features, such as higher frequency, more entertaining, and a lower threshold for participation.
 
