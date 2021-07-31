@@ -2,7 +2,7 @@
 
 Wishlist is the main function of ZGoat's application, which any user or application owners can participate or make a wish. The main function of Wishlist is to solve the problem of low efficient marketing in crypto. On the other hand, Wishlist can help ordinary users to participate Defi with lower the threshold, more entertainment, higher frequency. 
 
-【图片，ZGoat娱乐化及心愿单】
+![](../.gitbook/assets/zgoat-yu-le-hua-ji-xin-yuan-dan-.png)
 
 What's more, Users can make user-defined wish in the next version, with better user experience.
 
