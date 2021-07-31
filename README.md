@@ -15,23 +15,23 @@ Up to now, all current Defi application designs are based on the idea of basic p
 For any application of consensus economy, the stronger the consensus, the greater the value. The popularity of Defi has made the rapid development of cryptocurrency. However, it still faces many problems:
 
 * The participation threshold for ordinary users is still high.
-* The operation experience is also bad.
+* The user experience is so bad.
 * Low frequency
 
-By entertaining, ZGoat makes the defi application be used more widely, frequency higher, entertaining more, participation threshold lower.
+By entertaining, ZGoat makes the defi application more widely, frequency higher, entertaining more, and participation threshold lower.
 
 ![Little Girl, Meet Zuckerberg](.gitbook/assets/03.png)
 
-Taking [WISH001](http://zgoat.org/#/Home) as example, the first wish launched by a little girl on ZGoat platform was related with Zuckerberg's Twitter about Bitcoin. As the founder of the world's largest social platform, Zuckerberg has huge followings. And the little girl is a common person in the world. the wish to link "Zuckerberg" with "little girl", has its own huge topic effect. On the other hand, user will be rewarded with ZGoat Token by supporting the wish, which is a further encourage for users to participate.
+Taking [WISH001](http://zgoat.org/#/Home) as example, the first wish launched by a little girl on ZGoat platform was related with Zuckerberg's Twitter about Bitcoin. As the founder of the world's largest social platform, Zuckerberg has huge followings. However the little girl is a common person in the world. the wish to combine "Zuckerberg" with "little girl", has its own huge topic effect. On the other hand, users will be rewarded with ZGoat Token by supporting the wish, which is a further encourage for users to participate.
 
 1. _**\[Entertainment\]**_ Help the little girl meet Zuckerberg;
-2. _**\[Low threshold\]**_ Users only need copy to comment, and they will get the opportunity for rewards;
+2. _**\[Low threshold\]**_ Users only need copy to comment, and they will get ZGoat reward;
 3. _**\[High frequency\]**_ Everyone can make a wish with different ideas, generating high-frequency applications;
-4. _**\[Secondary marketing\]**_ Hot wishes can form secondary topic for marketing and ZGoat will gradually become the leading brand of defi-marketing;
+4. _**\[Second marketing\]**_ Huge participation can form new topic for marketing and ZGoat will gradually become the high efficient brand of defi-marketing;
 
 As a result, any hot topic can be embedded in the wish list, such as "Wu Yifan event", that can be made a wish by someone, the theme such as "Kris Wu, ZhaNan". Another example, Zhengzhou Flood also can be made a wish, the theme such as "Zhengzhou Power".
 
-ZGoat wishlist always combines the newest and hottest topic, with high user participation and low threshold. Different from other products, there are usually only two or three Marketing Event. ZGoat can combine hot topics all the time, with various scene.
+ZGoat wishlist can combine the newest and hottest topic at any time, with high user participation and low threshold. Different from other products, which usually only have two or three Marketing Event. ZGoat can combine hot topics all the time, with various Marketing Event.
 
 ![Wishlist Based on Current Hot Topic](.gitbook/assets/wish_example.png)
 
