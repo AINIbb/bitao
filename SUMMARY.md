@@ -9,7 +9,6 @@
 * [Bridge](chan-pin-ji-gui-hua/kua-lian-qiao.md)
 * [Future Plan](chan-pin-ji-gui-hua/wei-lai-gui-hua/README.md)
   * [Zero Fee DEX](chan-pin-ji-gui-hua/wei-lai-gui-hua/ling-shou-xu-fei-dex.md)
-  * [Stable Token](chan-pin-ji-gui-hua/wei-lai-gui-hua/wen-ding-bi.md)
   * [Entertainment](chan-pin-ji-gui-hua/wei-lai-gui-hua/yu-le-xiao-fei.md)
   * [Shopping](chan-pin-ji-gui-hua/wei-lai-gui-hua/wang-shang-gou-wu.md)
 

@@ -1,15 +1,10 @@
 # Future Plan
 
-ZGoat's goal is to open the era of real economy empowered by encrypted currency, reduce the threshold of users' participation, and enable the new technology of encrypted currency to be applied to people's fields such as food, clothing, housing and transportation, etc, let users experience the convenience brought by emerging technologies.
+The goal of ZGoat is making Defi-marketing easier, and making a new era of cryptocurrency application combining with entity economy. In the future, ZGoat will further lowe the threshold of users' participation, and enable the new technology of cryptocurrency to be applied in people's daily life and makes users enjoy the convenience of new technologies.
 
-‌
+Future plans including:
 
-Future plans include:
-
-‌
-
-* Free handling fee DEX
-* Stable currency
-* Entertainment consumption
-* Online shopping
+* Zero Fee DEX
+* Entertainment
+* Shopping
 
