@@ -1,4 +1,4 @@
-# Invitation Rules
+# Invitation Reward Rules
 
 60% handling fee is charged for each transfer transaction between users, of which 1% is used to add LP,3% is used to operate accounts, 1% is transferred to the black hole address, and 1% is used to pay dividends to the holders.
 

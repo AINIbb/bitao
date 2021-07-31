@@ -16,7 +16,7 @@
 
 * [Tokenomics](dai-bi/dai-bi-fen-pei.md)
 * [Deflation](dai-bi/tong-suo-ji-zhi.md)
-* [Invitation Rules](dai-bi/yao-qing-fan-yong-gui-ze.md)
+* [Invitation Reward Rules](dai-bi/yao-qing-fan-yong-gui-ze.md)
 * [EatZero Reward](dai-bi/chi-ling-fen-hong-gui-ze.md)
 
 ## Marketing <a id="shi-chang"></a>
