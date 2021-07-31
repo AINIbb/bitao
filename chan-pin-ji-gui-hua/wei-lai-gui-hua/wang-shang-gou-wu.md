@@ -1,12 +1,10 @@
 # Shopping
 
-As a new transaction medium, encrypted currency has gradually highlighted its advantages after more than ten years of development. With people's further deepening of encrypted currency, it is imperative to apply encrypted currency to people's food, clothing, housing and transportation.
+As a new type currency, cryptocurrency has gradually performed its advantages with development of several ten years. With further understanding of cryptocurrency, it is easy to apply cryptocurrency into people's daily life.
 
-The e-commerce platform will be the first experimental product of encrypted currency.
+The e-commerce platform will be the first experimental product with ZGoat.
 
-1\) the price is cheaper than the existing legal tender system;
-
-2\) high transaction frequency
-
-3\) custom
+* [ ] Price using ZGoat is cheaper than fiat;
+* [ ] High transaction frequency
+* [ ] User-defined
 

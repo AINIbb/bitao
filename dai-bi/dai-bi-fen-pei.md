@@ -1,6 +1,6 @@
-# Token Allocation
+# Tokenomics
 
-Zuck's Goat pass certificate is ZGoat, the total amount is 21,000 billion, the initial black hole destruction amount is 11,000 billion, 5% as operating expenses, including airdrop, wish reward, zero bonus, etc, the rest is used to build a liquidity pool.
+Zuck's Goat token is ZGoat, the total supply is 21,000 billion, the initial blackhole burnt is 11,000 billion, 5% for Operating Management Account, that is used for marketing activities such as airdrop, wish reward, Eatzero Reward, etc, the rest of all is used to add a LP on Pancakeswap.
 
 60% handling fee is charged for each transfer transaction between users, of which 1% is used to add LP,3% is used to operate accounts, 1% is transferred to the black hole address, and 1% is used to pay dividends to the holders.
 
