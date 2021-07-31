@@ -37,7 +37,7 @@ ZGoat wishlist can combine the newest and hottest topic at any time, with high u
 
 ## 三、Big Business
 
-Different from other product design based on the idea of product application , ZGoat is an innovative leading product based on the idea of marketing application, with small closed-loop business model concept. ZGoat has a big business profit model. According to market data, for many products, they are extramely lacking of marketing topics when developing. The lack of marketing topics often leads to the accelerated profit decline, and even makes product fail.
+Different from other product design, ZGoat is an innovative leading product based on the idea of marketing application, with small closed-loop business model. ZGoat has a big business profit model. According to market data, for many products, they are extramely lacking of marketing topics when developing, leading to the accelerated profit decline, and even makes product fail.
 
 ### 1.The basic profitability is 315 times than Shib
 
@@ -46,10 +46,10 @@ Different from other product design based on the idea of product application , Z
 At the beginning of the design, ZGoat integrated the marketing concept into the small closed-loop design of the product, as shown in the above figure, which can be simply summarized into the following steps:
 
 * Generate a wish based on the current hot topics, and provide ZGoat rewards for users;
-* User participating is simplified and entertaining to ensure that ordinary users can also participate;
-* Airdrop rewards users received need to unlock by staking ZGoat LP, increasing ZGoat price and generating handling fees;
-* Part of handling fee is transferred to the Marketing Management Account to ensure that there are enough ZGoat to support airdrop marketing activities without interruption;
-* Generate new hot topics and form a small closed loop, making ZGoat always be hottest;
+* Users participate simply and ordinary users can participate by entertaining;
+* Airdrop rewards need to unlock by staking ZGoat LP, gaining transaction fee;
+* Part of transaction fee is sent to the Marketing Management Account to ensure that there are enough ZGoat to support airdrop marketing activities without interruption;
+* Huge participation forms new hot topics and a small closed loop;
 
 According to Shib transaction data of feixiaohao.com, the 24h volume is $0.375 billion, with 2.22% price increase in the past 30 days. For the ZGoat, assuming the volume is only 20% of Shib.
 
