@@ -109,7 +109,7 @@ For other DEFI product, early participants will get a strong price advantage, wh
 > 2. No matter early participants or later participants, the mechanism is the same standard.
 > 3. In the past, people in Crypto can only make money by price rising of tokens or contracts. ZGoat's invitation mechanism may create a new profit way.
 
-\[picture\]
+![The new profit way of the crypto industry](.gitbook/assets/jia-mi-hang-ye-xin-de-ying-li-mo-shi-ying-.png)
 
 For example, Address A is the referrer of Address B. Address A sends 10,000,000 ZGoat to Address B as the first one, then will be reward 60% transaction fee of distributed to holder permanently. Calculating with the current price of ZGoat, 10,000,000ZGoat values $1.
 
