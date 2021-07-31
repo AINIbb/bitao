@@ -6,9 +6,11 @@
 
 {% page-ref page="xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md" %}
 
-## 滑点滑
+## 无法兑换ZGoat?
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+1、查看是否有足够的gas费
+
+2、根据市场行情可适当调节交易滑点
 
 
 
