@@ -41,7 +41,7 @@ Different from other product design, ZGoat is an innovative leading product base
 
 ### 1.The basic profitability is 315 times than Shib
 
-![Closed Loop Business Model](.gitbook/assets/xiao-bi-huan-ying-.png)
+![Closed Loop Business Model](.gitbook/assets/xiao-bi-huan-ying-%20%281%29.png)
 
 At the beginning of the design, ZGoat integrated the marketing concept into the small closed-loop design of the product, as shown in the above figure, which can be simply summarized into the following steps:
 
