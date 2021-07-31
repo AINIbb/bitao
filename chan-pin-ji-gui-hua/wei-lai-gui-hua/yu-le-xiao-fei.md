@@ -1,6 +1,6 @@
 # Entertainment
 
-Due to various reasons, the encrypted currency industry is still in a low-frequency state. Applying encrypted currency to entertainment scenarios can greatly increase the frequency of encrypted currency on the one hand, and enhance the marketing effect on the other hand, it helps to raise the consensus of the encryption industry and allow more new users to enter at a low threshold.
+Due to various reasons, the cryptocurrency is still in a low-frequency stage. Combining cryptocurrency with entertainment can greatly increase the frequency of the application using. On the other hand, it helps to improve the marketing efficiency of the cryptocurrency and allow more new users to enter into the world of crypto with a low threshold.
 
-A voting survey will be launched on how to choose the entertainment industry for consumption in order to better empower the real economy.
+A vote will be launched on how to choose the entertainment for combining with crypto, with a better breakthrough.
 
