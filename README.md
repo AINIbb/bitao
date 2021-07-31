@@ -4,25 +4,21 @@
 
 ![ZGoat: Make Defi-Marketing Easier](.gitbook/assets/512x512-1.png)
 
-## 一、Defi-Marketing Is A Blank Area
+## 一、Defi-Marketing Is Blank
 
-Crypto has experienced four stages of development: **2009-2013 Confused Era, 2013-2017 Crazy Era, 2017-2021 DeFi Era, 2021-? Entity Economy Application Era**
-
-In confused era, crypto marketing is in small communication, with little effect. By the ICO Crazy in 2017, crypto marketing is through the crazy "ten thousand times" ROI,  then be cold due to the lack of application; With the popularization of Defi, the crypto marketing has been needed by various Defi Application,such as lending, DEX, Aggregation, Asset Data, Bridge-Chain, etc. However, the method of defi-marketing is just community with low efficiency.
-
-All current Defi application designs are based on the idea of basic product, however the design based on the idea of marketing is completely blank. The product application  is full of varieties, but marketing application is completely blank. ZGoat will solve this problem and is the first Defi-marketing application with big business.
+Up to now, all current Defi application designs are based on the idea of basic product, the method of defi-marketing is just community with low efficiency. What's more, the Defi application design based on the idea of marketing is completely blank. The more product application, the stronger defi-marketing need. ZGoat will solve this problem and is the first Defi-marketing application with big business.
 
 ![&#xFF08;Marketing Application Is Blank&#xFF09;](.gitbook/assets/chan-pin-sai-dao-vs-ying-xiao-sai-dao-ying-wen-.png)
 
 ## 二、Make Defi-Marketing Easier
 
-For any application of consensus economy, the larger the consensus, the greater the value. The popularity of Defi project has made the rapid development of cryptocurrency. However, it still faces many problems:
+For any application of consensus economy, the stronger the consensus, the greater the value. The popularity of Defi has made the rapid development of cryptocurrency. However, it still faces many problems:
 
 * The participation threshold for ordinary users is still high.
 * The operation experience is also bad.
 * Low frequency
 
-Through entertainment, ZGoat makes the defi application be used more widely, and the using frequency higher, entertaining more, participation threshold lower.
+By entertaining, ZGoat makes the defi application be used more widely, frequency higher, entertaining more, participation threshold lower.
 
 ![Little Girl, Meet Zuckerberg](.gitbook/assets/03.png)
 
