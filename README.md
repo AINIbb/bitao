@@ -140,7 +140,7 @@ The development of crypto, from Confused Era to Defi Era, is still limited by ma
 
 At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + zero fee DEX + entertainment + shopping", aiming at a long-term double-win situation and devolopinig entity economy of crypto. The total amount of ZGoat issued was 21,000 billion, and the initial burning was 11,000 billion. The decentralized invitation mechanism is applied for the first time, , and it was written into the intelligent contract. The Commission ratio was 60% , when the circulating total amount reaches 2100 billion, stop burning and update the transaction fee ratio.
 
-
+![](.gitbook/assets/dai-bi-fen-pei-.png)
 
 As more real economies are applied in the future, the profit model will be more.
 
