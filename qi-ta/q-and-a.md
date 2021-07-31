@@ -1,10 +1,12 @@
 # Q&A
 
-## DAN wItG DAN be?
+## 余额中锁仓的ZGoat不能交易？
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+用户通过平台空投、心愿奖励等方式获得的ZGoat , 可通过质押LP解锁后交易
 
-## Have you had a chance to answer the previous question?
+{% page-ref page="xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md" %}
+
+## 滑点滑
 
 Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
 
