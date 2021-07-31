@@ -1,4 +1,4 @@
-# Deflation
+# Burnt
 
 At present, the deflation model adopting dividend mechanism has 6 main destruction ways, which are divided into three stages step by step.
 
