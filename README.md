@@ -49,49 +49,50 @@ At the beginning of the design, ZGoat integrated the marketing concept into the 
 * Users participate simply and ordinary users can participate by entertaining;
 * Airdrop rewards need to unlock by staking ZGoat LP, gaining transaction fee;
 * Part of transaction fee is sent to the Marketing Management Account to ensure that there are enough ZGoat to support airdrop marketing activities without interruption;
-* Huge participation forms new hot topics and a small closed loop;
+* Huge participation forms new hot topics, making topic spread more widely;
 
-According to Shib transaction data of feixiaohao.com, the 24h volume is $0.375 billion, with 2.22% price increase in the past 30 days. For the ZGoat, assuming the volume is only 20% of Shib.
+According to Shib transaction data of CoinMarketCap, the 24h volume is $0.25 billion, with 2.22% price increase in the past 30 days. **For the ZGoat, assuming 24h volume is only 1% of Shib.**
 
 |  | Shib | ZGoat |
 | :--- | :--- | :--- |
-| 24h Valume | 375,000,000 | 75,000,000 |
+| 24h Valume | 250,000,000 | 2,500,000 |
 | 30Day Price Change | 2.22% | 150% |
 | Investment Cost | 1000 | 0 |
 |  |  |  |
-| **Profit** | **22.2** | **525,000,000** |
+| **Profit** | **22.2** | **17,500,000** |
 
 {% hint style="info" %}
-Assuming that each user transfers $1,000 on average within 24h, the number of Shib participants is 375000, and the number of ZGoat participants is 1/5 of Shib, about 75000, then a month later, user investing Shib users will get a profit of $22.2. The profit of the ZGoat is calculated as: \(6% +1%\)  _\* 0.375 billion_  \* 20% \* _\(1+1/3\)_  \* 30 \*  \(1 + 150%\) = $0.525 billion, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.
+Assuming that each user transfers $1,000 on average within 24h, the number of Shib participants is 250000, and the number of ZGoat participants is 1/100 of Shib, about 2500. The profit of the ZGoat is calculated as: \(6% +1%\)  _\* 0.25 billion_  \* 1% \* _\(1+1/3\)_  \* 30 \*  \(1 + 150%\) = $17.5 million, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.
 {% endhint %}
 
-From the above model, ZGoat's basic profitability is hundreds of times than Shib. Even if all the profits are distributed to all users through AirDrop, each person invests $1,000 on average, then the number of participants is 75000. The average profit is $0.525 billion/75000 = $7000.**That is, the basic profitability of ZGoat is 7000/22.2=315 times than Shib.**
+From the above model, ZGoat's basic profitability is hundreds of times than Shib. Assuming each person invests $1,000 on average, then the number of participants is 2500. The average profit is $17.5 million/2500 = $7000.**That is, the basic profitability of ZGoat is 7000/22.2=315 times than Shib.**
 
 ### 2.The core profit scene is like TikTok, in daily life
 
-ZGoat aim is to help users say wishes out. Like TikTok, everyone has the need to show himself, and also has the need to support other's show or wish. When the number of ZGoat holders reaches a certain number, the platform will open WISHLIST function, for user-defined wish, including text, picture or even video form. Different from TikTok, the wish has a positive energy goal, which is against the feature of killing time.
+ZGoat aim is to help users say wishes out. Like TikTok, everyone has need to show himself, and also has  need to support other's show or wish. When the number of ZGoat holders reaches a certain number, the platform will open WISHLIST function, for user-defined wish, including text, picture or even video form. Different from TikTok, the wish has a positive energy goal, which is against the feature of killing time.
 
-According to long-tail theory, when product catches long-tail users, it will become a platform. Different from common DEFI application, usually only 1-2 core profit scene, ZGoat combines defi-marketing with entertainment to help users say wishes out, and others get reward by supporting wish. Different users have different wishes, that making ZGoat adopt various scene. At the same time, wish can be user-defined by  ordinary people to reduce the participation threshold of DEFI.
+According to long-tail theory, when product catches long-tail users, it will become a platform. Different from common DEFI application, usually only 1-2 core profit scene, ZGoat combines defi-marketing with entertainment to help users say wishes out, and others get reward by supporting wish. Different users make different wishes, that making ZGoat adopt hundreds of scenes. At the same time, wish can be user-defined by  ordinary people to reduce the participation threshold of DEFI.
 
-![\( ZGoat multi-scenario application \)](.gitbook/assets/pu-tong-xiang-mu-chang-jing-vs-zgoat-chang-jing-ying-.png)
+![\( ZGoat Hundreds Of Scenes Application \)](.gitbook/assets/pu-tong-xiang-mu-chang-jing-vs-zgoat-chang-jing-ying-.png)
 
 The process of wishlist is: Make A Wsh-&gt; ZGoat Support-&gt; User Participation-&gt; User Receiving ZGoat Rewards. In the whole process, the platform will get profit, such as Tx Fee during the period of staking ZGoat, 50% of unclaimed reward transferred to Marketing Management Account, Commission Fee, the currency price raising...
+
+Take a famous DEX data as comparison, ZGoat core profit data as shown below. Assuming scene number is 20% of the DEX application.
 
 |  | Common  Project | ZGoat |
 | :--- | :--- | :--- |
 | Scene Number | 2 | 10000 |
-| Using Ratio | 100% | 20% |
-| Tx Volume | 0.1 Billion\(DEX\) | 1000 |
-| 30-day Volume | 6 Billion | 0.06 Billion |
-| Tx Fee | 3000w | 840w |
-| Unlock Profit | 0 | 1260w |
+| Tx Volume Each Scene | 0.1 Billion | 1000 |
+| 30-Day Volume | 6 Billion | 0.06 Billion |
+| Tx Fee | 3000w | 420w |
+| LP Unlock Profit | 0 | 630w |
 | Aridrop Unclaim | 0 | 1200w |
-| Commission Fee | 1/3 | 20% |
+| Commission Fee | 1/3 | 10% |
 |  |  |  |
-| **Total Profit** | **1000w** | **4500w** |
+| **Total Profit** | **1000w** | **2850w** |
 
 {% hint style="info" %}
-Assume that using ratio of ZGoat is 1/5 of common projects, and ZGoat staking for each wish is valued $1,000 \(refer to TikTok\), then the volume of the 30-day wishlist  is: 10000/5_\*_30_\*_1000 = $60 million. Profit: \(6% +1%\) _\* 0.06 billion \*_  2 \* _\(1+150%\)+0.06 billion_  \* 20% +0.06 billion \* 20% = $45 million, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.Proportion of  unclaim is assumed to be 20%, and proportion of commission fee is 20%.
+Assume that ZGoat staking for each wish is valued $1,000, then the volume of the 30-day wishlist  is: 10000/5_\*_30_\*_1000 = $60 million. Profit: \(6% +1%\) _\* 0.06 billion_ \* _\(1+150%\)+0.06 billion_  \* 20% +0.06 billion \* 10% = $28.5 million, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.Proportion of  unclaim is assumed to be 20%, and proportion of commission fee is 10%.
 {% endhint %}
 
 Since the cost of this part is zero, thus this profit can be used for raising currency price or other marketing activities, forming a positive loop. On the other hand, with the increase of holders, the application scene will also increase, and the profits of this part will also rise, with big imagination.
