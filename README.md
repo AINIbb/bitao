@@ -101,20 +101,22 @@ Since the cost of this part is zero, thus this profit can be used for raising cu
 
 ### 3.Magic profit model: ROI = 120,000
 
-![\( To Be Referrer will be rewarded \)](.gitbook/assets/qu-zhong-xin-hua-yao-qing-fan-yong-ying-.png)
+![\( To Be Referrer Will Be Rewarded \)](.gitbook/assets/qu-zhong-xin-hua-yao-qing-fan-yong-ying-.png)
 
 For other DEFI product, early participants will get a strong price advantage, which seems not fair. As a better wish, Who brings profit should enjoy the highest percentage of profit. ZGoat's invitation mechanism will meet this demand well:
 
 > 1. The mechanism is written into the decentralized contract, without human intervention, and is fair for everyone;
-> 2. No matter early participants or later participants, the mechanism is in the same standard.
-> 3. In the past, people in Crypto can only make money by rising the price of tokens or contracts. ZGoat's invitation mechanism may create a new profit way. Due to the large proportion of commission, it is now set 60% Transaction Fee Of Distributed To Holder Permanently. If big-volume users can be invited, the profit will be magic.
+> 2. No matter early participants or later participants, the mechanism is the same standard.
+> 3. In the past, people in Crypto can only make money by price rising of tokens or contracts. ZGoat's invitation mechanism may create a new profit way.
+
+\[picture\]
+
+For example, Address A is the referrer of Address B. Address A sends 10,000,000 ZGoat to Address B as the first one, then will be reward 60% transaction fee of distributed to holder permanently. Calculating with the current price of ZGoat, 10,000,000ZGoat values $1.
 
 |  | Address A |
 | :--- | :--- |
 | Invitation cost | 1000w ZGoat |
-| Cost value | $1 |
 | Reward rate | 60% |
-| Address B trading platform | Pancakeswap |
 | Address B monthly transaction volume = 0 | -$1 |
 | Address B monthly transaction volume = $1,000 | $12 |
 | Address B monthly transcation volume = $100,000 | $1200 |
@@ -123,12 +125,10 @@ For other DEFI product, early participants will get a strong price advantage, wh
 | **Return on Investment** | **Up to 120,000 times** |
 
 {% hint style="info" %}
-Address A is the referrer of Address B. 
-
-According to invitation mechanism, Address A has sent 10M zgoats to address B, valued $1. In the future, address A will get reward 1.2% or 0.6% each transaction of address B. . If address B is a big-volume user, the transaction volume within 30 days is $10 million, then the Commission fee of address A is $12,000 or $6,000, **that means, a monthly return on investment is 120,000 times**. At the same time, address A can invite more users, which means, return on investment of address A will be so huge.
-
-Of course, if the user invited by address A has not transaction, address A will lose $1.
+According to invitation mechanism, if address B is a big-volume user, the transaction volume within 30 days is $10 million, then the Commission fee of address A is $12,000 or $6,000, **that means, a monthly return on investment is 120,000 times**. At the same time, address A can invite more users, which means, return on investment of address A will be so huge. Of course, if the user invited by address A has not transaction, address A will lose $1.
 {% endhint %}
+
+Who is the richest referrer with the new invitation mechanism? Just look forword. users can check referrer  information by [Check Referrer](http://zgoat.org/#/Reward). 
 
 {% page-ref page="dai-bi/yao-qing-fan-yong-gui-ze.md" %}
 
