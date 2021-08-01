@@ -12,7 +12,7 @@
 
 加密行业的应用百花齐放，却均是基于产品赛道而设计，而基于市场营销赛道却完全空白。产品赛道琳琅满目，营销赛道却一片蓝海，ZGoat的出现，将填补这一空白，成为营销赛道的第一款产品。
 
-![](.gitbook/assets/chan-pin-sai-dao-vs-ying-xiao-sai-dao-zhong-.png)
+![&#x8425;&#x9500;&#x8D5B;&#x9053;&#x4E00;&#x7247;&#x7A7A;&#x767D;](.gitbook/assets/chan-pin-sai-dao-vs-ying-xiao-sai-dao-zhong-.png)
 
 ## 二、让DEFI营销娱乐化
 
