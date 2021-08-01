@@ -8,7 +8,7 @@
 
 Up to now, all current Defi application designs are based on the idea of basic product, the method of defi-marketing is just community with low efficiency. What's more, the Defi application design based on the idea of marketing is completely blank. The more product application, the stronger defi-marketing need. ZGoat will solve this problem and is the first Defi-marketing application with big business.
 
-![&#xFF08;Marketing Application Is Blank&#xFF09;](.gitbook/assets/chan-pin-sai-dao-vs-ying-xiao-sai-dao-ying-wen-.png)
+![&#xFF08;Marketing Application Is Blank&#xFF09;](.gitbook/assets/chan-pin-sai-dao-vs-ying-xiao-sai-dao-ying-wen-%20%281%29.png)
 
 ## 二、Make Defi-Marketing Easier
 
