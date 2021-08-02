@@ -12,13 +12,13 @@ The Blackhole owned over 52% of supply at launch. The Blackhole counts as one of
 
 ### 2\) Unclaim Airdrop Reward <a id="cK0v5"></a>
 
-According to the product attributes of ZGoat, users can customize their wishes to publish, and other users can get rewards by participating in their wishes. In order to prevent behaviors such as robot cheating and stimulate users' activity, all rewards for AirDrop activities are set to be valid. Fifty percent of tokens that are not collected after the validity period will enter the Operation account and fifty percent will be used for destruction;
+According to airdrop rules of ZGoat, users can make user-defined wishes and others get rewards by supporting wishes. In order to prevent cheating such as robot cheating, and improve users' passion, all rewards claim for AirDrop Activities are set a period of validity. If users unclaim reward in the period of validity, Fifty percent will be sent back to Operation Management Account and fifty percent will be burnt;
 
 
 
 ### 3\) Stake For Making A Wish <a id="fiDeI"></a>
 
-According to the release wish function, the initial ZGoat that the user initiates the wish pledge or the raised ZGoat will have a certain display period. During the display period, the ZGoat that is distributed by the holder of the currency will be thrown into the black hole address for destruction.
+According to the Wishlist function, the ZGoat that the users stake for making a wish or being supported will have a certain period for display. During the period, the ZGoat that is distributed to holderwill be sent to blackhole burnt.
 
-_Tips: Other destruction methods to be announced_
+_Tips: the remaining burnt ways will be announced soon_
 
