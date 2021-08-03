@@ -1,10 +1,16 @@
 # EatZero Reward
 
-\( Rules and Regulations for receiving zero bonus\( Rules and Regulations for receiving zero bonus \)A common economic product cannot be separated from the strong support of users. Products in the encrypted currency field have a very important parameter: currency price
+The success of application in consensus economy comes from the strong support of users. Whether the application is successful has a very important parameter: **Price.**
 
-**Witness the highlight moment! Life should have a sense of ceremony!**
+\*\*\*\*
 
-When the price of the currency rises, all participants gain profits. At the same time, when the price of the currency increases by 10 times, which is equivalent to a zero reduction in the value of the currency, in order to celebrate the joint efforts of everyone. The administrator account will take out 5% of the shares from the LP pool to obtain ZGoat and ds-, among which ZGoat is transferred to the black hole address for destruction, and 80% of zris evenly distributed according to the user's consensus value ratio, 20% of the MNS are equally divided according to the proportion of the total number of rewards offered by users.
+**Witness highlight moment of price milestone !**
+
+When price increases, all holders get huge gain. At the same time, if the price increases 10 times, that is, the price seems to be 'eaten a zero'. In order to witness the highlight moment of price milestone, EatZero Reward will be launched.
+
+EatZero Reward rules is described as below:
+
+The account of ownership will take out 5% of the shares from the LP pool, then delete liquidity to obtain ZGoat and BNB, of which ZGoat is sent to the blackhole burnt and BNB is distributed to holders. address for destruction, and 80% of zris evenly distributed according to the user's consensus value ratio, 20% of the MNS are equally divided according to the proportion of the total number of rewards offered by users.
 
 * Current currency price:
 * Estimated dividends:
