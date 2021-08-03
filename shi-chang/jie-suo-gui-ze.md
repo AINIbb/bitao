@@ -1,14 +1,40 @@
 # Unlock Rule
 
-All ZGoat rewards obtained through AirDrop, Wish List and community activities need to be unlocked by staking LP.
+All ZGoat rewards obtained through AirDrop, Wishlist and Community Activities need to unlocked by staking LP.
 
-Unlock calculation formula:
+**1\)Unlock calculation formula:**
 
-**Unlock quantity per block = LP quantity/5184000 \* LP pledge Time \* unlock quantity**
+Unlock Speed = LP \* Time ^ 0.125 \*  K
 
-1.LP quantity refers to the quantity of LP pledged by users ZGoat-BNB the fund pool,[Click here to pledge LP](https://www.baidu.com/)
+Unlock MaxSpeed = Locked\_Num / 86400
 
-2. The number of unlocked zgoats is the number of zgoats that the user needs to unlock Currently;
+Unlocked\_Num= Unlock Speed \* Time
+
+{% hint style="info" %}
+_LP_ refers to the amount of LP that users stake to unlock ZGoat; _Time_ refers to the amount of block in the period of staking LP; _K_ is a constant, that can be optimized according to market feedback.
+{% endhint %}
+
+![Unlocked\_Num Simulation](../.gitbook/assets/image%20%284%29.png)
+
+As shown above, with Time increases, the amount of unlocked ZGoat will result in exponential growth. When unlock speed reachs Max speed, the amount of unlocked ZGoat will increase linearly.
+
+
+
+**2）Unlock APY**
+
+Unlock APY = Amount of Unlocked ZGoat / Value of Staking LP  \* （365 / Unlocked Spent Time）\* 100%
+
+Simplified as below：
+
+**APY =** Time ^ 0.125 \*  K1 \* 100%
+
+{% hint style="info" %}
+_K1_ is a constant, that can be optimized according to market feedback.
+{% endhint %}
+
+![Simulation Of Unlock APY](../.gitbook/assets/image%20%285%29.png)
+
+Note that，because of the max speed, APY will reach the maximum with time going.
 
 
 

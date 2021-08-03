@@ -12,9 +12,8 @@ Basic cooperation requirements:
 
 Business Contact Information:
 
-Telegraph: _@zgoat\_org_
-
-WeChat: _zgoat\_org_
+* Telegraph: _**@zgoat\_org**_
+* WeChat: _**zgoat\_org**_
 
 \*\*\*\*
 
