@@ -2,8 +2,7 @@
 
 All official announcements are listed here for your convenience of reading.
 
-* Title 1
-* Title 2
-* Title 3
-* Title 4
+{% page-ref page="1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md" %}
+
+
 
