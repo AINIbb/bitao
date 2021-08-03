@@ -22,7 +22,7 @@
 ## Marketing <a id="shi-chang"></a>
 
 * [Media Report](shi-chang/mei-ti-bao-dao.md)
-* [Airdrop](shi-chang/kong-tou-huo-dong/README.md)
+* [Airdrop & Cooperation](shi-chang/kong-tou-huo-dong/README.md)
   * [Wish001：ZGoat From Zero](shi-chang/kong-tou-huo-dong/wish001-zgoat-from-zero.md)
   * [Market001：Join Telegram AirDrop](shi-chang/kong-tou-huo-dong/market001-join-telegram-airdrop.md)
 * [Unlock Rule](shi-chang/jie-suo-gui-ze.md)

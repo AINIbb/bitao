@@ -17,10 +17,6 @@ Consensus Point = LP amout * LP holdtime, within
  30day
 $$
 
-$$
-Total Reward = Airdrop Reward + Invitation Reward
-$$
-
 * Current Price: $0.0000001
 * Estimated Reward: 100 BNB
 * Goal Price: $0.000001
