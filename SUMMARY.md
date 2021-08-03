@@ -30,7 +30,7 @@
 ## Other <a id="qi-ta"></a>
 
 * [Announcement](qi-ta/guan-fang-gong-gao/README.md)
-  * [1.ZGoat's announcement of starting the first round of airdrop](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
+  * [1.First Airdrop](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
 * [Tutorial](qi-ta/xin-shou-jiao-cheng/README.md)
   * [1.How to buy ZGoat ?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
   * [2.How to Be a referer？](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
