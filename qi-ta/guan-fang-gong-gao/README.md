@@ -5,3 +5,7 @@
 * ZGoat开始首轮空投的公告
 * ZGoat首个心愿单开启公告
 
+{% page-ref page="1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md" %}
+
+
+
