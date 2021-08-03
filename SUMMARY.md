@@ -39,5 +39,5 @@
   * [5.如何解锁ZGoat？](qi-ta/xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md)
   * [6.如何参与市场活动空投](qi-ta/xin-shou-jiao-cheng/7.-ru-he-can-yu-shi-chang-huo-dong-kong-tou.md)
 * [联系我们](qi-ta/lian-xi-wo-men.md)
-* [Q&A](qi-ta/q-and-a.md)
+* [常见问题](qi-ta/q-and-a.md)
 
