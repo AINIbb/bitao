@@ -1,5 +1,7 @@
 # Zero Fee DEX
 
+The goal of ZGoat is making Defi-marketing easier, and making a new era of cryptocurrency application combining with entity economy. In the future, ZGoat will further lower the threshold of users' participation, and enable the new technology of cryptocurrency to be applied in people's daily life and makes users enjoy the convenience of new technologies.
+
 The main profit model of current exchanges, including CEX and DEX, is charging transation fees. According to the experience of Internet technology development, three major stages have experienced :
 
 1. Paid Internet: mainly focuses on early Internet products, such as charged anti-virus software.
