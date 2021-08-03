@@ -1,6 +1,8 @@
 # Wish001：ZGoat From Zero
 
-> When graduated for job, as a female, it's so hard because of sexism. As a code farmer, I made a wish to my idol, Zuckerberg. Fortunately, then I get a job in blockchain, feeling cheerful, fair and loved. My wish comes ture. The idea about WISH TOKEN comes in my mind, to help everyone say wish out. At that time, Zuck tweets "My Zgoats: MAX and BITCOIN", therefore the token is named "ZGOAT". And I make the second wish: Little Girl, Meet Zuck!
+\[wish001图片\]
+
+> When graduated for job, as a female, it's so hard because of sexism. As a code farmer, I made a wish to my idol, Zuckerberg. Fortunately, then I get a job in blockchain, feeling cheerful, fair and loved. My wish comes ture. The idea about WISH TOKEN comes in my mind, to help everyone say wish out. At that time, Zuck tweets "My goats: MAX and BITCOIN", therefore the token is named "ZGOAT". And I make the second wish: Little Girl, Meet Zuck!
 
 心愿一般分为四个阶段：
 
