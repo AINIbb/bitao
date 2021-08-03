@@ -10,22 +10,31 @@ When price increases, all holders get huge gain. At the same time, if the price 
 
 EatZero Reward rules is described as below:
 
-The account of ownership will take out 5% of the shares from the LP pool, then delete liquidity to obtain ZGoat and BNB, of which ZGoat is sent to the blackhole burnt and BNB is distributed to holders. address for destruction, and 80% of zris evenly distributed according to the user's consensus value ratio, 20% of the MNS are equally divided according to the proportion of the total number of rewards offered by users.
+The account of ownership will take out 5% of the shares from the LP pool, then delete liquidity to obtain ZGoat and BNB, of which ZGoat is sent to the blackhole burnt and BNB is distributed to holders. 80% of BNB is distributed according to Consensus Point ratio, and 20% of BNB is distributed according to Total Reward.
 
-* Current currency price:
-* Estimated dividends:
-* Trigger currency price:
+$$
+Consensus Point = LP amout * LP holdtime, within  
+ 30day
+$$
 
-![\( Eat zero bonus progress bar \)](../.gitbook/assets/chi-ling-fen-hong-jin-du-tiao-.png)
+$$
+Total Reward = Airdrop Reward + Invitation Reward
+$$
 
-![\( Rules and Regulations for receiving zero bonus \)](../.gitbook/assets/06-chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-.png)
+* Current Price: $0.0000001
+* Estimated Reward: 100 BNB
+* Goal Price: $0.000001
+
+![\( EatZero Reward \)](../.gitbook/assets/chi-ling-fen-hong-jin-du-tiao-.png)
+
+![\( Rules and Claim Reward\)](../.gitbook/assets/06-chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-.png)
 
 
 
 Tips: 
 
-* The consensus value is related to the number of LP pledged and the pledge Time \(based on the latest 30 days\)
-* The total number of rewards is related to the transaction fee for inviting friends.
+* Consensus Point is related to LP amount and holdtime \(within 30 days\)
+* Total Rewards includes invitation reward
 
 
 
