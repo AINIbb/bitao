@@ -16,13 +16,13 @@
 
 **PC版新手教程：**
 
-1.尽量选择使用支持BSC的主流钱包，如：MetaMask等
+1.尽量选择使用支持BSC的主流钱包，如：MetaMask、TokenPocket等
 
 _1.下载MetaMask或者TP钱包_
 
     MetaMask下载链接：[https://metamask.io/](https://metamask.io/)
 
-    TP钱包： http://.........
+    TokenPocket钱包： http://.........
 
 2、点击 \[自定义RPC\] ，配置BSC网络
 
