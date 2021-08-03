@@ -32,6 +32,8 @@
 * [Announcement](qi-ta/guan-fang-gong-gao/README.md)
   * [1.First Airdrop](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
 * [Tutorial](qi-ta/xin-shou-jiao-cheng/README.md)
+  * [0.How to install MetaMask wallet in browser and configure the mainnet](qi-ta/xin-shou-jiao-cheng/0.how-to-install-metamask-wallet-in-browser-and-configure-the-mainnet.md)
+  * [00.How to create a wallet and enter ZGoat official website on mobile](qi-ta/xin-shou-jiao-cheng/00.how-to-create-a-wallet-and-enter-zgoat-official-website-on-mobile.md)
   * [1.How to buy ZGoat ?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
   * [2.How to Be a referer？](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
   * [3.How to participate in wish list？](qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md)

@@ -12,13 +12,13 @@ MetaMask Download link：[https://metamask.io/](https://metamask.io/)
 
 Network name: BSC
 
-Add RPC URL:[https://bsc-dataseed.binance.org/](https://bsc-dataseed.binance.org/)
+RPC URL:[https://bsc-dataseed.binance.org/](https://bsc-dataseed.binance.org/)
 
 Chain ID:56
 
 Symbol \(optional\): BNB
 
-Block browser URL \(optional\):[https://www.bscscan.com/](https://www.bscscan.com/)
+Browser URL \(optional\):[https://www.bscscan.com/](https://www.bscscan.com/)
 
 ![](../../.gitbook/assets/xin-shou-jiao-cheng-2.png)
 
