@@ -6,7 +6,7 @@ The amout of ZGoat for airdrop is provided by the Operation Management Account. 
 
 Basic cooperation requirements:
 
-* ommunity related crypto, Telegram group member ≥ 3000, or Twitter following ≥ 30000, or WeChat group ≥ 300
+* community related crypto, Telegram group member ≥ 3000, or Twitter following ≥ 30000, or WeChat group member ≥ 300
 * Low threshold of airdrop participation
 * Entertainment
 
