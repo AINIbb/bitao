@@ -20,5 +20,5 @@ WeChat: _zgoat\_org_
 
 Tips: 
 
-_zgoats reward obtained by AirDrop, wishlist and community activities are all in locked status, and need to stake LP to unlock._
+_zgoats reward obtained through AirDrop, wishlist and community activities are all in locked status, need to stake LP to unlock._
 
