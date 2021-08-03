@@ -8,7 +8,7 @@ According to tokenomics:
 
 For each transaction, if there is a referrer, 60% transation fee of distributed to holder will be sent to referrer as reward. When amount of black hole reaches 18,900 billion, that is, the remaining total amount is 2100 billion, black hole burnt stops, and transation fee ratio will be adjusted.
 
-**Decentralized Invitation Mechanism has been written into the contract, that is, if Address A sends  more than 1000W ZGoat to Address B as the first one, then Address A is the referrer of Address B permanently. Then, for each transaction of Address B, 60% transation fee of distributed to holder will be sent to Address A as reward.**
+**Decentralized Invitation Mechanism has been written into the contract, that is, if Address A sends  more than 10M ZGoat to Address B as the first one, then Address A is the referrer of Address B permanently. Then, for each transaction of Address B, 60% transation fee of distributed to holder will be sent to Address A as reward.**
 
 \*\*\*\*
 
