@@ -1,6 +1,6 @@
 # Tutorial
 
-**PC version tutorial for beginners：**
+**PC version tutorial ：**
 
 1、Try to use mainstream wallets that support BSC, such as MetaMask.
 
