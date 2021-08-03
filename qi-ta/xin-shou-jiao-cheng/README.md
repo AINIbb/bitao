@@ -18,7 +18,7 @@
 
 1.尽量选择使用支持BSC的主流钱包，如：MetaMask、TokenPocket等
 
-_1.下载MetaMask或者TP钱包_
+_1.下载MetaMask或者TokenPocket钱包_
 
     MetaMask下载链接：[https://metamask.io/](https://metamask.io/)
 
