@@ -4,7 +4,7 @@ Zuck's Goat token is ZGoat, the total supply is 21,000 billion, the initial blac
 
 6% of transation between users is charged, of which 1% is used to add LP, 3% is sent to Marketing Management Account, 1% is sent to the blackhole address, and 1% is distributed to holders.
 
-11% of transation On Pancakeswap is charged,  of which 1% is used to add LP, 6% is sent to Operate Management Account, 2% is sent to the blackhole address, and 2% is distributed to holders.
+11% of transation On Pancakeswap is charged,  of which 1% is used to add LP, 6% is sent to Marketing Management Account, 2% is sent to the blackhole address, and 2% is distributed to holders.
 
 
 
