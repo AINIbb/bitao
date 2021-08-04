@@ -33,7 +33,7 @@
 * [官方公告](qi-ta/guan-fang-gong-gao/README.md)
   * [1.首轮空投](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
 * [新手教程](qi-ta/xin-shou-jiao-cheng/README.md)
-  * [1.如何设置钱包？](qi-ta/xin-shou-jiao-cheng/1.-ru-he-she-zhi-qian-bao.md)
+  * [1.如何在浏览器上安装MetaMask钱包及配置主网 ？](qi-ta/xin-shou-jiao-cheng/1.-ru-he-she-zhi-qian-bao.md)
   * [2.如何购买ZGoat?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
   * [3.如何成为推荐者？](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
   * [4.如何参与心愿单？](qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md)
