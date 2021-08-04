@@ -34,7 +34,7 @@
 * [新手教程](qi-ta/xin-shou-jiao-cheng/README.md)
   * [1.如何设置钱包？](qi-ta/xin-shou-jiao-cheng/1.-ru-he-she-zhi-qian-bao.md)
   * [2.如何购买ZGoat?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
-  * [3.如何成为推荐者](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
+  * [3.如何成为推荐者？](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
   * [4.如何参与心愿单？](qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md)
   * [5.如何邀请朋友参与心愿单](qi-ta/xin-shou-jiao-cheng/4.-ru-he-yao-qing-peng-you-can-yu-xin-yuan-dan.md)
   * [6.如何解锁ZGoat？](qi-ta/xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md)
