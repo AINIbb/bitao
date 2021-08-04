@@ -28,5 +28,5 @@ According to Unlock rule, ZGoat obtained by Airdrop, wishlist reward, marketing 
 
 3、If your wallet have locked ZGoat, the max amount for swap must be cut off the part of locked ZGoat.
 
-4、Other factor, such as network, node delay
+4、Other factor, such as wrong network, node delay
 

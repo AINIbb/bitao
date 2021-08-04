@@ -1,6 +1,6 @@
 # Unlock Rule
 
-All ZGoat rewards obtained through AirDrop, Wishlist and Community Activities need to unlocked by staking LP.
+All ZGoat rewards obtained through AirDrop, Wishlist and Community Activities need to unlock by staking LP.
 
 **1\)Unlock calculation formula:**
 
