@@ -1,20 +1,14 @@
-# 空投活动
+# 空投 & 合作
 
-为了不断地进行市场推广，ZGoat产品在设计之初就考虑了诸多市场推广方案，包括：心愿单、空投、社群活动等等。空投的ZGoat由运营账号提供，各个社群的群主如果有意合作，可联系商务负责人进行对接。
+以下是本节中的文章：
 
-合作基本要求：
+{% page-ref page="he-zuo.md" %}
 
-* 社群为加密行业社群，电报人数&gt;3000人，或推特关注量&gt;3w人，或微信群&gt;300人
-* 空投形式的参与门槛低
-* 具备一定的娱乐性
+{% page-ref page="wish001-zgoat-from-zero.md" %}
 
-商务联系方式：
-
-* 电报：@zgoat\_org
-* 微信：zgoat\_org
+{% page-ref page="market001-join-telegram-airdrop.md" %}
 
 
 
-_Tips：用户通过空投、心愿单奖励、社群活动等获取的ZGoat，均处于锁定状态，需通过添加LP方可解锁_[  
-](https://doc.zgoat.org/shi-chang/mei-ti-bao-dao)
+* [ ](https://doc.zgoat.org/shi-chang/mei-ti-bao-dao)
 
