@@ -6,7 +6,7 @@
 
 ☛ Twitter : [https://twitter.com/x](https://twitter.com/Goat22412341)xx
 
-☛ WeChat : xxxx \(Add small assistant remarks to the group\)
+☛ WeChat : zgoat\_org 
 
--- Here the QR code of the little assistant
+![](../.gitbook/assets/image%20%2813%29.png)
 
