@@ -32,6 +32,6 @@ Making a wish has four stages:
 3. Participation completed, waiting for being sent rewards;
 4. Set the validity period of the reward. If users do not receive the reward exceed the validity period, 50% of the reward will enter the Operation Management Account and 50% will be burnt;
 
-_Tips: zgoats obtained by AirDrop, wishlist reward, marketing activities, etc. are locked and can be unlocked by staking LP.。_[  
+_Tips: zgoats obtained by AirDrop, wishlist reward, marketing activities, etc. are locked and can be unlocked by staking LP._[  
 ](https://doc.zgoat.org/chan-pin-ji-gui-hua/chan-pin-zong-lan)
 
