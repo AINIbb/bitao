@@ -1,8 +1,8 @@
 # 营销赛道的龙头ZGoat，超强的盈利模式有哪些？\(转发可获空投\)
 
-[购买ZGoat请点击此处](https://exchange.pancakeswap.finance/#/swap)
+[点击购买ZGoat](https://exchange.pancakeswap.finance/#/swap)
 
-![ZGoat: Make Defi-Marketing Easier](.gitbook/assets/512x512-1.png)
+![ZGoat: Make Defi-Marketing Easier](.gitbook/assets/shou-ge-defi-ying-xiao-ping-tai-2.png)
 
 ## 一、营销赛道的完全空白
 
