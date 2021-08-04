@@ -2,7 +2,17 @@
 
 ## 3.Why the Unlock APY grows so fast
 
+According to the formula, 
 
+**APY =** Time ^ 0.125 \*  K1 \* 100%
+
+{% hint style="info" %}
+_K1_ is a constant, that can be optimized according to market feedback.
+{% endhint %}
+
+![Simulation Of Unlock APY](../.gitbook/assets/image%20%285%29.png)
+
+With amount of block increasing, the value of APY will grow quickly. Note that, because of the max speed, APY has a limitation of maximum
 
 ## 2.How To Unlock ZGoat 
 
