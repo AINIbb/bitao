@@ -14,7 +14,7 @@ For each transaction, if there is a referrer, 60% transation fee of distributed 
 
 _Example:_
 
-Your address is A, your friend's address is B（and address B has no recommender）
+Your address is A, your friend's address is B（and address B has no referrer）
 
 If address A sends to address B ≥ 1000W ZGoat **as the first one**, address A will be the referer of address B permanently. 
 

@@ -6,7 +6,7 @@ The success of application in consensus economy comes from the strong support of
 
 **Witness highlight moment of price milestone !**
 
-When price increases, all holders get huge gain. At the same time, if the price increases 10 times, that is, the price seems to be 'eaten a zero'. In order to witness the highlight moment of price milestone, EatZero Reward will be launched.
+When price increases, all holders get huge gain. At the same time, if the price increases 10 times, that is, the price seems to be 'Eaten a Zero'. In order to witness the highlight moment of price milestone, EatZero Reward will be launched.
 
 EatZero Reward rules is described as below:
 

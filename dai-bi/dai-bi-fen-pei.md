@@ -1,6 +1,6 @@
 # Tokenomics
 
-Zuck's Goat token is ZGoat, the total supply is 21,000 billion, the initial blackhole burnt is 11,000 billion, 5% for Operating Management Account, that is used for marketing activities such as airdrop, wish reward, Eatzero Reward, etc, the rest of all is used to add liquidity on Pancakeswap.
+Zuck's Goat token is ZGoat, the total supply is 21,000 billion, the initial blackhole burnt is 11,000 billion, 5% for Operate Management Account, that is used for marketing activities such as airdrop, wish reward, Eatzero Reward, etc, the remaining of all is used to add liquidity on Pancakeswap.
 
 6% of transation between users is charged, of which 1% is used to add LP, 3% is sent to Operate Management Account, 1% is sent to the blackhole address, and 1% is distributed to holders.
 
@@ -18,7 +18,7 @@ When amount of black hole reaches 18,900 billion, that is, the remaining total a
 
 ![\( Token allocation \)](../.gitbook/assets/04-dai-bi-fen-pei-.png)
 
-For more information about operating Wallet, pay attention to AirDrop Activities.
+For more information about Operate Management Wallet, pay attention to AirDrop Activities.
 
 [Click to buy ZGoat](https://exchange.pancakeswap.finance/#/swap)  
 
