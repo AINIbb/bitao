@@ -8,5 +8,5 @@
 
 ☛  WeChat : zgoat\_org（添加小助手备注进群）
 
-——此处小助手二维码
+![](../.gitbook/assets/image%20%2814%29.png)
 
