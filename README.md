@@ -2,7 +2,7 @@
 
 [Click Buy ZGoat](https://exchange.pancakeswap.finance/#/swap)
 
-![ZGoat: Make Defi-Marketing Easier](.gitbook/assets/512x512-1.png)
+![](.gitbook/assets/shou-ge-defi-ying-xiao-ping-tai-ying-%20%281%29.png)
 
 ## 一、Defi-Marketing Is Blank
 
