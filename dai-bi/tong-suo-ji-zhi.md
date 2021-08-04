@@ -12,7 +12,7 @@ The Blackhole owned over 52% of supply at launch. The Blackhole counts as one of
 
 ### 2\) Unclaim Airdrop Reward <a id="cK0v5"></a>
 
-According to airdrop rules of ZGoat, users can make user-defined wishes and others get rewards by supporting wishes. In order to prevent cheating such as robot cheating, and improve users' passion, all rewards claim for AirDrop Activities are set a period of validity. If users unclaim reward in the period of validity, Fifty percent will be sent back to Operation Management Account and fifty percent will be burnt;
+According to airdrop rules of ZGoat, users can make user-defined wishes and others get rewards by supporting wishes. In order to prevent cheating such as robot cheating, and improve users' passion, all rewards claim for AirDrop Activities are set a period of validity. If users unclaim reward in the period of validity, Fifty percent will be sent back to Marketing Management Account and fifty percent will be burnt;
 
 
 
