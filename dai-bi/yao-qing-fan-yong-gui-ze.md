@@ -14,5 +14,9 @@ For each transaction, if there is a referrer, 60% transation fee of distributed 
 
 _Example:_
 
-Your address is A, your friend's address is B, and address B has no recommender. If address A sends to address B ≥ 1000W ZGoat **as the first one**, address A will be the referer of address B permanently. Assuming address B sold out 100M ZGoat for one transation on Pancakeswap, then address A will be rewarded, the current set ratio is 60%, reward amount = 100M ZGoat \* 2% \* 60% =1.2M ZGoat.
+Your address is A, your friend's address is B（and address B has no recommender）
+
+If address A sends to address B ≥ 1000W ZGoat **as the first one**, address A will be the referer of address B permanently. 
+
+Assuming address B sold out 100M ZGoat for one transation on Pancakeswap, then address A will be rewarded, the current set ratio is 60%, reward amount = 100M ZGoat \* 2% \* 60% =1.2M ZGoat.
 
