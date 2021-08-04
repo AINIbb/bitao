@@ -4,7 +4,7 @@
 
 ![](.gitbook/assets/shou-ge-defi-ying-xiao-ping-tai-ying-%20%281%29.png)
 
-## 一、Defi-Marketing Is Blank
+## 一、Defi-Marketing is Blank
 
 Up to now, all current Defi application designs are based on the idea of basic product, the method of defi-marketing is just community with low efficiency. What's more, the Defi application design based on the idea of marketing is completely blank. The more product application, the stronger defi-marketing need. ZGoat will solve this problem and is the first Defi-marketing application with big business.
 
@@ -109,7 +109,7 @@ For other DEFI product, early participants will get a strong price advantage, wh
 > 2. No matter early participants or later participants, the mechanism is the same standard.
 > 3. In the past, people in Crypto can only make money by price rising of tokens or contracts. ZGoat's invitation mechanism may create a new profit way.
 
-![The new profit way of the crypto industry](.gitbook/assets/jia-mi-hang-ye-xin-de-ying-li-mo-shi-ying-%20%281%29.png)
+![](.gitbook/assets/jia-mi-hang-ye-xin-de-ying-li-mo-shi-ying-%20%281%29.png)
 
 For example, Address A is the referrer of Address B. Address A sends 10,000,000 ZGoat to Address B as the first one, then will be reward 60% transaction fee of distributed to holder permanently. Calculating with the current price of ZGoat, 10,000,000ZGoat values $1.
 
@@ -138,7 +138,7 @@ Who is the richest referrer with the new invitation mechanism? Just look forword
 
 The development of crypto, from Confused Era to Defi Era, is still limited by many factors, and it is difficult to make a breakthrough in expanding the application of crypto for a long time. ZGoat may solve the current issue of crypto. 
 
-At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + zero fee DEX + entertainment + shopping", aiming at a long-term double-win situation and devolopinig entity economy of crypto. The total amount of ZGoat issued was 21,000 billion, and the initial burning was 11,000 billion. The decentralized invitation mechanism is applied for the first time, , and it was written into the intelligent contract. The Commission ratio was 60% , when the circulating total amount reaches 2100 billion, stop burning and update the transaction fee ratio.
+At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + Zero Fee DEX + Entertainment + Shopping", aiming at a long-term double-win situation and devolopinig entity economy of crypto. The total amount of ZGoat was 21,000 billion, and the initial burning was 11,000 billion. The decentralized invitation mechanism is applied for the first time, , and it was written into the intelligent contract. The Commission ratio was 60% , when the circulating total amount reaches 2100 billion, stop burning and update the transaction fee ratio.
 
 ![](.gitbook/assets/dai-bi-fen-pei-.png)
 
