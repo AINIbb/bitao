@@ -35,7 +35,7 @@
 * [新手教程](qi-ta/xin-shou-jiao-cheng/README.md)
   * [1.如何在浏览器安装MetaMask钱包并配置网络](qi-ta/xin-shou-jiao-cheng/1.-ru-he-she-zhi-qian-bao.md)
   * [2.手机端如何创建钱包并进入MDEX交易界面](qi-ta/xin-shou-jiao-cheng/2.-shou-ji-duan-ru-he-chuang-jian-qian-bao-bing-jin-ru-mdex-jiao-yi-jie-mian.md)
-  * [3.如何购买ZGoat?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
+  * [3.如何购买ZGoat](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
   * [4.如何成为推荐者？](qi-ta/xin-shou-jiao-cheng/2.-ru-he-cheng-wei-tui-jian-zhe.md)
   * [5.如何参与心愿单？](qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md)
   * [6.如何邀请朋友参与心愿单](qi-ta/xin-shou-jiao-cheng/4.-ru-he-yao-qing-peng-you-can-yu-xin-yuan-dan.md)
