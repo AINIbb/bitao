@@ -1,4 +1,4 @@
-# Market001：Join Telegram AirDrop
+# Market001：电报空投活动
 
 为增加市场推广作用，提升市场的知名度，吸引更多的用户关注到ZGoat，不定期举行空投活动。
 

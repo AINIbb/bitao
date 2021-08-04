@@ -1,4 +1,4 @@
-# Wish001：ZGoat From Zero
+# Wish001：从零起步
 
 ![](../../.gitbook/assets/wish001-zhong-wen-.png)
 
