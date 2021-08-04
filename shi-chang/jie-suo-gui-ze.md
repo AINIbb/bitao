@@ -34,7 +34,9 @@ LP指用户用于解锁ZGoat所质押的LP数量；Time指质押时间内的区�
 **K1为定值常数，可根据市场数据进行调节。**
 {% endhint %}
 
-【图片，解锁APY示意图】
+
+
+![](../.gitbook/assets/jie-suo-apy-zhong-wen-.png)
 
 
 
