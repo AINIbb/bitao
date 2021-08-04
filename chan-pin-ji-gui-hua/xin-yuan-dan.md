@@ -26,8 +26,6 @@
 
 ​
 
-​
-
 _Tips：用户通过空投、心愿单奖励、社群活动等获取的ZGoat，均处于锁定状态，需通过添加LP方可解锁。_[  
 ](https://doc.zgoat.org/chan-pin-ji-gui-hua/chan-pin-zong-lan)
 

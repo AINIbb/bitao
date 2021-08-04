@@ -1,10 +1,12 @@
 # 未来规划
 
-ZGoat的目标是开启加密货币赋能实体经济时代，降低用户的参与门槛，使加密货币这种新兴科技能够应用到人们的衣食住行等领域，让用户体验新兴技术带来的便利。
+以下是本节中的文章：
 
-未来规划主要包括：
+{% page-ref page="ling-shou-xu-fei-dex.md" %}
 
-* 零手续费DEX
-* 娱乐消费
-* 网上购物
+{% page-ref page="yu-le-xiao-fei.md" %}
+
+{% page-ref page="wang-shang-gou-wu.md" %}
+
+
 
