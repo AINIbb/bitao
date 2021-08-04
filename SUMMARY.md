@@ -31,7 +31,7 @@
 ## 其他
 
 * [官方公告](qi-ta/guan-fang-gong-gao/README.md)
-  * [1.ZGoat开始首轮空投的公告](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
+  * [1.首轮空投](qi-ta/guan-fang-gong-gao/1.zgoat-kai-shi-shou-lun-kong-tou-de-gong-gao.md)
 * [新手教程](qi-ta/xin-shou-jiao-cheng/README.md)
   * [1.如何设置钱包？](qi-ta/xin-shou-jiao-cheng/1.-ru-he-she-zhi-qian-bao.md)
   * [2.如何购买ZGoat?](qi-ta/xin-shou-jiao-cheng/1.-ru-he-gou-mai-zgoat.md)
