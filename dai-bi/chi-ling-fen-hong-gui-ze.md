@@ -16,9 +16,7 @@ EatZero 奖励规则描述如下：
 
 ![&#x5403;&#x96F6;&#x5206;&#x7EA2;&#x8FDB;&#x5EA6;&#x6761;](../.gitbook/assets/chi-ling-fen-hong-jin-du-tiao-zhong-wen-.png)
 
-![&#x5403;&#x96F6;&#x5206;&#x7EA2;&#x5956;&#x52B1;&#x9886;&#x53D6;&#x53CA;&#x89C4;&#x5219;](../.gitbook/assets/06-chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-.png)
-
-
+![&#x5403;&#x96F6;&#x5206;&#x7EA2;&#x5956;&#x52B1;&#x9886;&#x53D6;&#x53CA;&#x89C4;&#x5219;](../.gitbook/assets/chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-zhong-wen-%20%281%29.png)
 
 Tips: 
 
