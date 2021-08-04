@@ -16,7 +16,7 @@
 LP指用户用于解锁ZGoat所质押的LP数量；Time指质押时间内的区块数；K为常数定值，可根据市场数据进行调节。
 {% endhint %}
 
-![111](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/hei-dong-xiao-hui-zeng-chang-qu-xian-zhong-wen-.png)
 
 从上图可以看出，随着解锁时间的增加，解锁速度呈指数增长，最终达最大解锁速度。
 
