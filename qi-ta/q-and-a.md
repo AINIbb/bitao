@@ -1,6 +1,6 @@
 # 常见问题
 
-## 3.为什么解锁APY快速增加
+## 1.为什么解锁APY快速增加
 
 根据公式, 
 
@@ -22,7 +22,7 @@ _K1_ 是常数，可根据市场进行调节
 
 {% page-ref page="xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md" %}
 
-## 1.无法兑换ZGoat?
+## 3.无法兑换ZGoat?
 
 1、查看是否有足够的gas费
 
