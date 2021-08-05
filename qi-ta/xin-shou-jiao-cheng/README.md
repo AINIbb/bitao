@@ -2,6 +2,8 @@
 
 {% page-ref page="1.-ru-he-she-zhi-qian-bao.md" %}
 
+{% page-ref page="2.-shou-ji-duan-ru-he-chuang-jian-qian-bao-bing-jin-ru-mdex-jiao-yi-jie-mian.md" %}
+
 {% page-ref page="1.-ru-he-gou-mai-zgoat.md" %}
 
 {% page-ref page="2.-ru-he-cheng-wei-tui-jian-zhe.md" %}
