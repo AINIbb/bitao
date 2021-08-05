@@ -1,6 +1,6 @@
 # Q & A
 
-## 3.Why the Unlock APY grows so fast
+## 1.Why the Unlock APY grows so fast
 
 According to the formula, 
 
@@ -20,7 +20,7 @@ According to Unlock rule, ZGoat obtained by Airdrop, wishlist reward, marketing 
 
 {% page-ref page="xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md" %}
 
-## 1.Why did my swap fail
+## 3.Why did my swap fail
 
 1、Check whether there is enough BNB for gas fee
 
