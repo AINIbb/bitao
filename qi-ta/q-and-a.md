@@ -10,7 +10,7 @@
 _K1_ 是常数，可根据市场进行调节
 {% endhint %}
 
-![&#x89E3;&#x9501;APY&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/image%20%285%29.png)
+![&#x89E3;&#x9501;apy&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/jie-suo-apy-zhong-wen-.png)
 
 随着区块数量的增加，解锁APY将快速增加。注意，由于最大解锁速度的限制，解锁APY也将存在最大值
 
