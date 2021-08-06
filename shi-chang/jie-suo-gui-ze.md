@@ -32,7 +32,7 @@ Simplified as below：
 _K1_ is a constant, that can be optimized according to market feedback.
 {% endhint %}
 
-![Simulation Of Unlock APY](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/simulation-of-unlock-apy.png)
 
 Note that，because of the max speed, APY will reach the maximum with time going. For convenience of dashboard show, the maximum of Unlock AYP is calculated based on the amount of block within about a week, that is, MaxAPY = 4.6 \* K1 \* 100%
 
