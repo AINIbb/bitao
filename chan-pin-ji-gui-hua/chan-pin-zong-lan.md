@@ -4,7 +4,7 @@ ZGoat is the first Defi application of Marketing. By entertaining, user can make
 
 ![](../.gitbook/assets/shou-ge-defi-ying-xiao-ping-tai-ying-.png)
 
-As the first DeFi applicaiton based on the marketing concept, ZGoat will greatly improve the marketing efficiency in cryptocurrency. ZGoat has several features, such as higher frequency, more entertaining, and a lower threshold for participation.
+As the first DeFi application based on the marketing concept, ZGoat will greatly improve the marketing efficiency in cryptocurrency. ZGoat has several features, such as higher frequency, more entertaining, and a lower threshold for participation.
 
 
 

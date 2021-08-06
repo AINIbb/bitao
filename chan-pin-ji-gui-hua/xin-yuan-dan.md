@@ -10,11 +10,11 @@ What's more, Users can make user-defined wish in the next version, with better u
 
 ### 1. How to support wish? <a id="Oqrhn"></a>
 
-Users can visit [zgoat.org](http://zgoat.org) website, select a wish and click **\[support\]** to support wish. Only the text type is supported, and donations function is not supported in current version. In the next version, the wishlist support feature will be optimized in the following:
+Users can visit [zgoat.org](http://zgoat.org) website, select a wish and click **\[support\]** to support wish. Only the text type is supported, and donations is not supported in current version. In the next version, the wishlist support feature will be optimized in the following:
 
 * Support ZGoat donations to increase the reward amount;
 * Support reward batches for one wish;
-* Support text version, picture version and video version at the same time ;
+* Support text version, picture version and video version at the same time;
 * Support user-selected function, that users can choose the prefer solution to support ;
 
 {% page-ref page="../qi-ta/xin-shou-jiao-cheng/3.-ru-he-can-yu-xin-yuan-dan.md" %}
