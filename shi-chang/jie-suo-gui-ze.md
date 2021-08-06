@@ -20,13 +20,13 @@ As shown above, with Time increases, the amount of unlocked ZGoat will result in
 
 
 
-**2）Unlock APY**
+**2）Unlock APR**
 
-Unlock APY = Amount of Unlocked ZGoat / Value of Staking LP  \* （365 / Unlocked Spent Time）\* 100%
+Unlock APR = Amount of Unlocked ZGoat / Value of Staking LP  \* （365 / Unlocked Spent Time）\* 100%
 
 Simplified as below：
 
-**APY =** Time ^ 0.125 \*  K1 \* 100%
+**APR =** Time ^ 0.125 \*  K1 \* 100%
 
 {% hint style="info" %}
 _K1_ is a constant, that can be optimized according to market feedback.
@@ -34,7 +34,7 @@ _K1_ is a constant, that can be optimized according to market feedback.
 
 ![](../.gitbook/assets/simulation-of-unlock-apy.png)
 
-Note that，because of the max speed, APY will reach the maximum with time going. For convenience of dashboard show, the maximum of Unlock AYP is calculated based on the amount of block within about a week, that is, MaxAPY = 4.6 \* K1 \* 100%
+Note that，because of the max speed, APR will reach the maximum with time going. For convenience of dashboard show, the maximum of Unlock APR is calculated based on the amount of block within about a week, that is, MaxAPR = 4.6 \* K1 \* 100%
 
 
 
