@@ -22,10 +22,10 @@ By entertaining, ZGoat makes the defi application more widely, frequency higher,
 
 ![Little Girl, Meet Zuckerberg](.gitbook/assets/03.png)
 
-Taking [WISH001](http://zgoat.org/#/Home) as example, the first wish launched by a little girl on ZGoat platform was related with Zuckerberg's Twitter about Bitcoin. As the founder of the world's largest social platform, Zuckerberg has huge followings. However the little girl is a common person in the world. the wish to combine "Zuckerberg" with "little girl", has its own huge topic effect. On the other hand, users will be rewarded with ZGoat Token by supporting the wish, which is a further encourage for users to participate.
+Taking [WISH001](http://zgoat.org/#/Home) as an example, the first wish launched by a little girl on ZGoat platform was related with Zuckerberg's Twitter about Bitcoin. As the founder of the world's largest social platform, Zuckerberg has huge followings. But the little girl is a common person in the world. Connecting "Zuckerberg" with "little girl" through a wish has its own huge topic effect. On the other hand, users will be rewarded with ZGoat Token by supporting the wish, which is a further encourage for users to participate.
 
 1. _**\[Entertainment\]**_ Help the little girl meet Zuckerberg;
-2. _**\[Low threshold\]**_ Users only need copy to comment, and they will get ZGoat reward;
+2. _**\[Low threshold\]**_ Users only need to copy to comment, and they will get ZGoat reward;
 3. _**\[High frequency\]**_ Everyone can make a wish with different ideas, generating high-frequency applications;
 4. _**\[Second marketing\]**_ Huge participation can form new topic for marketing and ZGoat will gradually become the high efficient brand of defi-marketing;
 
@@ -37,13 +37,13 @@ ZGoat wishlist can combine the newest and hottest topic at any time, with high u
 
 ## 三、Big Business
 
-Different from other product design, ZGoat is an innovative leading product based on the idea of marketing application, with small closed-loop business model. ZGoat has a big business profit model. According to market data, for many products, they are extramely lacking of marketing topics when developing, leading to the accelerated profit decline, and even makes product fail.
+Different from other product design, ZGoat is an innovative leading product based on the idea of marketing application, with small closed-loop business model. ZGoat has a big business profit model. According to market economics, for consensus-economy products, insufficient marketing topics often lead to an accelerated decline in profits and even makes product fail.
 
 ### 1.The basic profitability is 315 times than Shib
 
 ![Closed Loop Business Model](.gitbook/assets/xiao-bi-huan-ying-%20%281%29.png)
 
-At the beginning of the design, ZGoat integrated the marketing concept into the small closed-loop design of the product, as shown in the above figure, which can be simply summarized into the following steps:
+At the beginning of the design, ZGoat cleverly integrated the marketing concept into the small closed-loop design of the product. As shown in figure above, the process is as follows:
 
 * Generate a wish based on the current hot topics, and provide ZGoat rewards for users;
 * Users participate simply and ordinary users can participate by entertaining;
@@ -69,9 +69,9 @@ From the above model, ZGoat's basic profitability is hundreds of times than Shib
 
 ### 2.The core profit scene is like TikTok, in daily life
 
-ZGoat aim is to help users say wishes out. Like TikTok, everyone has need to show himself, and also has  need to support other's show or wish. When the number of ZGoat holders reaches a certain number, the platform will open WISHLIST function, for user-defined wish, including text, picture or even video form. Different from TikTok, the wish has a positive energy goal, which is against the feature of killing time.
+ZGoat aim is to help users say wishes out. Like TikTok, everyone wants to show himself, as well as to recognize and appreciate others. When the number of ZGoat holders reaches a certain value, the platform will open WISHLIST function, for user-defined wish, including text, graphic and video formats. Different from TikTok, the wish has a positive energy goal, which is against the feature of killing time.
 
-According to long-tail theory, when product catches long-tail users, it will become a platform. Different from common DEFI application, usually only 1-2 core profit scene, ZGoat combines defi-marketing with entertainment to help users say wishes out, and others get reward by supporting wish. Different users make different wishes, that making ZGoat adopt hundreds of scenes. At the same time, wish can be user-defined by  ordinary people to reduce the participation threshold of DEFI.
+According to long-tail theory, when product catches long-tail users, it will become a platform. Different from common DEFI application, usually only 1-2 core profit scene, ZGoat combines defi-marketing with entertainment to help users say wishes out, and others get reward by supporting wish. Different users make different wishes, that making ZGoat adopt hundreds of scenes. At the same time, wish can be user-defined by ordinary people to reduce the participation threshold of DEFI.
 
 ![\( ZGoat Hundreds Of Scenes Application \)](.gitbook/assets/pu-tong-xiang-mu-chang-jing-vs-zgoat-chang-jing-ying-.png)
 
@@ -92,10 +92,10 @@ Take a famous DEX data as comparison, ZGoat core profit data as shown below. Ass
 | **Total Profit** | **1000w** | **2850w** |
 
 {% hint style="info" %}
-Assume that ZGoat staking for each wish is valued $1,000, then the volume of the 30-day wishlist  is: 10000/5_\*_30_\*_1000 = $60 million. Profit: \(6% +1%\) _\* 0.06 billion_ \* _\(1+150%\)+0.06 billion_  \* 20% +0.06 billion \* 10% = $28.5 million, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model.Proportion of  unclaim is assumed to be 20%, and proportion of commission fee is 10%.
+Assume that ZGoat staking for each wish is valued $1,000, then the volume of the 30-day wishlist  is: 10000/5_\*_30_\*_1000 = $60 million. Profit: \(6% +1%\) _\* 0.06 billion_ \* _\(1+150%\)+0.06 billion_  \* 20% +0.06 billion \* 10% = $28.5 million, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model. Proportion of  unclaim is assumed to be 20%, and proportion of commission fee is 10%.
 {% endhint %}
 
-Since the cost of this part is zero, thus this profit can be used for raising currency price or other marketing activities, forming a positive loop. On the other hand, with the increase of holders, the application scene will also increase, and the profits of this part will also rise, with big imagination.
+Since the cost of this part is zero, this profit can be used for raising currency price or other marketing activities, forming a positive loop. On the other hand, with the increase of holders, the application scene will also increase, and the profits of this part will also rise, with big imagination.
 
 
 
@@ -103,7 +103,7 @@ Since the cost of this part is zero, thus this profit can be used for raising cu
 
 ![\( To Be Referrer Will Be Rewarded \)](.gitbook/assets/qu-zhong-xin-hua-yao-qing-fan-yong-ying-.png)
 
-For other DEFI product, early participants will get a strong price advantage, which seems not fair. As a better wish, Who brings profit should enjoy the highest percentage of profit. ZGoat's invitation mechanism will meet this demand well:
+For other DEFI product, early participants will get a strong price advantage, which seems not fair. As a better wish, Whoever brings profit should enjoy the highest percentage of profit. ZGoat's invitation mechanism will meet this demand well:
 
 > 1. The mechanism is written into the decentralized contract, without human intervention, and is fair for everyone;
 > 2. No matter early participants or later participants, the mechanism is the same standard.
@@ -128,7 +128,7 @@ For example, Address A is the referrer of Address B. Address A sends 10,000,000 
 According to invitation mechanism, if address B is a big-volume user, the transaction volume within 30 days is $10 million, then the Commission fee of address A is $12,000 or $6,000, **that means, a monthly return on investment is 120,000 times**. At the same time, address A can invite more users, which means, return on investment of address A will be so huge. Of course, if the user invited by address A has not transaction, address A will lose $1.
 {% endhint %}
 
-Who is the richest referrer with the new invitation mechanism? Just look forword. users can check referrer  information by [Check Referrer](http://zgoat.org/#/Reward). 
+Who is the richest referrer with the new invitation mechanism? Just look forward. users can check referrer  information by [Check Referrer](http://zgoat.org/#/Reward). 
 
 {% page-ref page="dai-bi/yao-qing-fan-yong-gui-ze.md" %}
 
@@ -138,7 +138,7 @@ Who is the richest referrer with the new invitation mechanism? Just look forword
 
 The development of crypto, from Confused Era to Defi Era, is still limited by many factors, and it is difficult to make a breakthrough in expanding the application of crypto for a long time. ZGoat may solve the current issue of crypto. 
 
-At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + Zero Fee DEX + Entertainment + Shopping", aiming at a long-term double-win situation and devolopinig entity economy of crypto. The total amount of ZGoat was 21,000 billion, and the initial burning was 11,000 billion. The decentralized invitation mechanism is applied for the first time, , and it was written into the intelligent contract. The Commission ratio was 60% , when the circulating total amount reaches 2100 billion, stop burning and update the transaction fee ratio.
+At the beginning of the product design, ZGoat focused on "Marketing and Entertainment + Zero Fee DEX + Entertainment + Shopping", aiming at a long-term double-win situation and developinig entity economy of crypto. The total amount of ZGoat was 21,000 billion, and the initial burning was 11,000 billion. The decentralized invitation mechanism is applied for the first time, , and it was written into the intelligent contract. The Commission ratio was 60% , when the circulating total amount reaches 2100 billion, stop burning and update the transaction fee ratio.
 
 ![](.gitbook/assets/dai-bi-fen-pei-.png)
 
