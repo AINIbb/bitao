@@ -10,7 +10,7 @@ According to the formula,
 _K1_ is a constant, that can be optimized according to market feedback.
 {% endhint %}
 
-![Simulation Of Unlock APY](../.gitbook/assets/image%20%285%29.png)
+![Simulation Of Unlock APY](../.gitbook/assets/simulation-of-unlock-apy.png)
 
 With amount of block increasing, the value of APY will grow quickly. Note that, because of the max speed, APY has a limitation of maximum
 
