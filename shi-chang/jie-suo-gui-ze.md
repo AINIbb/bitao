@@ -14,7 +14,7 @@ Unlocked\_Num= Unlock Speed \* Time
 _LP_ refers to the amount of LP that users stake to unlock ZGoat; _Time_ refers to the amount of block in the period of staking LP; _K_ is a constant, that can be optimized according to market feedback.
 {% endhint %}
 
-![Unlocked\_Num Simulation](../.gitbook/assets/image%20%284%29.png)
+![Unlocked\_Num Simulation](../.gitbook/assets/unlocked_num-simulation.png)
 
 As shown above, with Time increases, the amount of unlocked ZGoat will result in exponential growth. When unlock speed reachs Max speed, the amount of unlocked ZGoat will increase linearly.
 
