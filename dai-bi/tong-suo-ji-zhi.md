@@ -8,7 +8,7 @@ At current phase, the main deflation mechanism is Blackhole Burnt.  There are si
 
 The Blackhole owned over 52% of supply at launch. The Blackhole counts as one of the wallet holders that 1% or 2% of transactions are distributed to. This results in exponential growth of the blackhole and exponential burn of the token supply. At the time of this writing, the blackhole has already grown to 54% percent ownership of the total supply.
 
-![Simulation of Blackhole Burnt Growth](../.gitbook/assets/image%20%282%29.png)
+![Simulation of Blackhole Burnt Growth](../.gitbook/assets/simulation-of-blackhole-burnt-growth.png)
 
 ### 2\) Unclaim Airdrop Reward <a id="cK0v5"></a>
 
