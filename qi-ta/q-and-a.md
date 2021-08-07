@@ -4,13 +4,15 @@
 
 According to the formula, 
 
-**APY =** Time ^ 0.125 \*  K1 \* 100%
+**APR =** Time ^ 0.125 \*  K1 \* 100%
 
 {% hint style="info" %}
 _K1_ is a constant, that can be optimized according to market feedback.
 {% endhint %}
 
-With amount of block increasing, the value of APY will grow quickly. Note that, because of the max speed, APY has a limitation of maximum
+![](../.gitbook/assets/simulation-of-unlock-apr.png)
+
+With amount of block increasing, the value of APR will grow quickly. Note that, because of the max speed, APR has a limitation of maximum
 
 ## 2.How To Unlock ZGoat 
 
