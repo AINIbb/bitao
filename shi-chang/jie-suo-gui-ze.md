@@ -24,7 +24,7 @@ LP指用户用于解锁ZGoat所质押的LP数量；Time指质押时间内的区�
 
 **2）解锁APY**
 
-解锁APY = 已解锁ZGoat / 质押LP的ZGoat价值  \* （365天 / 已解锁ZGoat的花费天数）\* 100%
+解锁APR = 已解锁ZGoat / 质押LP的ZGoat价值  \* （365天 / 已解锁ZGoat的花费天数）\* 100%
 
 进一步简化可得：
 
