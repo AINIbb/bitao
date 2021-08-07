@@ -4,15 +4,15 @@
 
 根据公式, 
 
-**APY =** Time ^ 0.125 \*  K1 \* 100%
+**APR =** Time ^ 0.125 \*  K1 \* 100%
 
 {% hint style="info" %}
 _K1_ 是常数，可根据市场进行调节
 {% endhint %}
 
-![&#x89E3;&#x9501;apy&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/jie-suo-apy-zhong-wen-.png)
+![&#x89E3;&#x9501;APR&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/jie-suo-apr-zhong-wen-.png)
 
-随着区块数量的增加，解锁APY将快速增加。注意，由于最大解锁速度的限制，解锁APY也将存在最大值
+随着区块数量的增加，解锁APR将快速增加。注意，由于最大解锁速度的限制，解锁APR也将存在最大值
 
 
 
