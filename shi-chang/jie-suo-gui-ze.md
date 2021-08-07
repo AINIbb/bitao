@@ -34,11 +34,7 @@ LP指用户用于解锁ZGoat所质押的LP数量；Time指质押时间内的区�
 **K1为定值常数，可根据市场数据进行调节。**
 {% endhint %}
 
-
-
-![](../.gitbook/assets/jie-suo-apy-zhong-wen-.png)
-
-
+![](../.gitbook/assets/jie-suo-apr-zhong-wen-.png)
 
 注意，由于解锁速度不能大于最大解锁速度，随着时间推移APR将达到最大值。为方便前端统一展示，最大解锁年化均按照大约一周时间达到最大年化，即MaxAPR = 4.6 \* K1 \* 100%
 
