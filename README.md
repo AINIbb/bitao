@@ -84,12 +84,12 @@ Take a famous DEX data as comparison, ZGoat core profit data as shown below. Ass
 | Scene Number | 2 | 10000 |
 | Tx Volume Each Scene | 0.1 Billion | 1000 |
 | 30-Day Volume | 6 Billion | 0.06 Billion |
-| Tx Fee | 3000w | 420w |
+| Tx Fee | 30 Million | 4.2 Million |
 | LP Unlock Profit | 0 | 630w |
-| Aridrop Unclaim | 0 | 1200w |
+| Aridrop Unclaim | 0 | 120 Million |
 | Commission Fee | 1/3 | 10% |
 |  |  |  |
-| **Total Profit** | **1000w** | **2850w** |
+| **Total Profit** | **10 Million** | **28.5 Million** |
 
 {% hint style="info" %}
 Assume that ZGoat staking for each wish is valued $1,000, then the volume of the 30-day wishlist  is: 10000/5_\*_30_\*_1000 = $60 million. Profit: \(6% +1%\) _\* 0.06 billion_ \* _\(1+150%\)+0.06 billion_  \* 20% +0.06 billion \* 10% = $28.5 million, of which, 1% is the estimated proportion of holder reward of Marketing Management Account , and 150% is the estimated increase rate of currency price within 30 days according to a similar product model. Proportion of  unclaim is assumed to be 20%, and proportion of commission fee is 10%.
