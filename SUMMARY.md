@@ -24,7 +24,7 @@
 * [媒体报道](shi-chang/mei-ti-bao-dao.md)
 * [空投 & 合作](shi-chang/kong-tou-huo-dong/README.md)
   * [合作](shi-chang/kong-tou-huo-dong/he-zuo.md)
-  * [Wish001：从零起步](shi-chang/kong-tou-huo-dong/wish001-zgoat-from-zero.md)
+  * [Wish001：遇见扎克伯格的小女孩](shi-chang/kong-tou-huo-dong/wish001-zgoat-from-zero.md)
   * [Market001：电报空投活动](shi-chang/kong-tou-huo-dong/market001-join-telegram-airdrop.md)
 * [解锁规则](shi-chang/jie-suo-gui-ze.md)
 
