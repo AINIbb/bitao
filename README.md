@@ -120,7 +120,7 @@ For example, Address A is the referrer of Address B. Address A sends 10,000,000 
 | Address B monthly transaction volume = 0 | -$1 |
 | Address B monthly transaction volume = $1,000 | $12 |
 | Address B monthly transcation volume = $100,000 | $1200 |
-| Address B monthly transcation volume = $10 million | $12w |
+| Address B monthly transcation volume = $10 million | $120000 |
 |  |  |
 | **Return on Investment** | **Up to 120,000 times** |
 
