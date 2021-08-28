@@ -2,7 +2,7 @@
 
 Airdrop activities are held irregularly in order to increase the role of market promotion, enhance the popularity of the market and attract more users to pay attention to ZGoat.
 
-Set ladder rewards based on The order of attention. The Earlier you participate, The More rewards you will receive. The Earlier The More:
+Set ladder rewards based on the order of attention. The Earlier you participate, The More rewards you will receive. The Earlier The More:
 
 | TOP | Reward |
 | :--- | :--- |
