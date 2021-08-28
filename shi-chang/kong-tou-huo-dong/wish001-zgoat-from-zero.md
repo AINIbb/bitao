@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/wish001-ying-wen-.png)
 
-> When graduated for job, as a female, it's so hard because of sexism. As a code farmer, I made a wish to my idol, Zuckerberg. Fortunately, then I get a job in blockchain, feeling cheerful, fair and loved. My wish comes ture. The idea about WISH TOKEN comes in my mind, to help everyone say wish out. At that time, Zuck tweets "My Zgoats: MAX and BITCOIN", therefore the token is named "ZGOAT". And I make the second wish: Little Girl, Meet Zuck!
+> When graduated for job, as a female, it's so hard because of sexism. As a code farmer, I made a wish to my idol, Zuckerberg. Fortunately, then I got a job in blockchain, feeling cheerful, fair and loved. My wish came ture. The idea about WISH TOKEN came in my mind, to help everyone say wish out. At that time, Zuck tweeted "My Zgoats: MAX and BITCOIN", therefore the token is named "ZGoat". And I made the second wish: Little Girl, Meet Zuck!
 
 Wishes are generally divided into four stages:
 
