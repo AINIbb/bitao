@@ -22,3 +22,24 @@ Tips:
 * Each wallet address can only participate in one of the airdrop activities such as Twitter, WeChat, and Telegraph, without accumulation.
 * For cheating, the corresponding qualification is canceled and the blacklist address is set.
 
+
+
+**Invite friends to join the telegram group reward rules:**
+
+[Total prize amount:43.5 billion](https://zgoat.org)\(Users scan the QR code group and generate exclusive sharing posters or links\)
+
+1. The user invites friends to join the Telegram group to receive an additional 43.5 billion rewards. For every successful invitation of a user to participate and win the prize, the inviter will receive 50,000 ZGoat rewards, up to a limit of 1,000,000 ZGoat.
+2. Please contact the business assistant [business assistant](../../qi-ta/lian-xi-wo-men.md) for the reward rules of community partners
+
+
+
+**Reward rules for Moments like activity :**
+
+[Total prize amount: **20** billion](https://zgoat.org)
+
+1. Users share to Moments and invite friends to like
+2. Friends like more than 10, upload a screenshot to the Moments like activity table, the reward amount is 100,000 ZGoat;
+3. Friends have liked more than 30, upload a screenshot to the Moments like activity table, the reward amount is 500,000 ZGoat;
+
+\*\*\*\*[**Click here to upload a screenshot of the likes of Moments**](https://zgoat.org)
+
