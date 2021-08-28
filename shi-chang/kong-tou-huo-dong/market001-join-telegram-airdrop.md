@@ -43,3 +43,10 @@ Tips:
 
 \*\*\*\*[**Click here to upload a screenshot of the likes of Moments**](https://zgoat.org)
 
+  
+_Tips:_
+
+_All airdrop rewards need to be unlocked_
+
+_The wallet balance is subject to the official random snapshot_
+
