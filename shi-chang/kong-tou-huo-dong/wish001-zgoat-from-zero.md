@@ -7,6 +7,8 @@
   
 Although Zuckerberg is high up, it seems out of reach to meet him. However, I believe that there will always be miracles in the world, so I make my first wish on the ZGoat platform. If you  support my wish, please help me leave a message on Zach’s Facebook, and let him know: a little girl, misses him~
 
+![](../../.gitbook/assets/hai-bao-1-30.png)
+
 To thank my friends for support, for the first wish, the ZGoat platform set 16.3 billion ZGoats for reward and provide 10 times rewards rule for users who hold more than 10 million ZGoat in the wallet.
 
 \*\*\*\*
