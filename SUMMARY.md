@@ -24,7 +24,7 @@
 * [Media Report](shi-chang/mei-ti-bao-dao.md)
 * [Airdrop & Cooperation](shi-chang/kong-tou-huo-dong/README.md)
   * [Cooperation](shi-chang/kong-tou-huo-dong/cooperation.md)
-  * [Wish001：ZGoat From Zero](shi-chang/kong-tou-huo-dong/wish001-zgoat-from-zero.md)
+  * [Wish001：Little Girl, Meet Zuck](shi-chang/kong-tou-huo-dong/wish001-zgoat-from-zero.md)
   * [Market001：Join Telegram AirDrop](shi-chang/kong-tou-huo-dong/market001-join-telegram-airdrop.md)
 * [Unlock Rule](shi-chang/jie-suo-gui-ze.md)
 
