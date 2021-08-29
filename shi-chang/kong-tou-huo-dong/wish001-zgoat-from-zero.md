@@ -36,7 +36,7 @@ To thank my friends for support, for the first wish, the ZGoat platform set 16.3
 **Others:**
 
 1. If the rewarded address is randomly snapshot, the wallet balance is greater than or equal to 10,000,000 ZGoat, the reward will be multiplied by 10;
-2. User invites friends to participate to obtain additional rewards. If the friend participates successfully, the inviter will receive 50,000 ZGoat reward, up to a limit of 500,000 ZGoat.
+2. User invites friends to participate to obtain additional rewards. If the friend participates successfully, the inviter will receive 50,000 ZGoat reward, up to a limit of 1,000,000 ZGoat.
 3. Contact the  [business assistant](../../qi-ta/lian-xi-wo-men.md) for community cooperation.
 
 
