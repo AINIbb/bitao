@@ -25,11 +25,11 @@ To thank my friends for support, for the first wish, the ZGoat platform set 16.3
 
 **Reward rules:**
 
-[Total prize amount: 16.3 billion](https://zgoat.org) \(wallet balance ≥ 10,000,000 ZGoat, the following amount 10X\)
+[Total prize amount: 36.5 billion](https://zgoat.org) \(wallet balance ≥ 10,000,000 ZGoat, the following amount 10X\)
 
 1. The 1st to 1000th place in the comments will be rewarded 1,000,000 ZGoat; 🔟 
-2. The 1001-5000th place in the comments will be rewarded 10,000 ZGoats; 🔟 
-3. The 5001-50000th place in the comments will be rewarded 5,000 ZGoats; 🔟 
+2. The 1001-5000th place in the comments will be rewarded 100,000 ZGoats; 🔟 
+3. The 5001-50000th place in the comments will be rewarded 5,0000 ZGoats; 🔟 
 
 
 
