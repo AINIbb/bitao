@@ -2,7 +2,9 @@
 
 所有通过空投、心愿单、社群活动获得的ZGoat奖励均需要通过质押LP进行解锁。
 
+\(这是视频教程，待更新\)
 
+{% file src="../.gitbook/assets/how-to-unlock.mp4" caption="如何解锁ZGoat" %}
 
 **1\) 解锁计算公式：**
 
