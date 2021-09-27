@@ -24,6 +24,7 @@
 * [媒体报道](shi-chang/mei-ti-bao-dao.md)
 * [空投 & 合作](shi-chang/kong-tou-huo-dong/README.md)
   * [合作](shi-chang/kong-tou-huo-dong/he-zuo.md)
+  * [Coop001: ZGoat&Chair联合营销活动](shi-chang/kong-tou-huo-dong/coop001-zgoatchair-lian-he-ying-xiao-huo-dong.md)
   * [Vote001：竞猜电报人数，瓜分10亿大奖](shi-chang/kong-tou-huo-dong/vote001-jing-cai-dian-bao-ren-shu-gua-fen-10-yi-da-jiang.md)
   * [Wish001：遇见扎克伯格的小女孩](shi-chang/kong-tou-huo-dong/wish001-zgoat-from-zero.md)
   * [Market001：电报群千亿ZGoat空投活动](shi-chang/kong-tou-huo-dong/market001-join-telegram-airdrop.md)
