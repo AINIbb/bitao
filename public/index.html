@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="<%= BASE_URL %>favicon.png">
+    <title>First Application On Defi-Marketing</title>
+  </head>
+  <style>
+  	body,html{
+  		margin: 0;
+  		padding: 0;
+  	}
+  	#start{
+  		width: 100%;
+  		height: 100vh;
+  		background: linear-gradient(to bottom,#FFE6EA,#FFF8F6);
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+		flex-direction: column;
+  	}
+  	#start img{
+  		width: 100px;
+  		height: 100px;
+  		border-radius: 50%;
+  		
+  	}
+  </style>
+  <body>
+  	<noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="start">
+    	<img src="loading.png" />
+		<div style="text-align: center;color: #FF6C80;font-size: 16px;margin-top: 10px;">Loading...</div>
+    </div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+  	window.onload = function(){
+  		document.getElementById('start').style.display = 'none'
+  	}
+  </script>
+</html>

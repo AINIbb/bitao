@@ -1,0 +1,57 @@
+{
+  "name": "MakeDefiMaketingMoreFunny",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "serve": "vue-cli-service serve",
+    "build2": "node build/build.js",
+    "build": "vue-cli-service build ",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@makerdao/multicall": "^0.12.0",
+    "@walletconnect/web3-provider": "^1.6.5",
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.0.1",
+    "core-js": "^3.6.5",
+    "decimal.js": "^10.3.1",
+    "element-ui": "^2.15.2",
+    "eslint": "^7.32.0",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "web3": "^1.5.3",
+    "web3-eth": "^1.4.0",
+    "web3-eth-abi": "^1.4.0",
+    "web3-eth-contract": "^1.4.0",
+    "web3-eth-debug": "^1.0.0-beta.55"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "compression-webpack-plugin": "^6.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": false
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
