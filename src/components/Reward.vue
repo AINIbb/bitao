@@ -279,6 +279,7 @@
 						this.share_address = address_now;
 					}
 				}
+				
 				var hex='';
 				var pass = '94251814'
 				for(var i = 0; i<pass.length; i ++){
