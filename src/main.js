@@ -26,6 +26,8 @@ const Wechat = () =>
 	import(/* webpackChunkName: 'Wechat' */ '@/components/Wechat');
 const CreateContract = () =>
 	import(/* webpackChunkName: 'CreateContract' */ '@/components/CreateContract');
+const CreateRedpacket = () =>
+	import(/* webpackChunkName: 'CreateRedpacket' */ '@/components/CreateRedpacket');
 
 Vue.use(VueRouter)
 Vue.use(ELEMENT)
@@ -95,6 +97,13 @@ const routes = [{
 	path: '/CreateContract',
 	name: 'CreateContract',
 	component: CreateContract,
+	meta: {
+		keepAlive: true,
+	}
+}, {
+	path: '/CreateRedpacket',
+	name: 'CreateRedpacket',
+	component: CreateRedpacket,
 	meta: {
 		keepAlive: true,
 	}
