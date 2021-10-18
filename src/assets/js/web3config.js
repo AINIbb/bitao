@@ -252,5 +252,5 @@ const lpInterface = new web3.eth.Contract(lp_abi, lp_token);
 const bitao = new web3.eth.Contract(bitaoABI,Zgoat_token);
 const testRequestApi = "http://39.99.133.20:9899/";
 const relrequestApi = "https://zgoat.org/api/";
-const requestApi = relrequestApi;
+const requestApi = testRequestApi;
 export {BLOCKCHAIN_CONFIG,web3, bitaoABI,bitao,lpInterface,Web3Eth,Zgoat_token,lp_token,maxNum, requestApi,airdropabi};

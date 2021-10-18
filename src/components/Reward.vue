@@ -280,16 +280,7 @@
 					}
 				}
 				
-				var hex='';
-				var pass = '94251814'
-				for(var i = 0; i<pass.length; i ++){
-					 hex += ''+ pass.charCodeAt(i).toString(16)
-				}
-				var hexMessage ="0x"+ hex
-				Web3Eth.personal.sign(hexMessage,this.walletAddress).then(res=>{
-					console.log('signed',res)
-					
-				})
+				
 				
 			}catch(e){
 				//TODO handle the exception
