@@ -2,15 +2,15 @@
 
 ## 1.为什么解锁APY快速增加
 
-根据公式, 
+根据公式,&#x20;
 
-**APR =** Time ^ 0.125 \*  K1 \* 100%
+**APR = **Time ^ 0.125 \*  K1 \* 100%
 
 {% hint style="info" %}
 _K1_ 是常数，可根据市场进行调节
 {% endhint %}
 
-![&#x89E3;&#x9501;APR&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/jie-suo-apr-zhong-wen-.png)
+![解锁APR示意图](../.gitbook/assets/jie-suo-apr-zhong-wen-.png)
 
 随着区块数量的增加，解锁APR将快速增加。注意，由于最大解锁速度的限制，解锁APR也将存在最大值
 
@@ -20,7 +20,9 @@ _K1_ 是常数，可根据市场进行调节
 
 用户通过平台空投、心愿奖励等方式获得的ZGoat , 可通过质押LP解锁后交易
 
-{% page-ref page="xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md" %}
+{% content-ref url="xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md" %}
+[5.-ru-he-jie-suo-zgoat.md](xin-shou-jiao-cheng/5.-ru-he-jie-suo-zgoat.md)
+{% endcontent-ref %}
 
 ## 3.无法兑换ZGoat?
 
@@ -31,6 +33,4 @@ _K1_ 是常数，可根据市场进行调节
 3、检查钱包中是否有未解锁的ZGoat，若有，交易最大数量需减掉未解锁数量
 
 4、检查其他因素，比如网路错误，节点延迟等等
-
-
 

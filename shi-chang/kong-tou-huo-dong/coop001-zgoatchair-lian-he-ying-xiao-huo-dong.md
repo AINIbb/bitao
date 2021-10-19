@@ -1,4 +1,4 @@
-# Coop001: ZGoat&Chair联合营销活动
+# Coop001: ZGoat\&Chair联合营销活动
 
 
 
@@ -6,7 +6,7 @@
 
 **参与方式：**
 
-1. 加入电报群 （[立即加入](https://t.me/zgoat_org)）
+1. 加入电报群 （[立即加入](https://t.me/zgoat\_org)）
 2. 邀请朋友加入电报群
 3. Chair平台拍卖
 
@@ -22,8 +22,7 @@
 
 
 
-_Tips:_ 
+_Tips: _
 
 * _登记成功后，请前往官网_[_https://zgoat.org_](https://zgoat.org)_领取奖励_
 * _参与拍卖成功后，1-3天内到账，请注意查看钱包情况_
-

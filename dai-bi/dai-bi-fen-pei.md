@@ -8,20 +8,18 @@ Zuck's Goat通证为ZGoat，总量210000亿，初始打入黑洞销毁数量1100
 
 ​
 
-### 邀请返佣规则 <a id="yao-qing-fan-yong-gui-ze"></a>
+### 邀请返佣规则 <a href="yao-qing-fan-yong-gui-ze" id="yao-qing-fan-yong-gui-ze"></a>
 
 每笔转账交易或者合约上的交易，若交易者有推荐者，则交易手续费持币人分红的60%用于奖励推荐者。
 
 ​
 
-### 停止销毁规则 <a id="ting-zhi-xiao-hui-gui-ze"></a>
+### 停止销毁规则 <a href="ting-zhi-xiao-hui-gui-ze" id="ting-zhi-xiao-hui-gui-ze"></a>
 
 当黑洞销毁数量达到189000亿时，即剩余总数量为21000亿，黑洞停止销毁，同时调整手续费比例。
 
-![&#x4EE3;&#x5E01;&#x5206;&#x914D;](../.gitbook/assets/04-dai-bi-fen-pei-.png)
+![代币分配](../.gitbook/assets/04-dai-bi-fen-pei-.png)
 
 运营钱包使用明细请见空投活动
 
-[点击购买ZGoat](https://exchange.pancakeswap.finance/#/swap)  
-
-
+[点击购买ZGoat](https://exchange.pancakeswap.finance/#/swap)\
