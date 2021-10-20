@@ -18,14 +18,12 @@ $$
 * 预估分红：100BNB
 * 触发币价：$0.000001
 
-![&#x5403;&#x96F6;&#x5206;&#x7EA2;&#x8FDB;&#x5EA6;&#x6761;](../.gitbook/assets/chi-ling-fen-hong-jin-du-tiao-zhong-wen-.png)
+![](<../.gitbook/assets/吃零分红进度条 – 中文.png>)
 
-![&#x5403;&#x96F6;&#x5206;&#x7EA2;&#x5956;&#x52B1;&#x9886;&#x53D6;&#x53CA;&#x89C4;&#x5219;](../.gitbook/assets/chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-zhong-wen-%20%281%29.png)
+![吃零分红奖励领取及规则](<../.gitbook/assets/chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-zhong-wen- (1).png>)
 
-Tips: 
+Tips:&#x20;
 
 * 共识值跟质押的LP数量及质押时间相关（取最新30天作为依据）
 * 总奖励数量与邀请朋友的奖励相关
-
-
 
