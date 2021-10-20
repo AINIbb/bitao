@@ -16,7 +16,7 @@ As the first DeFi application based on the marketing concept, ZGoat will greatly
 4. Zero Fee Decentralized Exchange
 5. Combine Entity Economy With Cryptocurrency
 
-\*\*\*\*
+****
 
 **Main Functions:**
 
@@ -27,6 +27,4 @@ As the first DeFi application based on the marketing concept, ZGoat will greatly
 5. Zero Fee Decentralized Exchange
 6. Entertainment
 7. Shopping
-
-
 

@@ -4,32 +4,32 @@
 
 > When graduated for job, as a female, it's so hard because of sexism. As a code farmer, I made a wish to my idol, Zuckerberg. Fortunately, then I got a job in blockchain, feeling cheerful, fair and loved. My wish came ture. The idea about WISH TOKEN came in my mind, to help everyone say wish out. At that time, Zuck tweeted "My Zgoats: MAX and BITCOIN", therefore the token is named "ZGoat". And I made the second wish: Little Girl, Meet Zuck!
 
-  
-Although Zuckerberg is high up, it seems out of reach to meet him. However, I believe that there will always be miracles in the world, so I make my first wish on the ZGoat platform. If you  support my wish, please help me leave a message on Zach’s Facebook, and let him know: a little girl, misses him~
+\
+Although Zuckerberg is high up, it seems out of reach to meet him. However, I believe that there will always be miracles in the world, so I make my first wish on the ZGoat platform. If you  support my wish, please help me leave a message on Zach’s Facebook, and let him know: a little girl, misses him\~
 
 ![](../../.gitbook/assets/hai-bao-1-30.png)
 
 To thank my friends for support, for the first wish, the ZGoat platform set 16.3 billion ZGoats for reward and provide 10 times rewards rule for users who hold more than 10 million ZGoat in the wallet.
 
-\*\*\*\*
+****
 
 **Participation rules:**
 
-1. Click the _Support_ button, and paste the copied text into Zuckerberg's Facebook comment: [\(Participate Now\)](http://zgoat.org)
+1. Click the _Support _button, and paste the copied text into Zuckerberg's Facebook comment: [(Participate Now)](http://zgoat.org)
 2. Invite friends to participate
 
 
 
-**Date:** 2021/08/xx-2021/08/xx  
+**Date:** 2021/08/xx-2021/08/xx\
 
 
 **Reward rules:**
 
-[Total prize amount: 36.5 billion](https://zgoat.org) \(wallet balance ≥ 10,000,000 ZGoat, the following amount 10X\)
+[Total prize amount: 36.5 billion](https://zgoat.org) (wallet balance ≥ 10,000,000 ZGoat, the following amount 10X)
 
-1. The 1st to 1000th place in the comments will be rewarded 1,000,000 ZGoat; 🔟 
-2. The 1001-5000th place in the comments will be rewarded 100,000 ZGoats; 🔟 
-3. The 5001-50000th place in the comments will be rewarded 5,0000 ZGoats; 🔟 
+1. The 1st to 1000th place in the comments will be rewarded 1,000,000 ZGoat; :keycap\_ten:&#x20;
+2. The 1001-5000th place in the comments will be rewarded 100,000 ZGoats; :keycap\_ten:&#x20;
+3. The 5001-50000th place in the comments will be rewarded 5,0000 ZGoats; :keycap\_ten:&#x20;
 
 
 
@@ -43,8 +43,7 @@ To thank my friends for support, for the first wish, the ZGoat platform set 16.3
 
 
 
-_Tips:_ 
+_Tips: _
 
 * _All airdrop rewards need to unlock_
 * _The wallet balance is subject to the official random snapshot_
-

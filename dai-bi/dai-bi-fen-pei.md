@@ -8,18 +8,16 @@ Zuck's Goat token is ZGoat, the total supply is 21,000 billion, the initial blac
 
 
 
-### Invitation Reward Rules <a id="q2N6Q"></a>
+### Invitation Reward Rules <a href="q2n6q" id="q2n6q"></a>
 
 For each transaction, if there is a referrer, 60% transation fee of distributed to holder will be sent to referrer as reward.
 
-### Stop Burnt: <a id="y4Gkm"></a>
+### Stop Burnt: <a href="y4gkm" id="y4gkm"></a>
 
 When amount of black hole reaches 18,900 billion, that is, the remaining total amount is 2100 billion, black hole burnt stops, and transaction fee ratio will be adjusted.
 
-![\( Token allocation \)](../.gitbook/assets/04-dai-bi-fen-pei-.png)
+![( Token allocation )](../.gitbook/assets/04-dai-bi-fen-pei-.png)
 
 For more information about Marketing Management Wallet, pay attention to AirDrop Activities.
 
-[Click to buy ZGoat](https://exchange.pancakeswap.finance/#/swap)  
-
-
+[Click to buy ZGoat](https://exchange.pancakeswap.finance/#/swap)\

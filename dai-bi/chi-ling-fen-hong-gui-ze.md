@@ -2,7 +2,7 @@
 
 The success of application in consensus economy comes from the strong support of users. Whether the application is successful has a very important parameter: **Price.**
 
-\*\*\*\*
+****
 
 **Witness highlight moment of price milestone!**
 
@@ -21,16 +21,14 @@ $$
 * Estimated Reward: 100 BNB
 * Goal Price: $0.000001
 
-![\( EatZero Reward \)](../.gitbook/assets/chi-ling-fen-hong-jin-du-tiao-.png)
+![](../.gitbook/assets/吃零分红进度条.png)
 
-![\( Rules and Claim Reward\)](../.gitbook/assets/06-chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-.png)
+![( Rules and Claim Reward)](../.gitbook/assets/06-chi-ling-fen-hong-jiang-li-ling-qu-ji-gui-ze-.png)
 
 
 
-Tips: 
+Tips:&#x20;
 
-* Consensus Point is related to LP amount and holdtime \(within 30 days\)
+* Consensus Point is related to LP amount and holdtime (within 30 days)
 * Total Rewards includes invitation reward
-
-
 
