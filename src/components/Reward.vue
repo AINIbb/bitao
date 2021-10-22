@@ -37,7 +37,7 @@
 				
 				<el-row :gutter="20">
 					<el-col v-for="(row,index) in wishList" :key="index" :xs="24" :sm="12" >
-						<div class="wish-list-main" v-if="row.type == checkMeta " style="background: #fff;overflow: hidden;">
+						<div class="wish-list-main" v-if="row.type == checkMeta && checkMeta!=9" style="background: #fff;overflow: hidden;">
 							<!-- <div class="wish-time">活动时间：{{row['start_time'].substring(0,11)}}- {{row['end_time'].substring(5,11)}}</div> -->
 							<div style="padding: 17px;">
 								<div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 15px;position: relative;">
@@ -61,6 +61,27 @@
 								<div class="wish-btn" style="display: flex;justify-content: space-between;">
 									<!-- <button :class="row.effecive==0 || row.effecive==3 ? 'stake_false' : ''" :disabled="row.effecive==0 || row.effecive==3 " :data-type="row.type" style="background: #fff;color: #FF6C80;" :data-id="row.id" @click="joinActivity">立即参与</button> -->
 									<!-- <button :class="row.effecive==0 || row.effecive==3 ? 'stake_false' : ''" :disabled="row.effecive==0 || row.effecive==3 " :data-type="row.type" style="background: #FF6C80;color: #fff;" :data-id="row.id" @click="shareActivity">邀请好友</button> -->
+									<button  :data-type="row.type" style="background: #fff;color: #FF6C80;" :data-id="row.id" @click="joinActivity">{{words.joinAndReward[lang]}}</button>
+									<button  :data-type="row.type" style="background: #FF6C80;color: #fff;" :data-id="row.id" @click="shareActivity">{{words.inviteFriendBtn[lang]}}</button>
+								</div>
+							</div>
+						</div>
+					    <div class="wish-list-main" v-if="row.type == checkMeta && checkMeta == 9">
+							<div style="padding: 17px;background: #fff;border-radius: 17px;">
+								<div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 15px;position: relative;">
+									<div class="wish-coder href-icon" @click="toWishDetail(row.id)">
+										<span>某昵称发出的红包</span>
+									</div>
+									<button style="padding: 3px 20px;background: #fff;color: #FF6C80;border: solid 1px rgba(255, 108, 128, 0.4);border-radius: 30px 0 0 30px;position: absolute;right: -20px;font-size: 14px;" :data-id="row.id" v-if="row.effecive!=0 &&row.effecive!=3" @click="claim_reward">{{words.wishClaim[lang]}}</button>
+								</div>
+								
+								<div class="wish-content">
+									<div>属性1</div>
+									<div>属性2</div>
+									<div>属性3</div>
+								</div>
+								
+								<div class="wish-btn" style="display: flex;justify-content: space-between;">
 									<button  :data-type="row.type" style="background: #fff;color: #FF6C80;" :data-id="row.id" @click="joinActivity">{{words.joinAndReward[lang]}}</button>
 									<button  :data-type="row.type" style="background: #FF6C80;color: #fff;" :data-id="row.id" @click="shareActivity">{{words.inviteFriendBtn[lang]}}</button>
 								</div>
@@ -279,9 +300,6 @@
 						this.share_address = address_now;
 					}
 				}
-				
-				
-				
 			}catch(e){
 				//TODO handle the exception
 				console.log(e)
@@ -679,10 +697,16 @@
 				}else if(type == 5){
 					this.invitePopShowAble = true;
 					this.dialog_type = 1;
+				}else if(type == 9){
+					this.claimRedpacket()
+					
 				}else{
 					this.invitePopShowAble = true;
 					this.dialog_type = 5;
 				}
+				
+			},
+			claimRedpacket:function(){
 				
 			},
 			shareActivity:function(ev){

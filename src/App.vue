@@ -97,7 +97,31 @@
 	  font-size: 16px;
 	}
 	
-	
+	.icon-coin:before{
+		content: '\e66c';
+		color: #9D2435;
+		font-size:20px ;
+	}
+	.icon-setting:before{
+		content: '\e603';
+		color: #9D2435;
+		font-size:18px ;
+	}
+	.icon-redpacket:before{
+		content: '\e6f4';
+		color: #9D2435;
+		font-size:20px ;
+	}
+	.icon-record:before{
+		content: '\e628';
+		color: #9D2435;
+		font-size:18px ;
+	}
+	.icon-charge-record:before {
+	  content: "\e6a1";
+		color: #9D2435;
+		font-size:20px ;
+	}
 	@font-face {
 		font-family: "icontip";
 		src: url("assets/icontip.ttf?t=1624420291843") format('truetype');

@@ -228,7 +228,6 @@
 							_this.walletAddress = localStorage.getItem('wallet_address')
 							_this.$store.commit("SET_ADDRESS", localStorage.getItem('wallet_address'));
 						}else if(!_this.walletAddress == true){
-							_this.openTip('icon-alert', words.connecstFail[_this.langIndex])
 						}
 						
 					}

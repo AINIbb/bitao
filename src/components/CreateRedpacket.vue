@@ -8,20 +8,33 @@
 			<div class="packet_count packet_params">
 				<span>红包个数</span>
 				<div>
-					<input v-model="repacket_info.count" style="text-align: right;" placeholder="填写个数" />
+					<input @input="getSingleAmount" v-model="repacket_info.count" style="text-align: right;" placeholder="填写个数" />
 					<span>个</span>
 				</div>
 				
 			</div>
-			<div style="color: #B29B9D;font-size: 13px;">当前为拼手气红包，可选择<a style="color: #ff455c;">普通红包</a></div>
+			<div style="color: #B29B9D;font-size: 13px;">当前为{{repacket_info.get_type == '0' ? '拼手气红包' : '普通红包'}}，可选择<a style="color: #ff455c;cursor: pointer;text-decoration: underline;" @click="check_get_pick_type">{{repacket_info.get_type == '1' ? '拼手气红包' : '普通红包'}}</a></div>
+			
+			<div v-if="repacket_info.get_type == '1'" class="packet_params">
+				<span>单个金额</span>
+				<div>
+					<input @input="getSingleAmount" style="text-align: right;width: 100px;" placeholder="0"  v-model="singleAmount"/>
+					<span style="color: #FFE6EA;margin: 0 10px;">|</span>
+					<img />
+					<span @click="open_drawer('token')">{{token_list[select_token_index].name}} <i class="el-icon-caret-bottom"></i></span>
+				</div>
+			</div>
 			
 			<div class="packet_params">
 				<span>总金额</span>
-				<div>
+				<div v-if="repacket_info.get_type == '0'">
 					<input v-model="repacket_info.amount" style="text-align: right;width: 100px;" placeholder="0" />
 					<span style="color: #FFE6EA;margin: 0 10px;">|</span>
 					<img />
 					<span @click="open_drawer('token')">{{token_list[select_token_index].name}} <i class="el-icon-caret-bottom"></i></span>
+				</div>
+				<div v-else>
+					<span>{{repacket_info.amount}}</span>
 				</div>
 			</div>
 			<div class="packet_params"><input v-model="repacket_info.description" style="width: 100%;" placeholder="祝福语:恭喜发财,大吉大利"/></div>
@@ -62,7 +75,7 @@
 				</div>
 			</div> -->
 			<div style="text-align: center;">
-				<button style="background: #E3D7D9;color: #B29B9D;font-size: 16px;padding: 11px 58px;border-radius: 22px;margin: 33px 0 28px 0;" @click="inputpassword">塞钱进红包</button>
+				<button style="background: #FF6C80;color: #fff;font-size: 16px;padding: 11px 58px;border-radius: 22px;margin: 33px 0 28px 0;" @click="inputpassword">塞钱进红包</button>
 			</div>
 			<div style="text-align:center;color: #B29B9D;font-size: 11px;">未领取的红包，将于24h后发起退款</div>
 		</el-col>
@@ -122,7 +135,7 @@
 		  <div style="display: flex;justify-content: space-between;align-items: center;">
 			  <div class="search-token">
 				  <i style="color: #B29B9D;font-size: 20px;" class="el-icon-search"></i>
-				  <input placeholder="输入代币或合约地址" style="width: 80%;margin-left: 10px;"/>
+				  <input placeholder="输入代币或合约地址" style="width: 80%;margin-left: 10px;border: none;"/>
 			  </div>
 			  
 			  <span style="color: #B29B9D;">取消</span>
@@ -155,8 +168,10 @@
 	import QRCode from 'qrcode'
 	import {
 		Web3Eth,
+		loginFlag,
 		maxNum,
-		requestApi
+		requestApi,
+		BLOCKCHAIN_CONFIG
 	} from "../assets/js/web3config";
 	import SetPassword from './SetPassword.vue'
 	export default {
@@ -165,15 +180,33 @@
 		async mounted() {
 			var _this = this;
 			this.lang = localStorage.getItem('lang');
-			const accounts = await Web3Eth.getAccounts()
-			this.walletAddress = accounts[0];
-			this.repacket_info.owner_address = accounts[0];
+			try{
+				var chainId = BLOCKCHAIN_CONFIG.defaultChainId;
+				const getChainId = await Web3Eth.getChainId()
+				if(chainId == getChainId){
+					var address_now = localStorage.getItem('wallet_address')
+					if(this.$store.state.walletAddress != '') {
+						this.walletAddress = this.$store.state.walletAddress;
+						this.repacket_info.owner_address = this.$store.state.walletAddress;
+					}else if(address_now != ''){
+						this.walletAddress = address_now
+						this.repacket_info.owner_address = address_now;
+					}
+				}
+			}catch(e){
+				var getlogin = localStorage.getItem('login_address')
+				this.walletAddress = getlogin;
+				this.repacket_info.owner_address = getlogin;
+				//TODO handle the exception
+				console.log(e)
+			}
 			this.$http({
 				method: 'get',
 				url: requestApi + 'getToken',
 				headers: {
 					'Content-Type': 'application/x-www-form-urlencoded'
-				}
+				},
+				params:{address:this.walletAddress}
 			}).then((res) => {
 				console.log(res)
 				res.data.data.forEach(item=>{
@@ -181,52 +214,9 @@
 				})
 				_this.token_list = res.data.data;
 				_this.repacket_info.token_address = res.data.data[0]['address']
-				
+				_this.address_status = res.data.addressdata;
 			})
-			setTimeout(function(){
-				
-				var domt = document.getElementById('shareimg');
-				
-				var ctx = domt.getContext('2d');
-				var dpr = window.devicePixelRatio || 1
-				var bsr = ctx.webkitBackingStorePixelRatio ||
-					  ctx.mozBackingStorePixelRatio ||
-					  ctx.msBackingStorePixelRatio ||
-					  ctx.oBackingStorePixelRatio ||
-					  ctx.backingStorePixelRatio || 1;
-				var radio =  dpr / bsr;
-				domt.width = 264 * radio
-				domt.height = 351 * radio	  
-				domt = domt.getContext("2d").setTransform(radio, 0, 0, radio, 0, 0)
-				
-				var img = new Image()
-				img.src = 'https://cdn.bitaochain.com/upload/picture/202110/18/0a7bae56144e021a1e556699ce4793fb.png'
-				img.onload = function(){
-					ctx.drawImage(img,0,0,264,351);
-					ctx.font = '14px Arial'
-					ctx.fillStyle = "#ffcba1"
-					ctx.textAlign='center'
-					ctx.fillText(_this.walletAddress.substring(0,4) + '...' + _this.walletAddress.substring(38,42) + ' 发出的红包', 132,80)
-					ctx.font = '20px Arial'
-					ctx.fillText(_this.repacket_info.description,132,132)
-					ctx.font = '12px Arial'
-					ctx.fillStyle = "#fde3aa"
-					ctx.fillText('扫码领取' + _this.token_list[_this.select_token_index].name, 132,280)
-					ctx.fillStyle = "#ffc2ca"
-					ctx.font = '11px Arial'
-					ctx.fillText('*仅限在微信、推特、电报群平台领取', 132,330)
-					var qrurl = 'https://www.baidu.com'
-					var qrimg = new Image()
-					QRCode.toDataURL(qrurl,{margin:1,color:{dark: '#aa0a1f'}}).then(res=>{
-						qrimg.src = res
-					})
-					qrimg.onload = function(){
-						ctx.drawImage(qrimg,97,190,70,70)
-					}
-				}
-				
-				
-			},5000)
+			
 			
 		},
 		data(){
@@ -240,10 +230,12 @@
 				value1:false,
 				value2:true,
 				value3:true,
-				drawer: {'chain':false,'token':false,set_address:false,shareImg:true},
+				drawer: {'chain':false,'token':false,set_address:false,shareImg:false},
 				direction: 'btt',
 				token_list:[],
+				singleAmount:0,
 				select_token_index:0,
+				address_status: 1,
 				repacket_info:{
 					count:0,
 					amount:0,
@@ -256,6 +248,27 @@
 					get_type:'0',
 					expire_time: ''
 				}
+			}
+		},
+		computed: {
+			listenWalletAddressChange() {
+				console.log('address change', this.$store.state.walletAddress)
+				return this.$store.state.walletAddress;
+			},
+			listenLangChange() {
+				console.log('lang change', this.$store.state.lang)
+				return this.$store.state.lang;
+			}
+		},
+		watch: {
+			listenWalletAddressChange: function(newd) {
+				console.log('changeInfo', newd)
+				this.walletAddress = newd;
+			},
+			listenLangChange(lang) {
+				console.log('lang change', this.$store.state.lang)
+				this.lang = Object.assign({}, lang);
+				this.lang = lang;
 			}
 		},
 		methods:{
@@ -288,10 +301,17 @@
 					params:info
 				}).then((res) => {
 					if(res.data.statu == 1000){
-						_this.drawer.set_address = true
+						if(loginFlag == 1){
+							this.openTip('el-icon-lock','请复制官网链接（https://zgoat.org），前往DAPP浏览器设置密码')
+						}else{
+							_this.drawer.set_address = true
+						}
+						
 						console.log('没有设置密码')
 					}else if(res.data.statu == 1001){
 						_this.$message.error('密码错误')
+					}else if(res.data.statu == 1002){
+						_this.$message.error('余额不足')
 					}else{
 						_this.create_success = true
 					}
@@ -300,26 +320,119 @@
 			},
 			inputpassword:function(){
 				var _this = this
+				var info = this.repacket_info;
+				if(info.amount == '' || info.amount == 0){
+					this.$message.error('请填写总金额')
+					return
+				}
+				if(info.count == '' || info.count == 0){
+					this.$message.error('请填写个数')
+					return
+				}
+				if(info.token_address == ''){
+					this.$message.error('请选择代币')
+					return
+				}
+				if(_this.address_status != 1){
+					if(loginFlag == 1){
+						this.openTip('el-icon-lock','请复制官网链接（https://zgoat.org），前往DAPP浏览器设置密码')
+					}else{
+						this.drawer.set_address = true
+					}
+					
+					return
+				}
 				this.$prompt('请输入密码', {
 				  confirmButtonText: '确定',
 				  cancelButtonText: '取消',
-				  inputPattern:/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,}$/ ,
-				  inputErrorMessage: '密码格式不正确'
 				}).then(({ value }) => {
 				    _this.submitinfo(value)
 				}).catch(() => {
 				       
 				});
 			},
+			openTip: function(iconClass, tipText) {
+				var tip = "<div><span style='font-size:56px;color:#ff6c80;margin-bottom:30px' class='" + iconClass + "'></span><div style='color:#FF6C80;text-align:left;'>" + tipText +
+					"</div></div>"
+				this.$alert(tip, {
+					center: true,
+					lockScroll: false,
+					dangerouslyUseHTMLString: true,
+					confirmButtonClass: 'tip-pop-ok',
+					confirmButtonText: '复制链接',
+					cancelButtonClass: 'tip-pop-ok'
+				});
+			},
 			setpassword_success:function(){
 				this.drawer.set_address = false;
-				this.inputpassword()
+				this.$prompt('请输入密码', {
+				  confirmButtonText: '确定',
+				  cancelButtonText: '取消',
+				}).then(({ value }) => {
+				    _this.submitinfo(value)
+				}).catch(() => {
+				       
+				});
 			},
 			shareByImg:function(){
-				
-				// this.shareimgsrc = c.toDataURL('share/png')
+				//this.shareimgsrc = c.toDataURL('share/png')
+				var _this = this;
+					var domt = document.getElementById('shareimg');
+					var ctx = domt.getContext('2d');
+					var dpr = window.devicePixelRatio || 1
+					var bsr = ctx.webkitBackingStorePixelRatio ||
+						  ctx.mozBackingStorePixelRatio ||
+						  ctx.msBackingStorePixelRatio ||
+						  ctx.oBackingStorePixelRatio ||
+						  ctx.backingStorePixelRatio || 1;
+					var radio =  dpr / bsr;
+					domt.width = 264 * radio
+					domt.height = 351 * radio	  
+					domt = domt.getContext("2d").setTransform(radio, 0, 0, radio, 0, 0)
+					
+					var img = new Image()
+					img.src = 'https://cdn.bitaochain.com/upload/picture/202110/18/0a7bae56144e021a1e556699ce4793fb.png'
+					img.onload = function(){
+						ctx.drawImage(img,0,0,264,351);
+						ctx.font = '14px Arial'
+						ctx.fillStyle = "#ffcba1"
+						ctx.textAlign='center'
+						ctx.fillText(_this.walletAddress.substring(0,4) + '...' + _this.walletAddress.substring(38,42) + ' 发出的红包', 132,80)
+						ctx.font = '20px Arial'
+						ctx.fillText(_this.repacket_info.description,132,132)
+						ctx.font = '12px Arial'
+						ctx.fillStyle = "#fde3aa"
+						ctx.fillText('扫码领取' + _this.token_list[_this.select_token_index].name, 132,280)
+						ctx.fillStyle = "#ffc2ca"
+						ctx.font = '11px Arial'
+						ctx.fillText('*仅限在微信、推特、电报群平台领取', 132,330)
+						var qrurl = 'https://www.baidu.com'
+						var qrimg = new Image()
+						QRCode.toDataURL(qrurl,{margin:1,color:{dark: '#aa0a1f'}}).then(res=>{
+							qrimg.src = res
+						})
+						qrimg.onload = function(){
+							ctx.drawImage(qrimg,97,190,70,70)
+						}
+						_this.drawer.shareImg = true;
+					}
+			},
+			check_get_pick_type:function(){
+				if(this.repacket_info.get_type == '0'){
+					this.repacket_info.get_type = '1'
+				}else{
+					this.repacket_info.get_type = '0'
+				}
 				
 			},
+			getSingleAmount:function(){
+				if(this.repacket_info.get_type == '1'){
+					console.log(this.singleAmount,this.repacket_info.count)
+					var totalamount = parseInt(this.singleAmount) * parseInt(this.repacket_info.count)
+					this.repacket_info.amount = totalamount ? totalamount : 0
+				}
+				
+			}
 		}
 		
 	}
@@ -332,6 +445,7 @@
 		border-radius: 28px 28px 0 0;
 		padding: 0 22px;
 	}
+	
 </style>
 <style scoped="scoped">
 	
@@ -418,7 +532,7 @@
 		border: none;
 		
 	}
-	input{
+	.create-info input{
 		border: none;
 		font-size: 16px;
 	}

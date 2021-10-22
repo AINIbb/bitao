@@ -29,6 +29,16 @@ const CreateContract = () =>
 const CreateRedpacket = () =>
 	import(/* webpackChunkName: 'CreateRedpacket' */ '@/components/CreateRedpacket');
 
+const SetPassword = () =>
+	import(/* webpackChunkName: 'SetPassword' */ '@/components/SetPassword');
+const MyCash = () =>
+	import(/* webpackChunkName: 'MyCash' */ '@/components/MyCash');
+	
+const Mine = () =>
+	import(/* webpackChunkName: 'Mine' */ '@/components/Mine');
+const Recharge = () =>
+	import(/* webpackChunkName: 'Recharge' */ '@/components/Recharge');
+
 Vue.use(VueRouter)
 Vue.use(ELEMENT)
 // Vue.use(Dialog)
@@ -104,6 +114,35 @@ const routes = [{
 	path: '/CreateRedpacket',
 	name: 'CreateRedpacket',
 	component: CreateRedpacket,
+	meta: {
+		keepAlive: true,
+	}
+}, {
+	path: '/Mine',
+	name: 'Mine',
+	component: Mine,
+	meta: {
+		keepAlive: false,
+	}
+}, {
+	path: '/MyCash',
+	name: 'MyCash',
+	component: MyCash,
+	meta: {
+		keepAlive: true,
+	}
+}, {
+	path: '/Recharge',
+	name: 'Recharge',
+	component: Recharge,
+	meta: {
+		keepAlive: true,
+	}
+}, {
+	path: '/SetPassword',
+	name: 'SetPassword',
+	component: SetPassword,
+	props:true,
 	meta: {
 		keepAlive: true,
 	}

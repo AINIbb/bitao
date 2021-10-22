@@ -16,7 +16,7 @@
 		</div>
 		
 		<div>
-			<button @click="setPassword" style="width: 210px;height: 39px;background: #f0e1e2;color: #B29B9D;border-radius: 19px;border:none;margin-top: 40px;">确定</button>
+			<button  @click="setPassword" style="width: 210px;height: 39px;background: #FF6C80;color: #B29B9D;border-radius: 19px;border:none;margin-top: 40px;">确定</button>
 		</div>
 	</div>
 </template>
@@ -26,6 +26,10 @@
 	export default {
 	  name: 'SetPassword',
 	  props:['address'],
+	  mounted() {
+	  	// if(this.$router.params)
+		console.log(this.$route.params)
+	  },
 	  data () {
 	    return {
 	      pass_value: '',
@@ -35,8 +39,18 @@
 	  methods:{
 		 async setPassword(){
 			 var _this = this;
+			 if(this.pass_value == ''){
+				this.$message.error('请输入密码');
+				return
+			 }
+			 if(this.confirm_value == ''){
+				this.$message.error('请再次输入密码');
+				return
+			 }
 			 if(this.pass_value != this.confirm_value){
 				  this.$message.error('密码错误');
+				  return
+				  
 			 }
 			 this.$http({
 			 	method: 'get',
@@ -81,6 +95,7 @@
 					  message: '设置成功',
 					  type: 'success'
 					});
+					_this.$emit('introduce')
 				}else{
 					_this.$message.error('签名错误')
 				}			 

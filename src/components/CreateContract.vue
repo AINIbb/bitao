@@ -106,7 +106,7 @@
 				var routeradd = this.routeraddress;
 				console.log(name,symbol,useraddress,routeradd)
 				var data = createContractAB.methods.deployErc20Token(name,symbol,useraddress,routeradd).encodeABI();
-				var ethereum = window.ethereum;
+				
 				const transactionParameters = {
 					to: '0x766b086EACe8f47B4f67b292d0667532ccaC4e95',
 					from: this.walletAddress,

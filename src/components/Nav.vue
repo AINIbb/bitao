@@ -29,8 +29,16 @@
 					</div>
 					
 					<div style="margin: 0 20px;">
-						<button v-if="walletAddress == ''" @click="walletDeal" class="wallet-btn href-icon">{{words.walletConnect[langIndex]}}</button>
-						<button class="wallet-btn" v-else>{{showAddress(walletAddress)}}</button>
+						<el-dropdown  @command="userNavCommand">
+							<button v-if="walletAddress == ''" @click="walletDeal" class="wallet-btn href-icon">{{words.walletConnect[langIndex]}}</button>
+							<button class="wallet-btn" v-else>{{showAddress(walletAddress)}}<i class="el-icon-arrow-down el-icon--right"></i></button>
+							<el-dropdown-menu slot="dropdown">
+							    <el-dropdown-item command='0' >我的账户</el-dropdown-item>
+							    <el-dropdown-item command='1' >我要发红包</el-dropdown-item>
+							    <el-dropdown-item command='2' >我的红包记录</el-dropdown-item>
+							    <el-dropdown-item command='3' >设置零钱密码</el-dropdown-item>
+							  </el-dropdown-menu>
+						</el-dropdown>
 					</div>
 				</div>
 				
@@ -110,20 +118,50 @@
 				</div>
 			</div>
 		</div>
-		
+		<el-dialog :modal="dialogfull" title="设置零钱密码" width='360px'  :visible.sync="set_password">
+			<SetPassword :address="walletAddress" @introduce='setpassword_success'></SetPassword>
+		</el-dialog>
+		<el-dialog :modal="dialogfull" title="连接钱包"  width='380px' :visible.sync="set_address">
+			<div class="connect-type" >
+				<div @click="connection_type=false" :class="!connection_type? 'active-conn': ''">连接钱包<span v-if="!connection_type"></span></div>
+				<div @click="connection_type=true" :class="connection_type? 'active-conn': ''">密码登陆<span v-if="connection_type"></span></div>
+			</div>
+			<div>
+				<div v-if="!connection_type" style="padding: 0 30px;">
+					
+					<div style="text-align: left;line-height: 28px;">
+						<div style="margin: 80px 0 40px 0;" v-if="address_status==1">请复制官网链接（<a>https//:zgoat.org</a>）,打开钱包，粘贴链接到钱包浏览器</div>
+						<div style="margin: 60px 0 10px 0;" v-else>{{connection_info.address}}<br/>该地址还没有设置密码，请复制网站链接至DAPP为当前地址设置密码</div>
+					</div>
+					<button style="background: #FF6C80;color: #fff;width: 240px;height: 44px;border:none;border-radius: 22px;margin-top:40px">复制链接</button>
+				</div>
+				<div v-else class="pass-info">
+					<div>
+						<i style="font-size: 22px;color: #FF6C80;" class="el-icon-postcard"></i>
+						<el-input @input="getAddressInfo" type="text" placeholder="请输入地址" v-model="connection_info.address"  style="border: none;" ></el-input>
+					</div>
+					<div>
+						<i style="font-size: 22px;color: #FF6C80;" class="el-icon-lock"></i>
+						<el-input placeholder="请输入密码" v-model="connection_info.pass" show-password></el-input>
+					</div> 
+					<button @click="loginEvent"  style="background: #F0E1E2;color: #B29B9D;width: 240px;height: 44px;border:none;border-radius: 22px;margin-top:40px">登录</button>
+				</div>
+			</div>
+		</el-dialog>
 	</div>
 </template>
 
 <script>
 	//	import 'element-ui/lib/theme-chalk/display.css';
 
-	import {web3, Web3Eth, BLOCKCHAIN_CONFIG, Zgoat_token } from "../assets/js/web3config";
+	import {web3, Web3Eth, BLOCKCHAIN_CONFIG, Zgoat_token,requestApi } from "../assets/js/web3config";
 	let ethereumTop = window.ethereum
 	import {words} from "../assets/js/words"
-	
+	import SetPassword from './SetPassword.vue'
 	export default {
 		name: "Nav",
 		props: {},
+		components:{SetPassword},
 		mounted: function() {
 			this.showBlock = 'nav-controller';
 			var _this = this;
@@ -185,6 +223,7 @@
 				showCss: {},
 				chainId: 0,
 				meta_index:1,
+				connection_info:{address:'',pass:''},
 				buyUrl: 'https://pancakeswap.finance/swap?outputCurrency=' + Zgoat_token,
 				walletAddress: '',
 				doc_url : ["https://doc.zgoat.org","https://doc.zgoat.org/v/eng/"],
@@ -192,7 +231,12 @@
 				selectLang: ['English', '中文'],
 				langIndex: 0,
 				words:words,
-				showFlag:true
+				showFlag:true,
+				set_address:false,
+				connection_type: false,
+				dialogfull:false,
+				set_password:false,
+				address_status:1,
 			}
 		},
 		created() {
@@ -219,18 +263,75 @@
 				window.location.reload()
 				
 			},
+			userNavCommand:function(e){
+					var path = ['/MyCash','/CreateRedpacket', 'Mine']
+					var index = parseInt(e)
+					if (index == 3){
+						this.set_password = true
+					}else if(index == 2){
+						this.$router.push({'name': path[index], 'params': {address:this.walletAddress}})
+					}else{
+						this.$router.push(path[index])
+					}
+					
+			},
+			loginEvent:function(){
+				var data = this.connection_info;
+				var _this = this
+				this.$http({
+					method: 'get',
+					url: requestApi + 'login',
+					headers: {
+						'Content-Type': 'application/x-www-form-urlencoded'
+					},
+					params:data
+				}).then((res) => {
+					console.log(res)
+					if(res.data.data == 1){
+						_this.$store.commit("SET_ADDRESS", data.address);
+						_this.walletAddress = data.address;
+						_this.set_address = false;
+						// window.location.reload()
+						localStorage.setItem('login_address',data.address)
+					}
+				})
+			},
+			getAddressInfo:function(e){
+				console.log(e)
+				var _this = this;
+				if(web3.utils.isAddress(e)){
+					this.$http({
+						method: 'get',
+						url: requestApi + 'getToken',
+						headers: {
+							'Content-Type': 'application/x-www-form-urlencoded'
+						},
+						params:{address:e}
+					}).then((res) => {
+						_this.address_status =  res.data.addressdata;
+						if(res.data.addressdata != 1){
+							_this.connection_type = false
+						}
+					})
+				}
+			},
 			async checkAddress() {
 				var storageInfo = localStorage.getItem('wallet_address')
-				const accounts = await Web3Eth.getAccounts()
-				const getChainId = Web3Eth.getChainId()
-				
-				if(storageInfo && storageInfo.length > 0 && accounts[0].toUpperCase() == storageInfo.toUpperCase() && getChainId == this.chainId) {
-					this.walletAddress = storageInfo
-					this.$store.commit("SET_ADDRESS", storageInfo);
-				} else if (this.$store.state.walletAddress != ''){
-					this.walletAddress = this.$store.state.walletAddress
-				}else{
+				try{
+						const accounts = await Web3Eth.getAccounts()
+						const getChainId = Web3Eth.getChainId()
+						
+						if(storageInfo && storageInfo.length > 0 && accounts[0].toUpperCase() == storageInfo.toUpperCase() && getChainId == this.chainId) {
+							this.walletAddress = storageInfo
+							this.$store.commit("SET_ADDRESS", storageInfo);
+						} else if (this.$store.state.walletAddress != ''){
+							this.walletAddress = this.$store.state.walletAddress
+						}else{
+							this.walletDeal()
+						}
+				}catch(e){
 					this.walletDeal()
+					//TODO handle the exception
 				}
 			},
 			handleAccountsChanged: function(accounts) {
@@ -258,7 +359,7 @@
 			},
 			async walletDeal() {
 				let _this = this
-				
+				console.log('start')
 				if(typeof ethereumTop !== "undefined" && ethereumTop && ethereumTop.isMetaMask) {
 
 					ethereumTop
@@ -280,15 +381,20 @@
 					try{
 					    const accounts = await Web3Eth.getAccounts()
 					    _this.handleAccountsChanged(accounts)
-					}catch{
-						
+					}catch(error){
+						console.log('error:',error)
+						console.log(localStorage.getItem('login_address'))
 						if (_this.$store.state.walletAddress == '' && localStorage.getItem('wallet_address')){
 							_this.walletAddress = localStorage.getItem('wallet_address')
 							_this.$store.commit("SET_ADDRESS", localStorage.getItem('wallet_address'));
-						}else if(!_this.walletAddress == true){
-							_this.openTip('icon-alert', words.connecstFail[_this.langIndex])
+						}else {
+							if(localStorage.getItem('login_address') && localStorage.getItem('login_address') != ''){
+								_this.$store.commit("SET_ADDRESS", localStorage.getItem('login_address'));
+								_this.walletAddress =  localStorage.getItem('login_address');
+							}else{
+								_this.set_address = true
+							}
 						}
-						
 					}
 					
 				}
@@ -307,7 +413,7 @@
 				console.log('close')
 				window.scrollTo(0, 0)
 				var docHeight = document.body.clientWidth;
-				console.log(docHeight)
+				
 
 				if(docHeight < 700) {
 
@@ -362,8 +468,43 @@
 		}
 	}
 </script>
-
+<style>
+	.el-input__inner{
+		border: none!important;
+	}
+</style>
 <style scoped="scoped">
+	.el-dialog__wrapper{
+		background: rgba(0,0,0,0.5);
+		z-index: 999999999!important;
+	}
+	.pass-info>div{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px 0;
+		border-bottom: solid 1px #FFE6EA;
+	}
+	.pass-info input{
+		height: 100%;
+		width: 90%;
+		font-size: 14px;
+		color: #FF6C80;
+	}
+	.active-conn{
+		color: #FF6C80;
+		position: relative;
+	}
+	.active-conn>span{
+		display: inline-block;
+		width: 100%;
+		height: 2px;
+		bottom: -10px;
+		left: 0;
+		position: absolute;
+		
+		background: #FF6C80;
+	}
 	.right-nav{
 		height:100%;overflow-y:scroll;
 		padding-bottom: 60px;
@@ -375,7 +516,17 @@
 		text-decoration: none;
 		width: 100%;
 		text-align: center;
-		
+	}
+	.connect-type{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+	.connect-type>div{
+		margin: 0 30px;
+		font-weight: bold;
 	}
 	@import url("../assets/nav.css");
 	.nav-box{

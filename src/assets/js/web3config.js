@@ -238,13 +238,7 @@ import Web3 from 'web3'
 import Eth from "web3-eth"
 
 var ethereum = window.ethereum;
-async function getether(){
-	if (window.ethereum) {
-		await window.ethereum.enable();
-	}
-}
 
-getether()
 const Web3Eth = new Eth(ethereum);
 const maxNum = new Web3.utils.BN('2').pow(new Web3.utils.BN('256')).sub(new Web3.utils.BN('1'));
 const web3 = new Web3(new Web3.providers.HttpProvider(BLOCKCHAIN_CONFIG.defaultRpcUrl));
@@ -253,4 +247,16 @@ const bitao = new web3.eth.Contract(bitaoABI,Zgoat_token);
 const testRequestApi = "http://39.99.133.20:9899/";
 const relrequestApi = "https://zgoat.org/api/";
 const requestApi = testRequestApi;
-export {BLOCKCHAIN_CONFIG,web3, bitaoABI,bitao,lpInterface,Web3Eth,Zgoat_token,lp_token,maxNum, requestApi,airdropabi};
+var loginFlag = 0
+async function getether(){
+	try{
+		const accounts = await Web3Eth.getAccounts()
+	}catch(e){
+		loginFlag = 1
+		//TODO handle the exception
+	}
+	
+}
+
+getether()
+export {BLOCKCHAIN_CONFIG,web3,loginFlag, bitaoABI,bitao,lpInterface,Web3Eth,Zgoat_token,lp_token,maxNum, requestApi,airdropabi};
