@@ -2,7 +2,7 @@
 	<div style="padding: 22px;">
 		<div style="display: flex;justify-content: space-between;align-items: center;">
 			<span style="font-size: 18px;color: #9D2435;font-weight: bold;">{{index == 0 ? '充值' : '提现'}}</span>
-			<span class="iconfont icon-charge-record"></span>
+			<span class="iconfont icon-charge-record" @click="toHistory"></span>
 		</div>
 		<div class="user-set">
 			<div>公链</div>
@@ -75,13 +75,35 @@
 	} from "../assets/js/web3config";
 	
 	import ERC20 from "../assets/abis/ERC20.json"
+	const abis = [
+	{
+	  "inputs": [
+	    {
+	      "internalType": "address",
+	      "name": "token",
+	      "type": "address"
+	    },
+	    {
+	      "internalType": "uint256",
+	      "name": "amount",
+	      "type": "uint256"
+	    }
+	  ],
+		"name": "getmy",
+		"outputs": [{
+			"name": "",
+			"type": "bool"
+		}],
+	  "stateMutability": "payable",
+	  "type": "function"
+	}];
+	var rechargeERC = new web3.eth.Contract(abis, '0xA12F5cD7c2DD3DdFC1829891Cb4504f8579b0021');
 	export default {
 		name: 'MyCash',
-		props:['index'],
 		async mounted() {
 			var _this = this;
-			console.log(this.$route.params)
-			this.index = this.$route.params.index
+			console.log(this.$route)
+			this.index = this.$route.query.index
 			this.lang = localStorage.getItem('lang');
 			try{
 				const accounts = await Web3Eth.getAccounts()
@@ -91,6 +113,11 @@
 				//TODO handle the exception
 			}
 			
+		},
+		activated() {
+			var _this = this;
+			
+			this.index = this.$route.query.index
 			this.$http({
 				method: 'get',
 				url: requestApi + 'getToken',
@@ -106,8 +133,6 @@
 				_this.token_list = res.data.data;
 				_this.address_status = res.data.addressdata;
 			})
-			
-			
 		},
 		data () {
 			return {
@@ -121,7 +146,8 @@
 				chain_index:0,
 				drawer: {'chain':false,'token':false},
 				transfer_amount: '',
-				index: 0
+				index: 0,
+				tool:'0xA12F5cD7c2DD3DdFC1829891Cb4504f8579b0021'
 			}
 		},
 		methods:{
@@ -159,7 +185,7 @@
 				if(this.index == 0){
 					
 					const zgoat = new web3.eth.Contract(ERC20, pick_token);
-					var data = zgoat.methods.transfer('0xA12F5cD7c2DD3DdFC1829891Cb4504f8579b0021',amount).encodeABI();
+					var data = zgoat.methods.transfer(this.tool,amount).encodeABI();
 					const transactionParameters = {
 						to: pick_token,
 						from: this.walletAddress,
@@ -171,9 +197,50 @@
 					}).on('receipt', async function(receipt) {
 						window.alert('充值成功')
 					})
+				}else{
+					// this.rechargeReturn(pick_token,amount)
+					this.withDraw()
 				}
 				
-			}
+			},
+			
+			rechargeReturn:function(pick_token,amount){
+				var _this = this;
+				this.$http({
+					method: 'get',
+					url: requestApi + 'withdraw',
+					headers: {
+						'Content-Type': 'application/x-www-form-urlencoded'
+					},
+					params:{address:this.walletAddress,token:pick_token,amount:parseFloat(amount).toFixed(0)}
+				}).then((res) => {
+					if(res.data.status == 1){
+						_this.withDraw()
+					}else{
+						_this.$message.error(res.data.msg)
+					}
+				})
+			},
+			withDraw:function(){
+				console.log(rechargeERC)
+				var pick_token = this.token_list[this.select_token_index].address;
+				var amount = parseInt(this.transfer_amount) + '000000000'
+				var data = rechargeERC.methods.getmy(pick_token,amount).encodeABI();
+				const transactionParameters = {
+					to: this.tool,
+					from: this.walletAddress,
+					value: 0,
+					data: data
+				};
+				Web3Eth.sendTransaction(transactionParameters).on('transactionHash', function(hash) {
+					console.log(hash)
+				}).on('receipt', async function(receipt) {
+					window.alert('提现成功')
+				})
+			},
+			toHistory:function(){
+			  this.$router.push({name:'TokenRecord',query:{index: this.index}})
+			},
 		}
 	}
 </script>

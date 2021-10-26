@@ -70,20 +70,20 @@
 							<div style="padding: 17px;background: #fff;border-radius: 17px;">
 								<div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 15px;position: relative;">
 									<div class="wish-coder href-icon" @click="toWishDetail(row.id)">
-										<span>某昵称发出的红包</span>
+										<span>{{row.owner_address.substring(0,4) + '...' + row.owner_address.substring(38,42)}} 发出的红包</span>
 									</div>
 									<button style="padding: 3px 20px;background: #fff;color: #FF6C80;border: solid 1px rgba(255, 108, 128, 0.4);border-radius: 30px 0 0 30px;position: absolute;right: -20px;font-size: 14px;" :data-id="row.id" v-if="row.effecive!=0 &&row.effecive!=3" @click="claim_reward">{{words.wishClaim[lang]}}</button>
 								</div>
 								
 								<div class="wish-content">
-									<div>属性1</div>
-									<div>属性2</div>
-									<div>属性3</div>
+									<div>参与奖励：</div>
+									<div>分享奖励：</div>
+									<div>平台：</div>
 								</div>
 								
 								<div class="wish-btn" style="display: flex;justify-content: space-between;">
-									<button  :data-type="row.type" style="background: #fff;color: #FF6C80;" :data-id="row.id" @click="joinActivity">{{words.joinAndReward[lang]}}</button>
-									<button  :data-type="row.type" style="background: #FF6C80;color: #fff;" :data-id="row.id" @click="shareActivity">{{words.inviteFriendBtn[lang]}}</button>
+									<button  :data-type="row.type" style="background: #fff;color: #FF6C80;cursor: pointer;" :data-id="row.id" @click="joinActivity">{{words.joinAndReward[lang]}}</button>
+									<button  :data-type="row.type" style="background: #FF6C80;color: #fff;cursor: pointer;" :data-id="row.id" @click="shareActivity">{{words.inviteFriendBtn[lang]}}</button>
 								</div>
 							</div>
 						</div>
@@ -207,8 +207,45 @@
 					</div>
 				</div>
 			</div>
-			
 		</el-dialog>
+		<el-dialog custom-class='redpacket-dialog' v-if="dialog_type==6" :visible.sync="invitePopShowAble">
+			<div id="redpacket"  style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+				<div style="padding: 0 0px;position: relative;">
+					<div>
+						<img src="../assets/img/redpacket.png" style="width:296px;height: 393px;"/>
+					</div>
+					<div class="redpacket-result">
+						<div style="font-size: 13px;">{{pick_redpacket.address}} 发出的红包</div>
+						<div v-if="pick_redpacket.status == -2" style="font-size: 18px;margin-top: 17px;">{{pick_redpacket.description}}</div>
+						<div v-if="pick_redpacket.status == -1" style="font-size: 18px;margin-top: 37px;">{{pick_redpacket.msg}}</div>
+						<img @click="claimRedpacket" v-if="pick_redpacket.status == -2" style="width: 106px;height: 106px;margin-top: 56px;cursor: pointer;" src="../assets/img/monero1.png" />
+					</div>
+					<div v-if="pick_redpacket.status == -2" style="color: #FFC2CA;font-size: 11px;position: absolute;bottom: 30px;text-align: center;width: 100%;">*仅限在微信、电报群、推特平台领取</div>
+				</div>
+				<div @click="closePop" style="border: solid 2px #FFC2CA;padding: 2px;width: 20px;height: 20px;text-align: center;line-height: 23px;border-radius: 50%;margin-top: 20px;">
+					<i style="color: #FFC2CA;font-weight: bolder;" class="el-icon-close"></i>
+				</div>
+			</div>
+		</el-dialog>
+		<el-dialog custom-class='redpacket-dialog' v-if="dialog_type==7" :visible.sync="invitePopShowAble">
+			<div  style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+				<div style="padding: 0 0px;position: relative;">
+					<div>
+						<img src="../assets/img/pick_success.png" style="width:296px;height: 393px;"/>
+					</div>
+					<div class="redpacket-result2" >
+						<div style="font-size: 13px;font-weight: bold;font-size: 18px;margin-bottom: 30px;">恭喜获得</div>
+						<div><span style="font-size: 26px;font-weight: bold;">{{pick_redpacket.amount}}</span> <span>{{pick_redpacket.name}}</span> </div>
+						<div style="color: #8F7074;font-size: 12px;margin-top: 30px;">已存入零钱账户，可前往提现</div>
+						<button @click="lookmyCash" style="background: linear-gradient(to right,#fde4ac,#fff3df,#fde4ac);width: 180px;height: 36px;border: none;color: #ff455c;border-radius: 20px;margin-top: 100px;">查看账户</button>
+					</div>
+				</div>
+				<div @click="closePop" style="border: solid 2px #FFC2CA;padding: 2px;width: 20px;height: 20px;text-align: center;line-height: 23px;border-radius: 50%;margin-top: 20px;">
+					<i style="color: #FFC2CA;font-weight: bolder;" class="el-icon-close"></i>
+				</div>
+			</div>
+		</el-dialog>
+		
 	</div>
 </template>
 
@@ -250,7 +287,7 @@
 				wish_nav: [],
 				wishInfo:{},
 				requestStatus: 'loading...',
-				dialog_type:0,
+				dialog_type:6,
 				wishWord: {
 					my_address: '',
 					friends_address: ''
@@ -274,7 +311,8 @@
 						"btnText": 'Copy',
 						"ch": "ZGoat（扎克的山羊）是扎克伯格的小迷妹发起的心愿Token。首次采用去中心化邀请返佣机制（已写入合约），推荐者可永久享受该地址持币分红手续费60%的返佣奖励。\n\nZGoat WISH001 空投活动\n主题：ZGoat From Zero\n奖励：100,000,000 ZGoat（前5000名）\n\n输入你的钱包地址领取奖励："
 					}
-				}
+				},
+				pick_redpacket:{amount:10000000,name:'',address:'',msg:'',status:-2,description:'看对方的方法'}
 			}
 		},
 		async mounted() {
@@ -393,7 +431,6 @@
 					_this.wish_nav = nav;
 					_this.wishList = wishList;
 					_this.initTimeData(wishList)
-					console.log(nav)
 					
 				}).catch(res => {
 					console.log(res)
@@ -566,6 +603,9 @@
 		    closePop:function(){
 		    	this.dialogShow.wish = false
 		    	this.dialogShow.share = false
+				this.invitePopShowAble = false
+				this.dialog_type = -1
+				this.pick_redpacket.status = -2
 		    },
 			copyWishWord: function() {
 				var user_add = this.wishWord.my_address;
@@ -678,17 +718,18 @@
 			
 			},
 			joinActivity:function(ev){
-				console.log(ev.currentTarget)
 				var type = ev.currentTarget.dataset.type;
 				var id = ev.currentTarget.dataset.id;
 				var select = this.wishList.filter(x=>x.id == id)[0];
-				console.log(select.effecive )
-				if(select.effecive == 3){
-					this.openTip('icon-time',words.otherChainComingSoon[this.lang])
-					return
-				}else if(select.effecive == 0){
-					this.openTip('icon-time',words.wishEnd[this.lang])
-					return
+				// redpacket not need time countdown
+				if(type != 9){
+					if(select.effecive == 3){
+						this.openTip('icon-time',words.otherChainComingSoon[this.lang])
+						return
+					}else if(select.effecive == 0){
+						this.openTip('icon-time',words.wishEnd[this.lang])
+						return
+					}
 				}
 				
 				if(type == 1){
@@ -698,8 +739,14 @@
 					this.invitePopShowAble = true;
 					this.dialog_type = 1;
 				}else if(type == 9){
-					this.claimRedpacket()
-					
+					this.pick_redpacket.address = select.owner_address.substring(0,4) + '...' + select.owner_address.substring(38,42) ;
+					this.pick_redpacket.description = select.description;
+					this.pick_redpacket.name = select.token_name;
+					this.pick_redpacket.id = select.id;
+					this.pick_redpacket.description = select.description;
+					this.dialog_type = 6
+					this.invitePopShowAble = true
+					console.log(this.pick_redpacket)
 				}else{
 					this.invitePopShowAble = true;
 					this.dialog_type = 5;
@@ -707,12 +754,40 @@
 				
 			},
 			claimRedpacket:function(){
-				
+				let loadingInstance1 = this.$loading({ fullscreen: true, background:'rgba(0,0,0,0.2)'});
+				var _this = this;
+				this.$http({
+					method: 'get',
+					url: requestApi + 'pickRedpacket',
+					headers: {
+						'Content-Type': 'application/x-www-form-urlencoded'
+					},
+					params: {
+						address: this.walletAddress,
+						packet_id: this.pick_redpacket.id
+					}
+				}).then((res) => {
+					if(res.data.status == 0){
+						_this.pick_redpacket.amount = res.data.amount;
+						_this.dialog_type = 7
+					}else{
+						// _this.$message.error(res.data.msg)
+						_this.dialog_type = 6
+						_this.pick_redpacket.msg = res.data.msg;
+						_this.pick_redpacket.status = -1
+					}
+					loadingInstance1.close()
+				})
 			},
 			shareActivity:function(ev){
 				var type = ev.currentTarget.dataset.type;
 				var id = ev.currentTarget.dataset.id;
 				var select = this.wishList.filter(x=>x.id == id)[0];
+				
+				if(type == 9){
+					this.openTip('el-icon-present',select.share_text)
+					return
+				}
 				
 				if(select.effecive == 3){
 					this.openTip('icon-time',words.otherChainComingSoon[this.lang])
@@ -721,6 +796,7 @@
 					this.openTip('icon-time',words.wishEnd[this.lang])
 					return
 				}
+				
 				if(type == 1){
 					this.dialogShow.wish = false
 					this.dialogShow.share = true
@@ -745,16 +821,33 @@
 					cancelButtonClass: 'tip-pop-ok'
 				});
 			},
+			lookmyCash:function(){
+				this.$router.push('/MyCash')
+			},
 		}
 	}
 </script>
-
+<style>
+	.redpacket-dialog{
+		background: none;
+	}
+</style>
 <style scoped="scoped">
-	/* @media screen and (max-width: 700px) {
-		.wish-bar{
-			padding-top: 0px!important;
-		}
-	} */
+	
+	.redpacket-result{
+		position: absolute;
+		top: 110px;
+		text-align: center;
+		width: 100%;
+		color: #fde3aa;
+	}
+	.redpacket-result2{
+		position: absolute;
+		top: 50px;
+		text-align: center;
+		width: 100%;
+		color: #ff455c;
+	}
 	.loading-trade{
 		
 		animation: roateLoading 1s infinite;

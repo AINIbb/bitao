@@ -9,6 +9,16 @@
 					</router-link>
 				</div>
 				<div :id="showBlock" >
+					<el-dropdown  @command="userNavCommand" style="position: relative;top: -52px;left: 43px;">
+						<button v-if="walletAddress == ''" @click="walletDeal" class="wallet-btn href-icon">{{words.walletConnect[langIndex]}}</button>
+						<button class="wallet-btn" v-else>{{showAddress(walletAddress)}}<i class="el-icon-arrow-down el-icon--right"></i></button>
+						<el-dropdown-menu slot="dropdown">
+						    <el-dropdown-item command='0' >我的账户</el-dropdown-item>
+						    <el-dropdown-item command='1' >我要发红包</el-dropdown-item>
+						    <el-dropdown-item command='2' >我的红包记录</el-dropdown-item>
+						    <el-dropdown-item command='3' >设置零钱密码</el-dropdown-item>
+						  </el-dropdown-menu>
+					</el-dropdown>
 					<img v-if="isShowMenu" @click.stop="openNav" width="25px" height="25px" src="../assets/img/nav-open.png" />
 					<img v-else @click.stop="closeNav" width="25px" height="25px" src="../assets/img/nav-close.png" />
 				</div>
@@ -119,7 +129,7 @@
 			</div>
 		</div>
 		<el-dialog :modal="dialogfull" title="设置零钱密码" width='360px'  :visible.sync="set_password">
-			<SetPassword :address="walletAddress" @introduce='setpassword_success'></SetPassword>
+			<SetPassword :address="walletAddress" ></SetPassword>
 		</el-dialog>
 		<el-dialog :modal="dialogfull" title="连接钱包"  width='380px' :visible.sync="set_address">
 			<div class="connect-type" >
@@ -186,8 +196,8 @@
 					if(ethereumTop.isConnected && etherChainId == _this.chainId) {
 						_this.chainId = ethereumTop.chainId
 					} else if(etherChainId != _this.chainId) {
-						_this.walletAddress = ''
-						_this.$store.commit("SET_ADDRESS", '');
+						// _this.walletAddress = ''
+						// _this.$store.commit("SET_ADDRESS", '');
 						console.log('chain error')
 					} else {
 						console.log('ether error')
@@ -205,7 +215,7 @@
 				});
 
 				ethereumTop.on('chainChanged', (chainId) => {
-					if(this.chainId && this.chainId !== chainId) {
+					if(this.chainId) {
 						window.location.reload()
 					}
 				});
@@ -336,8 +346,9 @@
 			},
 			handleAccountsChanged: function(accounts) {
 				var _this = this;
+				var flag = false
 				Web3Eth.getChainId().then(res => {
-					if(res != _this.chainId) {
+					if(res != _this.chainId && flag) {
 						_this.openTip('icon-alert', words.switchNetwork[this.langIndex])
 						_this.$store.commit("SET_ADDRESS", '');
 					} else {
@@ -566,6 +577,8 @@
 		padding: 9px 15px;
 		border-radius: 20px;
 		background: #ff6c80;
+		width: 140px;
+		height: 40px;
 		border: 1px solid #ff6c80;
 		color: #fff;
 	}

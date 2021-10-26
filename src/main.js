@@ -39,6 +39,10 @@ const Mine = () =>
 const Recharge = () =>
 	import(/* webpackChunkName: 'Recharge' */ '@/components/Recharge');
 
+
+const TokenRecord = () =>
+	import(/* webpackChunkName: 'TokenRecord' */ '@/components/TokenRecord');
+
 Vue.use(VueRouter)
 Vue.use(ELEMENT)
 // Vue.use(Dialog)
@@ -129,23 +133,28 @@ const routes = [{
 	name: 'MyCash',
 	component: MyCash,
 	meta: {
-		keepAlive: true,
+		keepAlive: false,
 	}
 }, {
 	path: '/Recharge',
 	name: 'Recharge',
 	component: Recharge,
 	meta: {
-		keepAlive: true,
+		keepAlive: false,
 	}
 }, {
 	path: '/SetPassword',
 	name: 'SetPassword',
 	component: SetPassword,
 	props:true,
+}, {
+	path: '/TokenRecord',
+	name: 'TokenRecord',
+	component: TokenRecord,
 	meta: {
-		keepAlive: true,
-	}
+		keepAlive: false,
+	},
+	props:true
 }]
 
 Vue.prototype.$http = axios;

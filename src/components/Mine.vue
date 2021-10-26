@@ -36,7 +36,7 @@
 <script>
 	import {requestApi,loginFlag,BLOCKCHAIN_CONFIG,Web3Eth} from "../assets/js/web3config";
 	export default {
-		name: 'MyCash',
+		name: 'Mine',
 		props:['address'],
 		async mounted() {
 			var chainId = BLOCKCHAIN_CONFIG.defaultChainId;
@@ -67,7 +67,6 @@
 				})
 				_this.pick_list = res.data.data;
 				console.log(res.data.data)
-				
 			})
 			
 			this.$http({

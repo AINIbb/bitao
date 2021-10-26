@@ -38,39 +38,40 @@
 	import {web3,requestApi ,Web3Eth,BLOCKCHAIN_CONFIG} from "../assets/js/web3config";
 	export default {
 	  name: 'MyCash',
-	  async mounted() {
+	  activated(){
 		  var _this = this;
-		try{
-			var chainId = BLOCKCHAIN_CONFIG.defaultChainId;
-			const getChainId = await Web3Eth.getChainId()
-			if(chainId == getChainId){
-				var address_now = localStorage.getItem('wallet_address')
-				if(this.$store.state.walletAddress != '') {
-					this.walletAddress = this.$store.state.walletAddress;
-					this.repacket_info.owner_address = this.$store.state.walletAddress;
-				}else if(address_now != ''){
-					this.walletAddress = address_now
-					this.repacket_info.owner_address = address_now;
-				}
+		  this.$http({
+		  	method: 'get',
+		  	url: requestApi + 'getAddressCoin',
+		  	headers: {
+		  		'Content-Type': 'application/x-www-form-urlencoded'
+		  	},
+		  	params:{address:this.walletAddress}
+		  }).then((res) => {
+		  	console.log(res.data)
+		  	
+		  	_this.list = res.data.data
+		  })
+	  },
+	  async mounted() {
+		    var _this = this;
+			try{
+					var address_now = localStorage.getItem('wallet_address')
+					if(this.$store.state.walletAddress != '') {
+						this.walletAddress = this.$store.state.walletAddress;
+					}else if(address_now != ''){
+						this.walletAddress = address_now
+					}
+				
+			}catch(e){
+				console.log(e)
+				var getlogin = localStorage.getItem('login_address')
+				this.walletAddress = getlogin;
+				//TODO handle the exception
+				console.log(e)
 			}
-		}catch(e){
-			var getlogin = localStorage.getItem('login_address')
-			this.walletAddress = getlogin;
-			//TODO handle the exception
-			console.log(e)
-		}
-	  	this.$http({
-	  		method: 'get',
-	  		url: requestApi + 'getAddressCoin',
-	  		headers: {
-	  			'Content-Type': 'application/x-www-form-urlencoded'
-	  		},
-	  		params:{address:this.walletAddress}
-	  	}).then((res) => {
-			console.log(res.data)
-			
-			_this.list = res.data.data
-		})
+			console.log(this.walletAddress)
+	  	
 	  },
 	  computed: {
 	  	listenWalletAddressChange() {
@@ -121,7 +122,7 @@
 		  	},2000)
 		  },
 		  recharge:function(index){
-			  this.$router.push({name:'Recharge',params:{index: index}})
+			  this.$router.push({name:'Recharge',query:{index: index}})
 		  }
 	  }
 	}
