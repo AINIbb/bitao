@@ -7,14 +7,14 @@
 		<div class="user-set">
 			<div>公链</div>
 			<div @click="open_drawer('chain')">
-				<span style="color: #FF6C80;margin-right: 5px;">{{chain_list[chain_index]}}</span>
+				<span style="color: #FF6C80;margin-right: 5px;">{{chain_list[chain_index].name}}</span>
 				<i class="el-icon-arrow-right"></i>
 			</div>
 		</div>
 		<div class="user-set">
 			<div>代币</div>
 			<div @click="open_drawer('token')">
-				<span style="color: #FF6C80;margin-right: 5px;">{{token_list.length > 0 ? token_list[select_token_index]['name'] : ''}}</span>
+				<span style="color: #FF6C80;margin-right: 5px;">{{getselecttoken()}}</span>
 				<i class="el-icon-arrow-right"></i>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 		  :visible.sync="drawer.chain"
 		  :show-close="showClose"
 		  :direction="direction">
-		  <div class="chain-name" v-for="(item,index) in chain_list" @click="select_chain_id(index)">{{item}} 链</div>
+		  <div class="chain-name" v-for="(item,index) in chain_list" @click="select_chain_id(index)">{{item.name}} 链</div>
 		  <div style="line-height: 60px;border-top: solid #faf7f7 6px;">取消</div>
 		</el-drawer>
 		<el-drawer
@@ -51,7 +51,7 @@
 		  :show-close="showClose"
 		  :direction="direction">
 		  
-		  <div class="token-list" v-for="(item,index) in token_list" @click="check_token(item,index)">
+		  <div class="token-list" v-for="(item,index) in token_list" v-if="item.chain_id==chain_list[chain_index].id" @click="check_token(item)">
 			  <img style="width: 40px;height: 40px;margin-right: 20px;border-radius: 50%;background: #A79393;" src=""></img>
 			  <div style="width: 100%;display: flex;flex-direction: column;justify-content: space-between;border-bottom: solid 1px #FFE6EA;padding: 20px 0;">
 				  <div style="display: flex;justify-content: space-between;align-items: center;color: #9D2435;font-size: 16px;font-weight: bold;">
@@ -97,7 +97,7 @@
 	  "stateMutability": "payable",
 	  "type": "function"
 	}];
-	var rechargeERC = new web3.eth.Contract(abis, '0xA12F5cD7c2DD3DdFC1829891Cb4504f8579b0021');
+	
 	export default {
 		name: 'MyCash',
 		async mounted() {
@@ -126,12 +126,26 @@
 				},
 				params:{address:this.walletAddress}
 			}).then((res) => {
-				console.log(res)
+				var chain_list = {}
 				res.data.data.forEach(item=>{
+					if(item.chain_id in chain_list){
+						console.log('redpeat')
+					}else{
+						chain_list[item.chain_id] = {id:item.chain_id,name: item.chain_name}
+					}
 					item.short_address = item.address.substring(0,4) + '...' + item.address.substring(38,42)
 				})
+				
+				var newchain_list = []
+				for(var key in chain_list){
+					newchain_list.push(chain_list[key])
+				}
+				_this.chain_list = newchain_list;
 				_this.token_list = res.data.data;
 				_this.address_status = res.data.addressdata;
+				_this.tool = res.data.data[0].contract;
+				_this.select_token_index = res.data.data[0].id;
+				_this.rechargeERC = new web3.eth.Contract(abis, '0xA12F5cD7c2DD3DdFC1829891Cb4504f8579b0021');
 			})
 		},
 		data () {
@@ -147,6 +161,7 @@
 				drawer: {'chain':false,'token':false},
 				transfer_amount: '',
 				index: 0,
+				rechargeERC: null,
 				tool:'0xA12F5cD7c2DD3DdFC1829891Cb4504f8579b0021'
 			}
 		},
@@ -160,20 +175,27 @@
 			},
 			select_chain_id:function(index){
 				this.chain_index = index;
+				var list = this.token_list.filter(x=>x.chain_id == this.chain_list[index].id);
+				this.select_token_index = list[0].id;
 				this.drawer['chain'] = false;
 			},
-			check_token:function(info,index){
-				this.select_token_index = index;
+			check_token:function(info){
+				this.select_token_index = info.id;
 				this.drawer['token'] = false;
 			},
-			charge_token:function(){
+			getselecttoken:function(){
+				var list = this.token_list.filter(x=>x.id == this.select_token_index)
+				var name = list.length > 0 ? list[0].name : ''
+				return name;
+			},
+			async charge_token(){
 				var _this = this;
-				var pick_token = this.token_list[this.select_token_index].address;
+				var list = this.token_list.filter(x=>x.id == this.select_token_index)
+				var pick_token = list[0].address;
 				if(pick_token == ''){
 					this.$message.error('请选择代币');
 					return
 				}
-				var amount = parseInt(this.transfer_amount) + '000000000'
 				if(this.transfer_amount == 0){
 					this.$message.error('数量需大于0');
 					return
@@ -182,6 +204,13 @@
 					this.$message.error('请链接钱包');
 					return
 				}
+				var amount = web3.utils.toWei(this.transfer_amount.toString(), list[0].unit)
+				const getChainId = await Web3Eth.getChainId()
+				if(getChainId != this.chain_list[this.chain_index].id){
+					this.$message.error('请链接' + this.chain_list[this.chain_index].name + '链');
+					return
+				}
+				
 				if(this.index == 0){
 					
 					const zgoat = new web3.eth.Contract(ERC20, pick_token);
@@ -196,10 +225,12 @@
 						console.log(hash)
 					}).on('receipt', async function(receipt) {
 						window.alert('充值成功')
+						_this.$router.go(-1)
 					})
+					
 				}else{
-					// this.rechargeReturn(pick_token,amount)
-					this.withDraw()
+					this.rechargeReturn(pick_token,amount)
+					// this.withDraw()
 				}
 				
 			},
@@ -217,15 +248,17 @@
 					if(res.data.status == 1){
 						_this.withDraw()
 					}else{
+						_this.$router.go(-1)
 						_this.$message.error(res.data.msg)
 					}
 				})
 			},
 			withDraw:function(){
-				console.log(rechargeERC)
-				var pick_token = this.token_list[this.select_token_index].address;
+				var _this = this;
+				var list = this.token_list.filter(x=>x.id == this.select_token_index)
+				var pick_token = list[0].address;
 				var amount = parseInt(this.transfer_amount) + '000000000'
-				var data = rechargeERC.methods.getmy(pick_token,amount).encodeABI();
+				var data = this.rechargeERC.methods.getmy(pick_token,amount).encodeABI();
 				const transactionParameters = {
 					to: this.tool,
 					from: this.walletAddress,
@@ -236,6 +269,7 @@
 					console.log(hash)
 				}).on('receipt', async function(receipt) {
 					window.alert('提现成功')
+					_this.$router.go(-1)
 				})
 			},
 			toHistory:function(){

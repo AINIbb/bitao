@@ -2,7 +2,7 @@
 	<div style="height: 100%;padding:22px;display: flex;justify-content:center;">
 		<el-col v-if="!create_success" :xs="24" :sm="10" style="text-align: left;" class="create-info">
 			<div class="check-chain">
-				<button @click="open_drawer('chain')">{{chain_list[chain_index]}}<i style="margin-left: 6px;" class="el-icon-arrow-down"></i></button>
+				<button @click="open_drawer('chain')">{{chain_list[chain_index].name}}<i style="margin-left: 6px;" class="el-icon-arrow-down"></i></button>
 			</div>
 			
 			<div class="packet_count packet_params">
@@ -21,7 +21,7 @@
 					<input @input="getSingleAmount" style="text-align: right;width: 100px;" placeholder="0"  v-model="singleAmount"/>
 					<span style="color: #FFE6EA;margin: 0 10px;">|</span>
 					<img />
-					<span @click="open_drawer('token')">{{token_list[select_token_index].name}} <i class="el-icon-caret-bottom"></i></span>
+					<span @click="open_drawer('token')">{{getselecttoken()}} <i class="el-icon-caret-bottom"></i></span>
 				</div>
 			</div>
 			
@@ -31,7 +31,7 @@
 					<input v-model="repacket_info.amount" style="text-align: right;width: 100px;" placeholder="0" />
 					<span style="color: #FFE6EA;margin: 0 10px;">|</span>
 					<img />
-					<span @click="open_drawer('token')">{{token_list[select_token_index].name}} <i class="el-icon-caret-bottom"></i></span>
+					<span @click="open_drawer('token')">{{getselecttoken()}} <i class="el-icon-caret-bottom"></i></span>
 				</div>
 				<div v-else>
 					<span>{{repacket_info.amount}}</span>
@@ -122,7 +122,7 @@
 		  :visible.sync="drawer.chain"
 		  :show-close="showClose"
 		  :direction="direction">
-		  <div class="chain-name" v-for="(item,index) in chain_list" @click="select_chain_id(index)">{{item}} 链</div>
+		  <div class="chain-name" v-for="(item,index) in chain_list" @click="select_chain_id(index)">{{item.name}} 链</div>
 		  <div style="line-height: 60px;border-top: solid #faf7f7 6px;">取消</div>
 		</el-drawer>
 		<el-drawer
@@ -132,15 +132,15 @@
 		  :show-close="showClose"
 		  :direction="direction">
 		  <div style="color: #9D2435;font-size: 18px;line-height: 3.75rem;">选择代币</div>
-		  <div style="display: flex;justify-content: space-between;align-items: center;">
+		<!--  <div style="display: flex;justify-content: space-between;align-items: center;">
 			  <div class="search-token">
 				  <i style="color: #B29B9D;font-size: 20px;" class="el-icon-search"></i>
 				  <input placeholder="输入代币或合约地址" style="width: 80%;margin-left: 10px;border: none;"/>
 			  </div>
 			  
 			  <span style="color: #B29B9D;">取消</span>
-		  </div>
-		  <div class="token-list" v-for="(item,index) in token_list" @click="check_token(item,index)">
+		  </div> -->
+		  <div class="token-list" v-for="(item,index) in token_list" v-if="item.chain_id==chain_list[chain_index].id" @click="check_token(item)">
 			  <img style="width: 40px;height: 40px;margin-right: 20px;border-radius: 50%;background: #A79393;" src=""></img>
 			  <div style="width: 100%;display: flex;flex-direction: column;justify-content: space-between;border-bottom: solid 1px #FFE6EA;padding: 20px 0;">
 				  <div style="display: flex;justify-content: space-between;align-items: center;color: #9D2435;font-size: 16px;font-weight: bold;">
@@ -208,13 +208,27 @@
 				},
 				params:{address:this.walletAddress}
 			}).then((res) => {
-				console.log(res)
+				var chain_list = {}
 				res.data.data.forEach(item=>{
+					if(item.chain_id in chain_list){
+						console.log('redpeat')
+					}else{
+						chain_list[item.chain_id] = {id:item.chain_id,name: item.chain_name}
+					}
 					item.short_address = item.address.substring(0,4) + '...' + item.address.substring(38,42)
 				})
+				
+				var newchain_list = []
+				for(var key in chain_list){
+					newchain_list.push(chain_list[key])
+				}
+				
+				_this.chain_list = newchain_list;
 				_this.token_list = res.data.data;
-				_this.repacket_info.token_address = res.data.data[0]['address']
+				_this.select_token_id = res.data.data[0].id;
+				// _this.repacket_info.token_address = res.data.data[0]['address']
 				_this.address_status = res.data.addressdata;
+				_this.repacket_info.chain_type = newchain_list[0].id || '97'
 			})
 			
 			
@@ -225,7 +239,7 @@
 				lang:1,
 				create_success:false,
 				chain_index:0,
-				chain_list:['BSC','HECO','ERC'],
+				chain_list:['BSC'],
 				walletAddress: '',
 				value1:false,
 				value2:true,
@@ -234,7 +248,7 @@
 				direction: 'btt',
 				token_list:[],
 				singleAmount:0,
-				select_token_index:0,
+				select_token_id:0,
 				address_status: 1,
 				repacket_info:{
 					count:0,
@@ -242,7 +256,7 @@
 					description:'大吉大利恭喜发财',
 					token_address:'',
 					owner_address:'',
-					chain_type: '0',
+					chain_type: '97',
 					share:'0',
 					platform: '1',
 					get_type:'0',
@@ -281,11 +295,19 @@
 			},
 			select_chain_id:function(index){
 				this.chain_index = index;
+				this.repacket_info.chain_type = this.chain_list[index].id;
+				var list = this.token_list.filter(x=>x.chain_id == this.chain_list[index].id);
+				this.select_token_id = list[0].id;
 				this.drawer['chain'] = false;
 			},
-			check_token:function(info,index){
+			getselecttoken:function(){
+				var list = this.token_list.filter(x=>x.id == this.select_token_id)
+				var name = list.length > 0 ? list[0].name : ''
+				return name;
+			},
+			check_token:function(info){
 				this.repacket_info.token_address = info.address;
-				this.select_token_index = index;
+				this.select_token_id = info.id;
 				this.drawer['token'] = false;
 			},
 			submitinfo:function(password){
@@ -301,13 +323,13 @@
 					params:info
 				}).then((res) => {
 					if(res.data.statu == 1000){
+						
 						if(loginFlag == 1){
 							this.openTip('el-icon-lock','请复制官网链接（https://zgoat.org），前往DAPP浏览器设置密码')
 						}else{
 							_this.drawer.set_address = true
 						}
 						
-						console.log('没有设置密码')
 					}else if(res.data.statu == 1001){
 						_this.$message.error('密码错误')
 					}else if(res.data.statu == 1002){
@@ -315,7 +337,7 @@
 					}else{
 						_this.create_success = true
 					}
-					console.log(res)
+					
 				})
 			},
 			inputpassword:function(){
@@ -389,7 +411,7 @@
 					domt.width = 264 * radio
 					domt.height = 351 * radio	  
 					domt = domt.getContext("2d").setTransform(radio, 0, 0, radio, 0, 0)
-					
+					var select_token = _this.token_list.filter(x=>x.id=_this.select_token_id)
 					var img = new Image()
 					img.src = 'https://cdn.bitaochain.com/upload/picture/202110/18/0a7bae56144e021a1e556699ce4793fb.png'
 					img.onload = function(){
@@ -402,7 +424,7 @@
 						ctx.fillText(_this.repacket_info.description,132,132)
 						ctx.font = '12px Arial'
 						ctx.fillStyle = "#fde3aa"
-						ctx.fillText('扫码领取' + _this.token_list[_this.select_token_index].name, 132,280)
+						ctx.fillText('扫码领取' + select_token[0].name, 132,280)
 						ctx.fillStyle = "#ffc2ca"
 						ctx.font = '11px Arial'
 						ctx.fillText('*仅限在微信、推特、电报群平台领取', 132,330)
