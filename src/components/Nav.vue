@@ -143,7 +143,7 @@
 						<div style="margin: 80px 0 40px 0;" v-if="address_status==1">请复制官网链接（<a>https//:zgoat.org</a>）,打开钱包，粘贴链接到钱包浏览器</div>
 						<div style="margin: 60px 0 10px 0;" v-else>{{connection_info.address}}<br/>该地址还没有设置密码，请复制网站链接至DAPP为当前地址设置密码</div>
 					</div>
-					<button style="background: #FF6C80;color: #fff;width: 240px;height: 44px;border:none;border-radius: 22px;margin-top:40px">复制链接</button>
+					<button @click="copyURL" style="background: #FF6C80;color: #fff;width: 240px;height: 44px;border:none;border-radius: 22px;margin-top:40px">复制链接</button>
 				</div>
 				<div v-else class="pass-info">
 					<div>
@@ -409,6 +409,21 @@
 					}
 					
 				}
+			},
+			copyURL:function(){
+				this.copyWord('https://zgoat.org')
+				this.$message.success('复制成功')
+				this.set_address = false
+			},
+			copyWord: function(word) {
+				var tag = document.createElement('textarea')
+				tag.setAttribute('id', 'cp_hgz_input');
+				tag.value = word;
+				document.getElementsByTagName('body')[0].appendChild(tag)
+				document.getElementById('cp_hgz_input').select()
+				document.execCommand("copy");
+				document.getElementById('cp_hgz_input').remove();
+			
 			},
 			openNav: function() {
 				

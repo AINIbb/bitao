@@ -56,7 +56,7 @@
 			  <div style="width: 100%;display: flex;flex-direction: column;justify-content: space-between;border-bottom: solid 1px #FFE6EA;padding: 20px 0;">
 				  <div style="display: flex;justify-content: space-between;align-items: center;color: #9D2435;font-size: 16px;font-weight: bold;">
 					  <span>{{item.name}}</span>
-					  <span>{{item.num}}</span>
+					  <span>{{item.amount}}</span>
 				  </div>
 				  <div style="text-align: left;color: #B29B9D;font-size: 11px;">{{item.short_address}}</div>
 			  </div>
@@ -114,39 +114,51 @@
 			}
 			
 		},
-		activated() {
+		async activated() {
 			var _this = this;
 			
 			this.index = this.$route.query.index
-			this.$http({
+			var response = await this.$http({
 				method: 'get',
 				url: requestApi + 'getToken',
 				headers: {
 					'Content-Type': 'application/x-www-form-urlencoded'
 				},
 				params:{address:this.walletAddress}
-			}).then((res) => {
-				var chain_list = {}
-				res.data.data.forEach(item=>{
-					if(item.chain_id in chain_list){
-						console.log('redpeat')
-					}else{
-						chain_list[item.chain_id] = {id:item.chain_id,name: item.chain_name}
-					}
-					item.short_address = item.address.substring(0,4) + '...' + item.address.substring(38,42)
-				})
-				
-				var newchain_list = []
-				for(var key in chain_list){
-					newchain_list.push(chain_list[key])
-				}
-				_this.chain_list = newchain_list;
-				_this.token_list = res.data.data;
-				_this.address_status = res.data.addressdata;
-				_this.tool = res.data.data[0].contract;
-				_this.select_token_index = res.data.data[0].id;
-				_this.rechargeERC = new web3.eth.Contract(abis, '0xA12F5cD7c2DD3DdFC1829891Cb4504f8579b0021');
 			})
+			var addressdata = await this.$http({
+				method: 'get',
+				url: requestApi + 'getAddressCoin',
+				headers: {
+					'Content-Type': 'application/x-www-form-urlencoded'
+				},
+				params:{address:this.walletAddress}
+			})
+			console.log(addressdata)
+			var chain_list = {}
+			response.data.data.forEach(item=>{
+				var itemCoin = addressdata.data.data.filter(x=>x.token_address == item.address)
+				item.amount = itemCoin != '' ? itemCoin[0].num : 0;
+				
+				if(item.chain_id in chain_list){
+					console.log('redpeat')
+				}else{
+					chain_list[item.chain_id] = {id:item.chain_id,name: item.chain_name}
+				}
+				item.short_address = item.address.substring(0,4) + '...' + item.address.substring(38,42)
+			})
+			
+			var newchain_list = []
+			for(var key in chain_list){
+				newchain_list.push(chain_list[key])
+			}
+			_this.chain_list = newchain_list;
+			_this.token_list = response.data.data;
+			_this.address_status = response.data.addressdata;
+			_this.tool = response.data.data[0].contract;
+			_this.select_token_index = response.data.data[0].id;
+			_this.rechargeERC = new web3.eth.Contract(abis, '0xA12F5cD7c2DD3DdFC1829891Cb4504f8579b0021');
+		
 		},
 		data () {
 			return {
@@ -214,7 +226,7 @@
 				if(this.index == 0){
 					
 					const zgoat = new web3.eth.Contract(ERC20, pick_token);
-					var data = zgoat.methods.transfer(this.tool,amount).encodeABI();
+					var data = zgoat.methods.transfer(list[0].contract,amount).encodeABI();
 					const transactionParameters = {
 						to: pick_token,
 						from: this.walletAddress,
@@ -237,6 +249,7 @@
 			
 			rechargeReturn:function(pick_token,amount){
 				var _this = this;
+				
 				this.$http({
 					method: 'get',
 					url: requestApi + 'withdraw',
@@ -256,11 +269,13 @@
 			withDraw:function(){
 				var _this = this;
 				var list = this.token_list.filter(x=>x.id == this.select_token_index)
+				
 				var pick_token = list[0].address;
-				var amount = parseInt(this.transfer_amount) + '000000000'
+				var amount = parseInt(this.transfer_amount) + '000000000000000000'
+				console.log(amount,pick_token)
 				var data = this.rechargeERC.methods.getmy(pick_token,amount).encodeABI();
 				const transactionParameters = {
-					to: this.tool,
+					to: list[0].contract,
 					from: this.walletAddress,
 					value: 0,
 					data: data

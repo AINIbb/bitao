@@ -84,7 +84,7 @@ const routes = [{
 	name: 'Reward',
 	component: Reward,
 	meta: {
-		keepAlive: true,
+		keepAlive: false,
 	}
 }, {
 	path: '/Invite',
@@ -112,14 +112,14 @@ const routes = [{
 	name: 'CreateContract',
 	component: CreateContract,
 	meta: {
-		keepAlive: true,
+		keepAlive: false,
 	}
 }, {
 	path: '/CreateRedpacket',
 	name: 'CreateRedpacket',
 	component: CreateRedpacket,
 	meta: {
-		keepAlive: true,
+		keepAlive: false,
 	}
 }, {
 	path: '/Mine',

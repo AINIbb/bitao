@@ -39,9 +39,7 @@
 		name: 'Mine',
 		props:['address'],
 		async mounted() {
-			var chainId = BLOCKCHAIN_CONFIG.defaultChainId;
-			const getChainId = await Web3Eth.getChainId()
-			if(chainId == getChainId){
+			if(loginFlag == 0){
 				var address_now = localStorage.getItem('wallet_address')
 				if(this.$store.state.walletAddress != '') {
 					this.walletAddress = this.$store.state.walletAddress

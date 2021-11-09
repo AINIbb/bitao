@@ -324,20 +324,18 @@
 				this.showInfo = false
 			}
 			try{
-				var chainId = BLOCKCHAIN_CONFIG.defaultChainId;
-				const getChainId = await Web3Eth.getChainId()
-				if(chainId == getChainId){
-					var address_now = localStorage.getItem('wallet_address')
-					if(this.$store.state.walletAddress != '') {
-						this.walletAddress = this.$store.state.walletAddress;
-						this.wishWord.my_address = this.$store.state.walletAddress;
-						this.share_address = this.$store.state.walletAddress;
-					}else if(address_now != ''){
-						this.walletAddress = address_now
-						this.wishWord.my_address = address_now;
-						this.share_address = address_now;
-					}
+				
+				var address_now = localStorage.getItem('wallet_address')
+				if(this.$store.state.walletAddress != '') {
+					this.walletAddress = this.$store.state.walletAddress;
+					this.wishWord.my_address = this.$store.state.walletAddress;
+					this.share_address = this.$store.state.walletAddress;
+				}else if(address_now != ''){
+					this.walletAddress = address_now
+					this.wishWord.my_address = address_now;
+					this.share_address = address_now;
 				}
+				
 			}catch(e){
 				//TODO handle the exception
 				console.log(e)
@@ -830,6 +828,7 @@
 <style>
 	.redpacket-dialog{
 		background: none;
+		box-shadow: none;
 	}
 </style>
 <style scoped="scoped">

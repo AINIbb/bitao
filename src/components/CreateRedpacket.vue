@@ -11,8 +11,8 @@
 					<input @input="getSingleAmount" v-model="repacket_info.count" style="text-align: right;" placeholder="填写个数" />
 					<span>个</span>
 				</div>
-				
 			</div>
+			
 			<div style="color: #B29B9D;font-size: 13px;">当前为{{repacket_info.get_type == '0' ? '拼手气红包' : '普通红包'}}，可选择<a style="color: #ff455c;cursor: pointer;text-decoration: underline;" @click="check_get_pick_type">{{repacket_info.get_type == '1' ? '拼手气红包' : '普通红包'}}</a></div>
 			
 			<div v-if="repacket_info.get_type == '1'" class="packet_params">
@@ -37,6 +37,7 @@
 					<span>{{repacket_info.amount}}</span>
 				</div>
 			</div>
+			
 			<div class="packet_params"><input v-model="repacket_info.description" style="width: 100%;" placeholder="祝福语:恭喜发财,大吉大利"/></div>
 			<!-- <div style="color: #8F7074;margin: 23px 0 15px 0;border: solid 1px #FFF8F9;">高级设置<i class="el-icon-caret-bottom"></i></div>
 			<div class="packet-setting">
@@ -75,7 +76,7 @@
 				</div>
 			</div> -->
 			<div style="text-align: center;">
-				<button style="background: #FF6C80;color: #fff;font-size: 16px;padding: 11px 58px;border-radius: 22px;margin: 33px 0 28px 0;" @click="inputpassword">塞钱进红包</button>
+				<button style="background: #FF6C80;color: #fff;font-size: 16px;padding: 11px 58px;border-radius: 22px;margin: 33px 0 28px 0;" @click="inputpassword">{{btn_dis == 1? '塞钱进红包' : '前往充值'}}</button>
 			</div>
 			<div style="text-align:center;color: #B29B9D;font-size: 11px;">未领取的红包，将于24h后发起退款</div>
 		</el-col>
@@ -102,12 +103,16 @@
 			</div>
 			<div class="share">
 				<div>
-					<div style="color: #FF6C80;opacity: 1;" class="iconfont icon-telegram"></div>
-					<div>分享到Telegram</div>
+					<a style="text-decoration: none;" target="_blank" href="https://t.me/noline999Bot?start=2">
+						<div style="color: #FF6C80;opacity: 1;" class="iconfont icon-telegram"></div>
+						<div>分享到Telegram</div>
+					</a>
 				</div>
 				<div>
-					<div style="color: #FF6C80;opacity: 1;" class="iconfont twitter"></div>
-					<div>分享到Twitter</div>
+					<a style="text-decoration: none;text-align: center;" target="_blank" href="https://twitter.com/intent/tweet">
+						<div style="color: #FF6C80;opacity: 1;" class="iconfont twitter"></div>
+						<div>分享到Twitter</div>
+					</a>
 				</div>
 				<div @click="shareByImg">
 					<div style="color: #FF6C80;font-size: 20px;" class="el-icon-picture share-img"></div>
@@ -145,7 +150,7 @@
 			  <div style="width: 100%;display: flex;flex-direction: column;justify-content: space-between;border-bottom: solid 1px #FFE6EA;padding: 20px 0;">
 				  <div style="display: flex;justify-content: space-between;align-items: center;color: #9D2435;font-size: 16px;font-weight: bold;">
 					  <span>{{item.name}}</span>
-					  <span>{{item.num}}</span>
+					  <span>{{item.amount}}</span>
 				  </div>
 				  <div style="text-align: left;color: #B29B9D;font-size: 11px;">{{item.short_address}}</div>
 			  </div>
@@ -157,7 +162,7 @@
 		</el-dialog>
 		<el-dialog :show-close="showClose"  width='340px' :visible.sync="drawer.shareImg">
 			<div>
-				<canvas id="shareimg" width="264" height="351" style="width:296px;height: 393px;"></canvas>
+				<canvas  id="shareimg" width="264" height="351" style="width:296px;height: 393px;"></canvas>
 				<button style="padding: 10px 20px;background: #FF455C;color: #fff;border: none;border-radius: 28px;margin-top: 30px;">保存图片</button>
 			</div>
 		</el-dialog>
@@ -181,17 +186,13 @@
 			var _this = this;
 			this.lang = localStorage.getItem('lang');
 			try{
-				var chainId = BLOCKCHAIN_CONFIG.defaultChainId;
-				const getChainId = await Web3Eth.getChainId()
-				if(chainId == getChainId){
-					var address_now = localStorage.getItem('wallet_address')
-					if(this.$store.state.walletAddress != '') {
-						this.walletAddress = this.$store.state.walletAddress;
-						this.repacket_info.owner_address = this.$store.state.walletAddress;
-					}else if(address_now != ''){
-						this.walletAddress = address_now
-						this.repacket_info.owner_address = address_now;
-					}
+				var address_now = localStorage.getItem('wallet_address')
+				if(this.$store.state.walletAddress != '') {
+					this.walletAddress = this.$store.state.walletAddress;
+					this.repacket_info.owner_address = this.$store.state.walletAddress;
+				}else if(address_now != ''){
+					this.walletAddress = address_now
+					this.repacket_info.owner_address = address_now;
 				}
 			}catch(e){
 				var getlogin = localStorage.getItem('login_address')
@@ -200,36 +201,49 @@
 				//TODO handle the exception
 				console.log(e)
 			}
-			this.$http({
+			var response = await this.$http({
 				method: 'get',
 				url: requestApi + 'getToken',
 				headers: {
 					'Content-Type': 'application/x-www-form-urlencoded'
 				},
 				params:{address:this.walletAddress}
-			}).then((res) => {
-				var chain_list = {}
-				res.data.data.forEach(item=>{
-					if(item.chain_id in chain_list){
-						console.log('redpeat')
-					}else{
-						chain_list[item.chain_id] = {id:item.chain_id,name: item.chain_name}
-					}
-					item.short_address = item.address.substring(0,4) + '...' + item.address.substring(38,42)
-				})
-				
-				var newchain_list = []
-				for(var key in chain_list){
-					newchain_list.push(chain_list[key])
-				}
-				
-				_this.chain_list = newchain_list;
-				_this.token_list = res.data.data;
-				_this.select_token_id = res.data.data[0].id;
-				// _this.repacket_info.token_address = res.data.data[0]['address']
-				_this.address_status = res.data.addressdata;
-				_this.repacket_info.chain_type = newchain_list[0].id || '97'
 			})
+			var addressdata = await this.$http({
+				method: 'get',
+				url: requestApi + 'getAddressCoin',
+				headers: {
+					'Content-Type': 'application/x-www-form-urlencoded'
+				},
+				params:{address:this.walletAddress}
+			})
+			
+			var chain_list = {}
+			response.data.data.forEach(item=>{
+				var itemCoin = addressdata.data.data.filter(x=>x.token_address == item.address)
+				item.amount = itemCoin != '' ? itemCoin[0].num : 0;
+				
+				if(item.chain_id in chain_list){
+					console.log('redpeat')
+				}else{
+					chain_list[item.chain_id] = {id:item.chain_id,name: item.chain_name}
+				}
+				item.short_address = item.address.substring(0,4) + '...' + item.address.substring(38,42)
+			})
+			
+			var newchain_list = []
+			for(var key in chain_list){
+				newchain_list.push(chain_list[key])
+			}
+			
+			_this.chain_list = newchain_list;
+			_this.token_list = response.data.data;
+			_this.select_token_id = response.data.data[0].id;
+			// _this.repacket_info.token_address = res.data.data[0]['address']
+			_this.address_status = response.data.addressdata;
+			_this.repacket_info.chain_type = newchain_list[0].id || '97'
+			_this.repacket_info.token_address = response.data.data[0].address;
+			_this.platform_status = response.data.platform_status;
 			
 			
 		},
@@ -247,6 +261,7 @@
 				drawer: {'chain':false,'token':false,set_address:false,shareImg:false},
 				direction: 'btt',
 				token_list:[],
+				share_canves_href: '',
 				singleAmount:0,
 				select_token_id:0,
 				address_status: 1,
@@ -261,7 +276,9 @@
 					platform: '1',
 					get_type:'0',
 					expire_time: ''
-				}
+				},
+				btn_dis:1,
+				platform_status:0,
 			}
 		},
 		computed: {
@@ -298,6 +315,8 @@
 				this.repacket_info.chain_type = this.chain_list[index].id;
 				var list = this.token_list.filter(x=>x.chain_id == this.chain_list[index].id);
 				this.select_token_id = list[0].id;
+				this.repacket_info.token_address = list[0].address
+				this.btn_dis = list[0].amount == 0 ? 0 : 1
 				this.drawer['chain'] = false;
 			},
 			getselecttoken:function(){
@@ -308,6 +327,7 @@
 			check_token:function(info){
 				this.repacket_info.token_address = info.address;
 				this.select_token_id = info.id;
+				this.btn_dis = info.amount == 0 ? 0 : 1
 				this.drawer['token'] = false;
 			},
 			submitinfo:function(password){
@@ -325,7 +345,7 @@
 					if(res.data.statu == 1000){
 						
 						if(loginFlag == 1){
-							this.openTip('el-icon-lock','请复制官网链接（https://zgoat.org），前往DAPP浏览器设置密码')
+							_this.openTip('el-icon-lock','请复制官网链接（https://zgoat.org），前往DAPP浏览器设置密码','复制链接',_this.copyWord)
 						}else{
 							_this.drawer.set_address = true
 						}
@@ -334,14 +354,29 @@
 						_this.$message.error('密码错误')
 					}else if(res.data.statu == 1002){
 						_this.$message.error('余额不足')
+					}else if(res.data.statu == -1){
+						_this.$message.error('请输入密码')
 					}else{
 						_this.create_success = true
 					}
 					
 				})
 			},
+			bindaddress:function(){
+				window.open('https://t.me/noline999Bot?start=1')
+			},
 			inputpassword:function(){
+				
 				var _this = this
+				if(this.btn_dis == 0){
+					this.$router.push({name:'Recharge',query:{index: 0}})
+					return
+				}
+				if(this.platform_status != 1){
+					this.openTip('el-icon-warning-outline','该地址未绑定社交账户，请前往绑定','前往绑定',this.bindaddress)
+					return
+				}
+				
 				var info = this.repacket_info;
 				if(info.amount == '' || info.amount == 0){
 					this.$message.error('请填写总金额')
@@ -355,15 +390,18 @@
 					this.$message.error('请选择代币')
 					return
 				}
+				
+				
 				if(_this.address_status != 1){
 					if(loginFlag == 1){
-						this.openTip('el-icon-lock','请复制官网链接（https://zgoat.org），前往DAPP浏览器设置密码')
+						this.openTip('el-icon-lock','请复制官网链接（https://zgoat.org），前往DAPP浏览器设置密码','复制链接',this.copyWord)
 					}else{
 						this.drawer.set_address = true
 					}
 					
 					return
 				}
+				
 				this.$prompt('请输入密码', {
 				  confirmButtonText: '确定',
 				  cancelButtonText: '取消',
@@ -373,18 +411,21 @@
 				       
 				});
 			},
-			openTip: function(iconClass, tipText) {
-				var tip = "<div><span style='font-size:56px;color:#ff6c80;margin-bottom:30px' class='" + iconClass + "'></span><div style='color:#FF6C80;text-align:left;'>" + tipText +
+			openTip: function(iconClass, tipText,btnText,callback) {
+				var tip = "<div><span style='font-size:56px;color:#ff6c80;margin-bottom:30px' class='" + iconClass + "'></span><div style='color:#FF6C80;text-align:center;'>" + tipText +
 					"</div></div>"
 				this.$alert(tip, {
 					center: true,
 					lockScroll: false,
 					dangerouslyUseHTMLString: true,
 					confirmButtonClass: 'tip-pop-ok',
-					confirmButtonText: '复制链接',
+					confirmButtonText: btnText,
 					cancelButtonClass: 'tip-pop-ok'
+				}).then(() => {
+					if(callback) callback()
 				});
 			},
+			
 			setpassword_success:function(){
 				this.drawer.set_address = false;
 				this.$prompt('请输入密码', {
@@ -396,10 +437,20 @@
 				       
 				});
 			},
+			
 			shareByImg:function(){
 				//this.shareimgsrc = c.toDataURL('share/png')
 				var _this = this;
+				_this.drawer.shareImg = true;
+					
+				var select_token = _this.token_list.filter(x=>x.id=_this.select_token_id)
+				var img = new Image()
+				img.src = 'https://cdn.bitaochain.com/upload/picture/202110/18/0a7bae56144e021a1e556699ce4793fb.png'
+				img.onload = function(){
 					var domt = document.getElementById('shareimg');
+					
+					var tb = document.getElementById('shareimg');
+					console.log(domt)
 					var ctx = domt.getContext('2d');
 					var dpr = window.devicePixelRatio || 1
 					var bsr = ctx.webkitBackingStorePixelRatio ||
@@ -411,11 +462,18 @@
 					domt.width = 264 * radio
 					domt.height = 351 * radio	  
 					domt = domt.getContext("2d").setTransform(radio, 0, 0, radio, 0, 0)
-					var select_token = _this.token_list.filter(x=>x.id=_this.select_token_id)
-					var img = new Image()
-					img.src = 'https://cdn.bitaochain.com/upload/picture/202110/18/0a7bae56144e021a1e556699ce4793fb.png'
-					img.onload = function(){
-						ctx.drawImage(img,0,0,264,351);
+					ctx.drawImage(img,0,0,264,351);
+					
+					
+					var qrurl = 'https://www.baidu.com'
+					var qrimg = new Image()
+					QRCode.toDataURL(qrurl,{margin:1,color:{dark: '#aa0a1f'}}).then(res=>{
+						qrimg.src = res
+					})
+					qrimg.onload = function(){
+						ctx.drawImage(qrimg,97,190,70,70)
+					}
+					setTimeout(function(){
 						ctx.font = '14px Arial'
 						ctx.fillStyle = "#ffcba1"
 						ctx.textAlign='center'
@@ -428,16 +486,12 @@
 						ctx.fillStyle = "#ffc2ca"
 						ctx.font = '11px Arial'
 						ctx.fillText('*仅限在微信、推特、电报群平台领取', 132,330)
-						var qrurl = 'https://www.baidu.com'
-						var qrimg = new Image()
-						QRCode.toDataURL(qrurl,{margin:1,color:{dark: '#aa0a1f'}}).then(res=>{
-							qrimg.src = res
-						})
-						qrimg.onload = function(){
-							ctx.drawImage(qrimg,97,190,70,70)
-						}
-						_this.drawer.shareImg = true;
-					}
+						
+						// _this.share_canves_href = tb.toDataURL("image/png")
+						// console.log(tb.toDataURL("image/png"))
+					},1000)
+				}
+					
 			},
 			check_get_pick_type:function(){
 				if(this.repacket_info.get_type == '0'){
@@ -445,15 +499,22 @@
 				}else{
 					this.repacket_info.get_type = '0'
 				}
-				
 			},
 			getSingleAmount:function(){
 				if(this.repacket_info.get_type == '1'){
-					console.log(this.singleAmount,this.repacket_info.count)
 					var totalamount = parseInt(this.singleAmount) * parseInt(this.repacket_info.count)
 					this.repacket_info.amount = totalamount ? totalamount : 0
 				}
-				
+			},
+			copyWord: function() {
+				var tag = document.createElement('textarea')
+				tag.setAttribute('id', 'cp_hgz_input');
+				tag.value = 'https://zgoat.org';
+				document.getElementsByTagName('body')[0].appendChild(tag)
+				document.getElementById('cp_hgz_input').select()
+				document.execCommand("copy");
+				document.getElementById('cp_hgz_input').remove();
+				this.$message.success('复制成功')
 			}
 		}
 		
@@ -468,6 +529,7 @@
 		padding: 0 22px;
 	}
 	
+	
 </style>
 <style scoped="scoped">
 	
@@ -480,12 +542,13 @@
 		line-height: 37px;
 		margin-bottom: 11px;
 	}
-	.share>div{
+	.share>div,.share a{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		width: 150px;
+		color: #8F7074;
 	}
 	.share{
 		display: flex;
@@ -493,7 +556,7 @@
 		align-items: center;
 		font-size: 13px;
 		color: #8F7074;
-		width: 90%;
+		width: 80%;
 		margin-top: 30px;
 	}
 	.redpackt-img-top{

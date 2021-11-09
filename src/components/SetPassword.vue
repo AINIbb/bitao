@@ -11,7 +11,7 @@
 			</div> 
 			<div>
 				<i style="font-size: 22px;color: #FF6C80;" class="el-icon-lock"></i>
-				<el-input placeholder="请输入密码" v-model="confirm_value" show-password></el-input>
+				<el-input placeholder="请再次输入密码" v-model="confirm_value" show-password></el-input>
 			</div>
 		</div>
 		
